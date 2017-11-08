@@ -1,0 +1,854 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o (ARSAL_Socket_Create)
+libmux.so                     /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o (mux_queue_timed_get_buf)
+libpomp.so                    /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o (pomp_buffer_new)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o (fflush@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_InitWifiNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CancelWifiNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CloseWifiNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_InitBLENetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CancelBLENetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CloseBLENetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_Unlock
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_GetBandwidth
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_BandwidthThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_SetOnDisconnectCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_SetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_SetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_GetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_GetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_SetSendClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_SetRecvClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_GetSendClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_GetRecvClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_EnableDataDump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text.unlikely.ARNETWORKAL_Manager_DumpData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_IsTooLongWithoutReceive
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Signal
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_GetBandwidth
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_BandwidthThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Cancel
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Connect
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Bind
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_PushFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_PopFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Send
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_Receive
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_SetOnDisconnectCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_GetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_SetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_GetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_SetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_SetSendClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_SetRecvClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_GetSendClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text.unlikely.ARNETWORKAL_WifiNetwork_GetRecvClassSelector
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_Send
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_GetBandwidth
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_BandwidthThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_SetOnDisconnectCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_SetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_GetRecvBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_Unlock
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_Receive
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_PopFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_PushFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_SetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_MuxNetwork_GetSendBufferSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_Manager_InitMuxNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CancelMuxNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text.unlikely.ARNETWORKAL_Manager_CloseMuxNetwork
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .text.unlikely.ARNETWORKAL_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x1a8
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x1a8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000398      0xa80
+ *(.dynsym)
+ .dynsym        0x0000000000000398      0xa80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000e18      0xab5
+ *(.dynstr)
+ .dynstr        0x0000000000000e18      0xab5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000018ce       0xe0
+ *(.gnu.version)
+ .gnu.version   0x00000000000018ce       0xe0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000019b0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000019b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000019b0       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000019b0       0x80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001a30      0x240
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001a30        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001a30       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001a48      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001c40        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001c40       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001c58       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001c70      0x5a0
+ *(.rela.plt)
+ .rela.plt      0x0000000000001c70      0x5a0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000002210       0x1a
+ *(SORT(.init))
+ .init          0x0000000000002210       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002210                _init
+ .init          0x0000000000002225        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002230      0x3d0
+ *(.plt)
+ .plt           0x0000000000002230      0x3d0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000002600       0x20
+ *(.plt.got)
+ .plt.got       0x0000000000002600       0x20 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000002620     0x2a58
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002620      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARNETWORKAL_Manager_InitWifiNetwork
+                0x0000000000002720      0x156 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002720                ARNETWORKAL_Manager_InitWifiNetwork
+ *fill*         0x0000000000002876        0xa 
+ .text.ARNETWORKAL_Manager_CancelWifiNetwork
+                0x0000000000002880       0x16 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002880                ARNETWORKAL_Manager_CancelWifiNetwork
+ *fill*         0x0000000000002896        0xa 
+ .text.ARNETWORKAL_Manager_CloseWifiNetwork
+                0x00000000000028a0       0x16 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x00000000000028a0                ARNETWORKAL_Manager_CloseWifiNetwork
+ *fill*         0x00000000000028b6        0xa 
+ .text.ARNETWORKAL_Manager_InitBLENetwork
+                0x00000000000028c0        0x6 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x00000000000028c0                ARNETWORKAL_Manager_InitBLENetwork
+ *fill*         0x00000000000028c6        0xa 
+ .text.ARNETWORKAL_Manager_CancelBLENetwork
+                0x00000000000028d0        0x6 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x00000000000028d0                ARNETWORKAL_Manager_CancelBLENetwork
+ *fill*         0x00000000000028d6        0xa 
+ .text.ARNETWORKAL_Manager_CloseBLENetwork
+                0x00000000000028e0        0x6 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x00000000000028e0                ARNETWORKAL_Manager_CloseBLENetwork
+ *fill*         0x00000000000028e6        0xa 
+ .text.ARNETWORKAL_Manager_Delete
+                0x00000000000028f0       0x5c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x00000000000028f0                ARNETWORKAL_Manager_Delete
+ *fill*         0x000000000000294c        0x4 
+ .text.ARNETWORKAL_Manager_New
+                0x0000000000002950       0xaf /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002950                ARNETWORKAL_Manager_New
+ *fill*         0x00000000000029ff        0x1 
+ .text.ARNETWORKAL_Manager_Unlock
+                0x0000000000002a00       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002a00                ARNETWORKAL_Manager_Unlock
+ *fill*         0x0000000000002a1c        0x4 
+ .text.ARNETWORKAL_Manager_GetBandwidth
+                0x0000000000002a20       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002a20                ARNETWORKAL_Manager_GetBandwidth
+ *fill*         0x0000000000002a3c        0x4 
+ .text.ARNETWORKAL_Manager_BandwidthThread
+                0x0000000000002a40       0x13 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002a40                ARNETWORKAL_Manager_BandwidthThread
+ *fill*         0x0000000000002a53        0xd 
+ .text.ARNETWORKAL_Manager_SetOnDisconnectCallback
+                0x0000000000002a60       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002a60                ARNETWORKAL_Manager_SetOnDisconnectCallback
+ *fill*         0x0000000000002a7c        0x4 
+ .text.ARNETWORKAL_Manager_SetSendBufferSize
+                0x0000000000002a80       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002a80                ARNETWORKAL_Manager_SetSendBufferSize
+ *fill*         0x0000000000002a9c        0x4 
+ .text.ARNETWORKAL_Manager_SetRecvBufferSize
+                0x0000000000002aa0       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002aa0                ARNETWORKAL_Manager_SetRecvBufferSize
+ *fill*         0x0000000000002abc        0x4 
+ .text.ARNETWORKAL_Manager_GetSendBufferSize
+                0x0000000000002ac0       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002ac0                ARNETWORKAL_Manager_GetSendBufferSize
+ *fill*         0x0000000000002adc        0x4 
+ .text.ARNETWORKAL_Manager_GetRecvBufferSize
+                0x0000000000002ae0       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002ae0                ARNETWORKAL_Manager_GetRecvBufferSize
+ *fill*         0x0000000000002afc        0x4 
+ .text.ARNETWORKAL_Manager_SetSendClassSelector
+                0x0000000000002b00       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002b00                ARNETWORKAL_Manager_SetSendClassSelector
+ *fill*         0x0000000000002b1c        0x4 
+ .text.ARNETWORKAL_Manager_SetRecvClassSelector
+                0x0000000000002b20       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002b20                ARNETWORKAL_Manager_SetRecvClassSelector
+ *fill*         0x0000000000002b3c        0x4 
+ .text.ARNETWORKAL_Manager_GetSendClassSelector
+                0x0000000000002b40       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002b40                ARNETWORKAL_Manager_GetSendClassSelector
+ *fill*         0x0000000000002b5c        0x4 
+ .text.ARNETWORKAL_Manager_GetRecvClassSelector
+                0x0000000000002b60       0x1c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002b60                ARNETWORKAL_Manager_GetRecvClassSelector
+ *fill*         0x0000000000002b7c        0x4 
+ .text.ARNETWORKAL_Manager_EnableDataDump
+                0x0000000000002b80      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002b80                ARNETWORKAL_Manager_EnableDataDump
+ .text.ARNETWORKAL_Manager_DumpData
+                0x0000000000002d30       0x36 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000002d30                ARNETWORKAL_Manager_DumpData
+ *fill*         0x0000000000002d66        0xa 
+ .text.ARNETWORKAL_WifiNetwork_IsTooLongWithoutReceive
+                0x0000000000002d70       0xae /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ *fill*         0x0000000000002e1e        0x2 
+ .text.ARNETWORKAL_WifiNetwork_New
+                0x0000000000002e20      0x1de /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000002e20                ARNETWORKAL_WifiNetwork_New
+ *fill*         0x0000000000002ffe        0x2 
+ .text.ARNETWORKAL_WifiNetwork_Signal
+                0x0000000000003000       0xf9 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003000                ARNETWORKAL_WifiNetwork_Signal
+ *fill*         0x00000000000030f9        0x7 
+ .text.ARNETWORKAL_WifiNetwork_GetBandwidth
+                0x0000000000003100       0x99 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003100                ARNETWORKAL_WifiNetwork_GetBandwidth
+ *fill*         0x0000000000003199        0x7 
+ .text.ARNETWORKAL_WifiNetwork_BandwidthThread
+                0x00000000000031a0      0x171 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000031a0                ARNETWORKAL_WifiNetwork_BandwidthThread
+ *fill*         0x0000000000003311        0xf 
+ .text.ARNETWORKAL_WifiNetwork_Cancel
+                0x0000000000003320        0xc /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003320                ARNETWORKAL_WifiNetwork_Cancel
+ *fill*         0x000000000000332c        0x4 
+ .text.ARNETWORKAL_WifiNetwork_Delete
+                0x0000000000003330      0x132 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003330                ARNETWORKAL_WifiNetwork_Delete
+ *fill*         0x0000000000003462        0xe 
+ .text.ARNETWORKAL_WifiNetwork_Connect
+                0x0000000000003470      0x21a /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003470                ARNETWORKAL_WifiNetwork_Connect
+ *fill*         0x000000000000368a        0x6 
+ .text.ARNETWORKAL_WifiNetwork_Bind
+                0x0000000000003690      0x21d /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003690                ARNETWORKAL_WifiNetwork_Bind
+ *fill*         0x00000000000038ad        0x3 
+ .text.ARNETWORKAL_WifiNetwork_PushFrame
+                0x00000000000038b0      0x219 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000038b0                ARNETWORKAL_WifiNetwork_PushFrame
+ *fill*         0x0000000000003ac9        0x7 
+ .text.ARNETWORKAL_WifiNetwork_PopFrame
+                0x0000000000003ad0      0x10b /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003ad0                ARNETWORKAL_WifiNetwork_PopFrame
+ *fill*         0x0000000000003bdb        0x5 
+ .text.ARNETWORKAL_WifiNetwork_Send
+                0x0000000000003be0      0x164 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003be0                ARNETWORKAL_WifiNetwork_Send
+ *fill*         0x0000000000003d44        0xc 
+ .text.ARNETWORKAL_WifiNetwork_Receive
+                0x0000000000003d50      0x573 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000003d50                ARNETWORKAL_WifiNetwork_Receive
+ *fill*         0x00000000000042c3        0xd 
+ .text.ARNETWORKAL_WifiNetwork_SetOnDisconnectCallback
+                0x00000000000042d0       0x46 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000042d0                ARNETWORKAL_WifiNetwork_SetOnDisconnectCallback
+ *fill*         0x0000000000004316        0xa 
+ .text.ARNETWORKAL_WifiNetwork_GetSendBufferSize
+                0x0000000000004320       0x84 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000004320                ARNETWORKAL_WifiNetwork_GetSendBufferSize
+ *fill*         0x00000000000043a4        0xc 
+ .text.ARNETWORKAL_WifiNetwork_SetSendBufferSize
+                0x00000000000043b0       0xf8 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000043b0                ARNETWORKAL_WifiNetwork_SetSendBufferSize
+ *fill*         0x00000000000044a8        0x8 
+ .text.ARNETWORKAL_WifiNetwork_GetRecvBufferSize
+                0x00000000000044b0       0x84 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000044b0                ARNETWORKAL_WifiNetwork_GetRecvBufferSize
+ *fill*         0x0000000000004534        0xc 
+ .text.ARNETWORKAL_WifiNetwork_SetRecvBufferSize
+                0x0000000000004540       0xf8 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000004540                ARNETWORKAL_WifiNetwork_SetRecvBufferSize
+ *fill*         0x0000000000004638        0x8 
+ .text.ARNETWORKAL_WifiNetwork_SetSendClassSelector
+                0x0000000000004640       0x95 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000004640                ARNETWORKAL_WifiNetwork_SetSendClassSelector
+ *fill*         0x00000000000046d5        0xb 
+ .text.ARNETWORKAL_WifiNetwork_SetRecvClassSelector
+                0x00000000000046e0       0x95 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x00000000000046e0                ARNETWORKAL_WifiNetwork_SetRecvClassSelector
+ *fill*         0x0000000000004775        0xb 
+ .text.ARNETWORKAL_WifiNetwork_GetSendClassSelector
+                0x0000000000004780       0x8c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000004780                ARNETWORKAL_WifiNetwork_GetSendClassSelector
+ *fill*         0x000000000000480c        0x4 
+ .text.ARNETWORKAL_WifiNetwork_GetRecvClassSelector
+                0x0000000000004810       0x8c /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                0x0000000000004810                ARNETWORKAL_WifiNetwork_GetRecvClassSelector
+ *fill*         0x000000000000489c        0x4 
+ .text.ARNETWORKAL_MuxNetwork_Send
+                0x00000000000048a0        0x3 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000048a3        0xd 
+ .text.ARNETWORKAL_MuxNetwork_GetBandwidth
+                0x00000000000048b0        0xf /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000048bf        0x1 
+ .text.ARNETWORKAL_MuxNetwork_BandwidthThread
+                0x00000000000048c0        0x3 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000048c3        0xd 
+ .text.ARNETWORKAL_MuxNetwork_SetOnDisconnectCallback
+                0x00000000000048d0       0x12 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000048e2        0xe 
+ .text.ARNETWORKAL_MuxNetwork_SetRecvBufferSize
+                0x00000000000048f0        0x3 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000048f3        0xd 
+ .text.ARNETWORKAL_MuxNetwork_GetRecvBufferSize
+                0x0000000000004900        0x9 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004909        0x7 
+ .text.ARNETWORKAL_MuxNetwork_Unlock
+                0x0000000000004910       0x2e /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x000000000000493e        0x2 
+ .text.ARNETWORKAL_MuxNetwork_Receive
+                0x0000000000004940      0x16b /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004aab        0x5 
+ .text.ARNETWORKAL_MuxNetwork_PopFrame
+                0x0000000000004ab0       0xca /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004b7a        0x6 
+ .text.ARNETWORKAL_MuxNetwork_PushFrame
+                0x0000000000004b80      0x167 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004ce7        0x9 
+ .text.ARNETWORKAL_MuxNetwork_SetSendBufferSize
+                0x0000000000004cf0        0x3 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004cf3        0xd 
+ .text.ARNETWORKAL_MuxNetwork_GetSendBufferSize
+                0x0000000000004d00        0x9 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x0000000000004d09        0x7 
+ .text.ARNETWORKAL_Manager_InitMuxNetwork
+                0x0000000000004d10      0x127 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+                0x0000000000004d10                ARNETWORKAL_Manager_InitMuxNetwork
+ *fill*         0x0000000000004e37        0x9 
+ .text.ARNETWORKAL_Manager_CancelMuxNetwork
+                0x0000000000004e40        0xc /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+                0x0000000000004e40                ARNETWORKAL_Manager_CancelMuxNetwork
+ *fill*         0x0000000000004e4c        0x4 
+ .text.ARNETWORKAL_Manager_CloseMuxNetwork
+                0x0000000000004e50       0x4e /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+                0x0000000000004e50                ARNETWORKAL_Manager_CloseMuxNetwork
+ *fill*         0x0000000000004e9e        0x2 
+ .text.ARNETWORKAL_Error_ToString
+                0x0000000000004ea0      0x1d8 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+                0x0000000000004ea0                ARNETWORKAL_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x0000000000005078        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000005078        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000005078                _fini
+ .fini          0x000000000000507c        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x00000000000050a0      0xbe0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000050a0       0x47 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ *fill*         0x00000000000050e7        0x1 
+ .rodata.str1.8
+                0x00000000000050e8       0x77 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ *fill*         0x000000000000515f        0x1 
+ .rodata        0x0000000000005160       0x48 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .rodata.str1.1
+                0x00000000000051a8       0x9e /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ *fill*         0x0000000000005246        0x2 
+ .rodata.str1.8
+                0x0000000000005248      0x3e4 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ *fill*         0x000000000000562c       0x14 
+ .rodata        0x0000000000005640      0x25f /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .rodata.str1.1
+                0x000000000000589f       0x27 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x00000000000058c6        0x2 
+ .rodata.str1.8
+                0x00000000000058c8       0x82 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ *fill*         0x000000000000594a       0x16 
+ .rodata        0x0000000000005960       0x4f /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .rodata.str1.1
+                0x00000000000059af      0x14f /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ *fill*         0x0000000000005afe        0x2 
+ .rodata.str1.8
+                0x0000000000005b00      0x180 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+                                        0x17d (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000005c80      0x1f4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000005c80      0x1f4 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                0x0000000000005c80                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000005e78      0xa34
+ *(.eh_frame)
+ .eh_frame      0x0000000000005e78       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000005eb8      0x2d0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                                        0x2a0 (size before relaxing)
+ .eh_frame      0x0000000000006188      0x4e8 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                                        0x4d0 (size before relaxing)
+ .eh_frame      0x0000000000006670      0x220 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+                                        0x208 (size before relaxing)
+ .eh_frame      0x0000000000006890       0x18 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000068a8        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000206d30                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000206d30        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000206d30        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000206d38        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000206d38        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000206d40        0x8
+ *(.jcr)
+ .jcr           0x0000000000206d40        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000206d40        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000206d48      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000206d48      0x210 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000206d48                _DYNAMIC
+
+.got            0x0000000000206f58       0xa8
+ *(.got)
+ .got           0x0000000000206f58       0xa8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000207fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000207000      0x1f8
+ *(.got.plt)
+ .got.plt       0x0000000000207000      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000207000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000002071f8        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x00000000002071f8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x00000000002071f8                __dso_handle
+
+.tm_clone_table
+                0x0000000000207200        0x0
+ .tm_clone_table
+                0x0000000000207200        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x0000000000207200        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000207200                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000207200                . = .
+                0x0000000000207200                __bss_start = .
+
+.bss            0x0000000000207200        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000207200        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000207200        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x0000000000207208                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000207201        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000207208                . = ALIGN (0x8)
+                0x0000000000207208                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000607208        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000607208                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000607208                . = ALIGN (0x8)
+                0x0000000000607208                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000607208                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x410
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x170 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_aranges
+                0x0000000000000170      0x180 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_aranges
+                0x00000000000002f0       0xf0 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .debug_aranges
+                0x00000000000003e0       0x30 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5f9d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x16cb /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_info    0x00000000000016cb     0x34a2 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_info    0x0000000000004b6d     0x130d /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .debug_info    0x0000000000005e7a      0x123 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+
+.debug_abbrev   0x0000000000000000      0xaf1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x357 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_abbrev  0x0000000000000357      0x3f9 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_abbrev  0x0000000000000750      0x30e /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .debug_abbrev  0x0000000000000a5e       0x93 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+
+.debug_line     0x0000000000000000     0x14cc
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x533 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_line    0x0000000000000533      0x9d1 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_line    0x0000000000000f04      0x45b /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .debug_line    0x000000000000135f      0x16d /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2109
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1259 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+                                       0x12f3 (size before relaxing)
+ .debug_str     0x0000000000001259      0xafa /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+                                       0x18d1 (size before relaxing)
+ .debug_str     0x0000000000001d53      0x37e /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+                                       0x10ac (size before relaxing)
+ .debug_str     0x00000000000020d1       0x38 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+                                        0x3fd (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4f61
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x136b /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_loc     0x000000000000136b     0x2f49 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_loc     0x00000000000042b4      0xcad /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x8d0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x160 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/ARNETWORKAL_Manager.c.o
+ .debug_ranges  0x0000000000000160      0x630 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Wifi/ARNETWORKAL_WifiNetwork.c.o
+ .debug_ranges  0x0000000000000790      0x120 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/Sources/Mux/ARNETWORKAL_MuxNetwork.c.o
+ .debug_ranges  0x00000000000008b0       0x20 /home/david/drone_nav/out/arsdk-native/build/libARNetworkAL/obj/gen/Sources/ARNETWORKAL_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARNetworkAL/libarnetworkal.so elf64-x86-64)

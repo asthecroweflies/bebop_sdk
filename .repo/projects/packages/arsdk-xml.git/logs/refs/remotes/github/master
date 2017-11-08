@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 f241e26d3f0a95b014e6948a23500ddd855b62c2 david <david@msg-Latitude-E6420.(none)> 1510003782 -0600	fetch --progress github --tags +refs/heads/*:refs/remotes/github/*: storing head

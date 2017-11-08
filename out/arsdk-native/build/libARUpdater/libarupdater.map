@@ -1,0 +1,787 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARSAL_Mutex_Destroy)
+libardiscovery.so             /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARDISCOVERY_getProductID)
+libarutils.so                 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARUTILS_Http_Get)
+libardatatransfer.so          /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (ARDATATRANSFER_Uploader_CancelThread)
+libpuf.so                     /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o (puf_new)
+libmux.so                     /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (mux_ref)
+libpomp.so                    /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (pomp_msg_get_id)
+libjson-c.so.2                /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (json_object_put)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (__stpcpy_chk@@GLIBC_2.3.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_SetUpdatesProductList
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_CancelThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_ThreadIsRunning
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_GetPlatformName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_CheckUpdatesSync
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_CheckUpdatesAsync
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_ThreadRun
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_GetBlacklistedFirmwareVersionsSync
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text.unlikely.ARUPDATER_Downloader_GetUpdatesInfoSync
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .text.unlikely.ARUPDATER_DownloadInformation_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .text.unlikely.ARUPDATER_DownloadInformation_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .text.unlikely.ARUPDATER_Manager_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .text.unlikely.ARUPDATER_Manager_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .text.unlikely.ARUPDATER_Manager_PlfVersionIsUpToDate
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ProgressCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_CompletionCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.updater_mux_write_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.updater_mux_send_next_chunk
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.update_mux_notify_status.isra.0
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.update_mux_channel_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ThreadRunAndroidDelos
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ThreadRunMux
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ThreadRunNormal
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ThreadRun
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_CancelThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.unlikely.ARUPDATER_Uploader_ThreadIsRunning
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_ARUpdaterVersionToPufVersion
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_PlfVersionFromString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_PlfVersionToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_ReadPlfVersion
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_PlfVersionCompare
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_GetPlfInFolder
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.unlikely.ARUPDATER_Utils_ExtractUnixFileFromPlf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .text.unlikely.ARUPDATER_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libardiscovery.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarcommands.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarutils.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libardatatransfer.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libpuf.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libjson-c.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x100
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000002f0      0xd38
+ *(.dynsym)
+ .dynsym        0x00000000000002f0      0xd38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000001028      0xbb8
+ *(.dynstr)
+ .dynstr        0x0000000000001028      0xbb8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000001be0      0x11a
+ *(.gnu.version)
+ .gnu.version   0x0000000000001be0      0x11a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001d00        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001d00        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001d00       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001d00       0x70 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001d70       0xf0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001d70        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001d70       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001d88       0xa8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001e30        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001e30       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001e48       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001e60      0xa80
+ *(.rela.plt)
+ .rela.plt      0x0000000000001e60      0xa80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x00000000000028e0       0x1a
+ *(SORT(.init))
+ .init          0x00000000000028e0       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x00000000000028e0                _init
+ .init          0x00000000000028f5        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002900      0x710
+ *(.plt)
+ .plt           0x0000000000002900      0x710 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000003010       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003010       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000003020     0x5ee8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003020      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARUPDATER_Downloader_Delete
+                0x0000000000003120      0x194 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003120                ARUPDATER_Downloader_Delete
+ *fill*         0x00000000000032b4        0xc 
+ .text.ARUPDATER_Downloader_New
+                0x00000000000032c0      0x5db /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000032c0                ARUPDATER_Downloader_New
+ *fill*         0x000000000000389b        0x5 
+ .text.ARUPDATER_Downloader_SetUpdatesProductList
+                0x00000000000038a0       0xc6 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000038a0                ARUPDATER_Downloader_SetUpdatesProductList
+ *fill*         0x0000000000003966        0xa 
+ .text.ARUPDATER_Downloader_CancelThread
+                0x0000000000003970       0xbc /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003970                ARUPDATER_Downloader_CancelThread
+ *fill*         0x0000000000003a2c        0x4 
+ .text.ARUPDATER_Downloader_ThreadIsRunning
+                0x0000000000003a30       0x31 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003a30                ARUPDATER_Downloader_ThreadIsRunning
+ *fill*         0x0000000000003a61        0xf 
+ .text.ARUPDATER_Downloader_GetPlatformName
+                0x0000000000003a70       0x20 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003a70                ARUPDATER_Downloader_GetPlatformName
+ .text.ARUPDATER_Downloader_CheckUpdatesSync
+                0x0000000000003a90      0xc4f /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003a90                ARUPDATER_Downloader_CheckUpdatesSync
+ *fill*         0x00000000000046df        0x1 
+ .text.ARUPDATER_Downloader_CheckUpdatesAsync
+                0x00000000000046e0       0x93 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000046e0                ARUPDATER_Downloader_CheckUpdatesAsync
+ *fill*         0x0000000000004773        0xd 
+ .text.ARUPDATER_Downloader_ThreadRun
+                0x0000000000004780      0x588 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004780                ARUPDATER_Downloader_ThreadRun
+ *fill*         0x0000000000004d08        0x8 
+ .text.ARUPDATER_Downloader_GetBlacklistedFirmwareVersionsSync
+                0x0000000000004d10      0x63b /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004d10                ARUPDATER_Downloader_GetBlacklistedFirmwareVersionsSync
+ *fill*         0x000000000000534b        0x5 
+ .text.ARUPDATER_Downloader_GetUpdatesInfoSync
+                0x0000000000005350      0x9cf /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000005350                ARUPDATER_Downloader_GetUpdatesInfoSync
+ *fill*         0x0000000000005d1f        0x1 
+ .text.ARUPDATER_DownloadInformation_Delete
+                0x0000000000005d20       0x66 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                0x0000000000005d20                ARUPDATER_DownloadInformation_Delete
+ *fill*         0x0000000000005d86        0xa 
+ .text.ARUPDATER_DownloadInformation_New
+                0x0000000000005d90      0x1a1 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                0x0000000000005d90                ARUPDATER_DownloadInformation_New
+ *fill*         0x0000000000005f31        0xf 
+ .text.ARUPDATER_Manager_Delete
+                0x0000000000005f40       0x71 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000005f40                ARUPDATER_Manager_Delete
+ *fill*         0x0000000000005fb1        0xf 
+ .text.ARUPDATER_Manager_New
+                0x0000000000005fc0       0xab /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000005fc0                ARUPDATER_Manager_New
+ *fill*         0x000000000000606b        0x5 
+ .text.ARUPDATER_Manager_PlfVersionIsUpToDate
+                0x0000000000006070      0x3db /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000006070                ARUPDATER_Manager_PlfVersionIsUpToDate
+ *fill*         0x000000000000644b        0x5 
+ .text.ARUPDATER_Uploader_ProgressCallback
+                0x0000000000006450       0x22 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006450                ARUPDATER_Uploader_ProgressCallback
+ *fill*         0x0000000000006472        0xe 
+ .text.ARUPDATER_Uploader_CompletionCallback
+                0x0000000000006480       0x11 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006480                ARUPDATER_Uploader_CompletionCallback
+ *fill*         0x0000000000006491        0xf 
+ .text.updater_mux_write_msg
+                0x00000000000064a0      0x184 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000006624        0xc 
+ .text.updater_mux_send_next_chunk
+                0x0000000000006630      0x110 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text.update_mux_notify_status.isra.0
+                0x0000000000006740       0x62 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x00000000000067a2        0xe 
+ .text.update_mux_channel_cb
+                0x00000000000067b0      0x499 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000006c49        0x7 
+ .text.ARUPDATER_Uploader_Delete
+                0x0000000000006c50       0xa6 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006c50                ARUPDATER_Uploader_Delete
+ *fill*         0x0000000000006cf6        0xa 
+ .text.ARUPDATER_Uploader_New
+                0x0000000000006d00      0x42c /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006d00                ARUPDATER_Uploader_New
+ *fill*         0x000000000000712c        0x4 
+ .text.ARUPDATER_Uploader_ThreadRunAndroidDelos
+                0x0000000000007130      0x41f /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007130                ARUPDATER_Uploader_ThreadRunAndroidDelos
+ *fill*         0x000000000000754f        0x1 
+ .text.ARUPDATER_Uploader_ThreadRunMux
+                0x0000000000007550      0x5d6 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007550                ARUPDATER_Uploader_ThreadRunMux
+ *fill*         0x0000000000007b26        0xa 
+ .text.ARUPDATER_Uploader_ThreadRunNormal
+                0x0000000000007b30      0xbe9 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007b30                ARUPDATER_Uploader_ThreadRunNormal
+ *fill*         0x0000000000008719        0x7 
+ .text.ARUPDATER_Uploader_ThreadRun
+                0x0000000000008720       0x6c /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000008720                ARUPDATER_Uploader_ThreadRun
+ *fill*         0x000000000000878c        0x4 
+ .text.ARUPDATER_Uploader_CancelThread
+                0x0000000000008790       0xa5 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000008790                ARUPDATER_Uploader_CancelThread
+ *fill*         0x0000000000008835        0xb 
+ .text.ARUPDATER_Uploader_ThreadIsRunning
+                0x0000000000008840       0x31 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000008840                ARUPDATER_Uploader_ThreadIsRunning
+ *fill*         0x0000000000008871        0xf 
+ .text.ARUPDATER_Utils_ARUpdaterVersionToPufVersion
+                0x0000000000008880       0x66 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ *fill*         0x00000000000088e6        0xa 
+ .text.ARUPDATER_Utils_PlfVersionFromString
+                0x00000000000088f0       0x8c /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x00000000000088f0                ARUPDATER_Utils_PlfVersionFromString
+ *fill*         0x000000000000897c        0x4 
+ .text.ARUPDATER_Utils_PlfVersionToString
+                0x0000000000008980       0x6c /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000008980                ARUPDATER_Utils_PlfVersionToString
+ *fill*         0x00000000000089ec        0x4 
+ .text.ARUPDATER_Utils_ReadPlfVersion
+                0x00000000000089f0       0xdc /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x00000000000089f0                ARUPDATER_Utils_ReadPlfVersion
+ *fill*         0x0000000000008acc        0x4 
+ .text.ARUPDATER_Utils_PlfVersionCompare
+                0x0000000000008ad0       0x6e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000008ad0                ARUPDATER_Utils_PlfVersionCompare
+ *fill*         0x0000000000008b3e        0x2 
+ .text.ARUPDATER_Utils_GetPlfInFolder
+                0x0000000000008b40       0xde /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000008b40                ARUPDATER_Utils_GetPlfInFolder
+ *fill*         0x0000000000008c1e        0x2 
+ .text.ARUPDATER_Utils_ExtractUnixFileFromPlf
+                0x0000000000008c20       0xec /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000008c20                ARUPDATER_Utils_ExtractUnixFileFromPlf
+ *fill*         0x0000000000008d0c        0x4 
+ .text.ARUPDATER_Error_ToString
+                0x0000000000008d10      0x1f8 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                0x0000000000008d10                ARUPDATER_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x0000000000008f08        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000008f08        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000008f08                _fini
+ .fini          0x0000000000008f0c        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000008f20      0xa78
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000008f20       0xa7 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                                         0xc0 (size before relaxing)
+ *fill*         0x0000000000008fc7       0x19 
+ .rodata        0x0000000000008fe0       0xe9 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .rodata.str1.1
+                0x00000000000090c9       0x14 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                         0x1e (size before relaxing)
+ *fill*         0x00000000000090dd        0x3 
+ .rodata        0x00000000000090e0       0x22 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .rodata.str1.1
+                0x0000000000009102       0x18 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                         0x27 (size before relaxing)
+ *fill*         0x000000000000911a        0x6 
+ .rodata.str1.8
+                0x0000000000009120       0x23 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ *fill*         0x0000000000009143       0x1d 
+ .rodata        0x0000000000009160       0x66 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .rodata.str1.1
+                0x00000000000091c6      0x215 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                        0x248 (size before relaxing)
+ *fill*         0x00000000000093db        0x5 
+ .rodata.str1.8
+                0x00000000000093e0      0x12d /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000950d       0x13 
+ .rodata        0x0000000000009520      0x107 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000009627        0x1 
+ .rodata.cst4   0x0000000000009628        0x4 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000962c        0x4 
+ .rodata.cst8   0x0000000000009630        0x8 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .rodata.str1.1
+                0x0000000000009638       0x10 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ *fill*         0x0000000000009648        0x8 
+ .rodata        0x0000000000009650       0x24 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .rodata.str1.1
+                0x0000000000009674      0x16e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ *fill*         0x00000000000097e2        0x6 
+ .rodata.str1.8
+                0x00000000000097e8      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                                        0x1af (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000009998      0x144
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000009998      0x144 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000009998                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000009ae0      0x9b4
+ *(.eh_frame)
+ .eh_frame      0x0000000000009ae0       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000009b20      0x330 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .eh_frame      0x0000000000009e50       0x80 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000009ed0       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                         0xc8 (size before relaxing)
+ .eh_frame      0x0000000000009f80      0x3c8 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                        0x3b8 (size before relaxing)
+ .eh_frame      0x000000000000a348      0x130 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .eh_frame      0x000000000000a478       0x18 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000a490        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000020ad50                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000020ad50        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000020ad50        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x000000000020ad58        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000020ad58        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000020ad60        0x8
+ *(.jcr)
+ .jcr           0x000000000020ad60        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x000000000020ad60        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000020ad68      0x260
+ *(.dynamic)
+ .dynamic       0x000000000020ad68      0x260 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000020ad68                _DYNAMIC
+
+.got            0x000000000020afc8       0x38
+ *(.got)
+ .got           0x000000000020afc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000020bfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000020b000      0x398
+ *(.got.plt)
+ .got.plt       0x000000000020b000      0x398 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000020b000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000020b398        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000020b398        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x000000000020b398                __dso_handle
+
+.tm_clone_table
+                0x000000000020b3a0        0x0
+ .tm_clone_table
+                0x000000000020b3a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x000000000020b3a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000020b3a0                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000020b3a0                . = .
+                0x000000000020b3a0                __bss_start = .
+
+.bss            0x000000000020b3a0        0x8
+ *(.dynbss)
+ .dynbss        0x000000000020b3a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000020b3a0        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x000000000020b3a8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000020b3a1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000020b3a8                . = ALIGN (0x8)
+                0x000000000020b3a8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000060b3a8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000060b3a8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000060b3a8                . = ALIGN (0x8)
+                0x000000000060b3a8                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000060b3a8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x320
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xd0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_aranges
+                0x00000000000000d0       0x40 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_aranges
+                0x0000000000000110       0x50 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_aranges
+                0x0000000000000160      0x100 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_aranges
+                0x0000000000000260       0x90 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_aranges
+                0x00000000000002f0       0x30 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xca34
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x4cee /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_info    0x0000000000004cee      0x8ad /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_info    0x000000000000559b     0x1901 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_info    0x0000000000006e9c     0x4ced /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_info    0x000000000000bb89      0xd73 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_info    0x000000000000c8fc      0x138 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_abbrev   0x0000000000000000     0x117f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x425 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_abbrev  0x0000000000000425      0x1ec /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_abbrev  0x0000000000000611      0x2be /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_abbrev  0x00000000000008cf      0x52e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_abbrev  0x0000000000000dfd      0x2ef /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_abbrev  0x00000000000010ec       0x93 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_line     0x0000000000000000     0x2a66
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x103e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_line    0x000000000000103e      0x2c4 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_line    0x0000000000001302      0x561 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_line    0x0000000000001863      0xd5e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_line    0x00000000000025c1      0x33a /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_line    0x00000000000028fb      0x16b /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x324f
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x222f /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                                       0x237e (size before relaxing)
+ .debug_str     0x000000000000222f       0x4e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                        0xb50 (size before relaxing)
+ .debug_str     0x000000000000227d      0x167 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                       0x1cd1 (size before relaxing)
+ .debug_str     0x00000000000023e4      0xbb0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                       0x2853 (size before relaxing)
+ .debug_str     0x0000000000002f94      0x287 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                                        0xa8e (size before relaxing)
+ .debug_str     0x000000000000321b       0x34 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                                        0x462 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xcac1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x6aa8 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_loc     0x0000000000006aa8      0x41e /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_loc     0x0000000000006ec6      0xd02 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_loc     0x0000000000007bc8     0x4386 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_loc     0x000000000000bf4e      0xb73 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2250
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x1730 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_ranges  0x0000000000001730       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_ranges  0x00000000000017f0      0x240 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_ranges  0x0000000000001a30      0x6e0 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_ranges  0x0000000000002110      0x120 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_ranges  0x0000000000002230       0x20 /home/david/drone_nav/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARUpdater/libarupdater.so elf64-x86-64)

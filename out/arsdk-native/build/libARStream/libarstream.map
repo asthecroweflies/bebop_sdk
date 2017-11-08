@@ -1,0 +1,782 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o (ARSAL_Mutex_Destroy)
+libarnetwork.so               /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o (ARNETWORK_Manager_FlushInputBuffer)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o (__errno_location@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .text.unlikely.ARSTREAM_Buffers_InitStreamDataBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .text.unlikely.ARSTREAM_Buffers_InitStreamAckBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_HammingWeight32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketAllFlagsSet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketFlagIsSet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketReset
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketResetUpTo
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketSetFlag
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketSetFlags
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketUnsetFlag
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketUnsetFlags
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketCountSet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketCountNotSet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text.unlikely.ARSTREAM_NetworkHeaders_AckPacketDump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_NetworkCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_InitStreamDataBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_InitStreamAckBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_StopReader
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_RunDataThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_RunAckThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_GetEstimatedEfficiency
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_GetCustom
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text.unlikely.ARSTREAM_Reader_AddFilter
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_NetworkCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_FlushQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_AddToQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_CallCallback.constprop.1
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_InitStreamDataBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_InitStreamAckBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_SetTimeBetweenRetries
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_StopSender
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_SendNewFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_FlushFramesQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_RunDataThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_RunAckThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_GetEstimatedEfficiency
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_GetCustom
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text.unlikely.ARSTREAM_Sender_AddFilter
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .text.unlikely.ARSTREAM_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarnetworkal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarnetwork.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x16c
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x16c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000360      0x738
+ *(.dynsym)
+ .dynsym        0x0000000000000360      0x738 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000a98      0x83a
+ *(.dynstr)
+ .dynstr        0x0000000000000a98      0x83a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000012d2       0x9a
+ *(.gnu.version)
+ .gnu.version   0x00000000000012d2       0x9a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001370        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001370        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001370       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001370       0x60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x00000000000013d0       0xf0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000013d0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x00000000000013d0       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000013e8       0xa8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001490        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001490       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x00000000000014a8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x00000000000014c0      0x360
+ *(.rela.plt)
+ .rela.plt      0x00000000000014c0      0x360 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000001820       0x1a
+ *(SORT(.init))
+ .init          0x0000000000001820       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000001820                _init
+ .init          0x0000000000001835        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000001840      0x250
+ *(.plt)
+ .plt           0x0000000000001840      0x250 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000001a90       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000001a90       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000001aa0     0x29f8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001aa0      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARSTREAM_Buffers_InitStreamDataBuffer
+                0x0000000000001ba0       0x4c /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+                0x0000000000001ba0                ARSTREAM_Buffers_InitStreamDataBuffer
+ *fill*         0x0000000000001bec        0x4 
+ .text.ARSTREAM_Buffers_InitStreamAckBuffer
+                0x0000000000001bf0       0x42 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+                0x0000000000001bf0                ARSTREAM_Buffers_InitStreamAckBuffer
+ *fill*         0x0000000000001c32        0xe 
+ .text.ARSTREAM_NetworkHeaders_HammingWeight32
+                0x0000000000001c40       0x33 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001c40                ARSTREAM_NetworkHeaders_HammingWeight32
+ *fill*         0x0000000000001c73        0xd 
+ .text.ARSTREAM_NetworkHeaders_AckPacketAllFlagsSet
+                0x0000000000001c80       0x5f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001c80                ARSTREAM_NetworkHeaders_AckPacketAllFlagsSet
+ *fill*         0x0000000000001cdf        0x1 
+ .text.ARSTREAM_NetworkHeaders_AckPacketFlagIsSet
+                0x0000000000001ce0       0x3d /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001ce0                ARSTREAM_NetworkHeaders_AckPacketFlagIsSet
+ *fill*         0x0000000000001d1d        0x3 
+ .text.ARSTREAM_NetworkHeaders_AckPacketReset
+                0x0000000000001d20       0x11 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001d20                ARSTREAM_NetworkHeaders_AckPacketReset
+ *fill*         0x0000000000001d31        0xf 
+ .text.ARSTREAM_NetworkHeaders_AckPacketResetUpTo
+                0x0000000000001d40       0x55 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001d40                ARSTREAM_NetworkHeaders_AckPacketResetUpTo
+ *fill*         0x0000000000001d95        0xb 
+ .text.ARSTREAM_NetworkHeaders_AckPacketSetFlag
+                0x0000000000001da0       0x2f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001da0                ARSTREAM_NetworkHeaders_AckPacketSetFlag
+ *fill*         0x0000000000001dcf        0x1 
+ .text.ARSTREAM_NetworkHeaders_AckPacketSetFlags
+                0x0000000000001dd0       0x11 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001dd0                ARSTREAM_NetworkHeaders_AckPacketSetFlags
+ *fill*         0x0000000000001de1        0xf 
+ .text.ARSTREAM_NetworkHeaders_AckPacketUnsetFlag
+                0x0000000000001df0       0x4e /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001df0                ARSTREAM_NetworkHeaders_AckPacketUnsetFlag
+ *fill*         0x0000000000001e3e        0x2 
+ .text.ARSTREAM_NetworkHeaders_AckPacketUnsetFlags
+                0x0000000000001e40       0x2f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001e40                ARSTREAM_NetworkHeaders_AckPacketUnsetFlags
+ *fill*         0x0000000000001e6f        0x1 
+ .text.ARSTREAM_NetworkHeaders_AckPacketCountSet
+                0x0000000000001e70       0xb5 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001e70                ARSTREAM_NetworkHeaders_AckPacketCountSet
+ *fill*         0x0000000000001f25        0xb 
+ .text.ARSTREAM_NetworkHeaders_AckPacketCountNotSet
+                0x0000000000001f30      0x11b /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000001f30                ARSTREAM_NetworkHeaders_AckPacketCountNotSet
+ *fill*         0x000000000000204b        0x5 
+ .text.ARSTREAM_NetworkHeaders_AckPacketDump
+                0x0000000000002050       0xdf /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                0x0000000000002050                ARSTREAM_NetworkHeaders_AckPacketDump
+ *fill*         0x000000000000212f        0x1 
+ .text.ARSTREAM_Reader_NetworkCallback
+                0x0000000000002130        0x3 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002130                ARSTREAM_Reader_NetworkCallback
+ *fill*         0x0000000000002133        0xd 
+ .text.ARSTREAM_Reader_InitStreamDataBuffer
+                0x0000000000002140        0xf /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002140                ARSTREAM_Reader_InitStreamDataBuffer
+ *fill*         0x000000000000214f        0x1 
+ .text.ARSTREAM_Reader_InitStreamAckBuffer
+                0x0000000000002150        0x5 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002150                ARSTREAM_Reader_InitStreamAckBuffer
+ *fill*         0x0000000000002155        0xb 
+ .text.ARSTREAM_Reader_New
+                0x0000000000002160      0x20a /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002160                ARSTREAM_Reader_New
+ *fill*         0x000000000000236a        0x6 
+ .text.ARSTREAM_Reader_StopReader
+                0x0000000000002370       0x4c /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002370                ARSTREAM_Reader_StopReader
+ *fill*         0x00000000000023bc        0x4 
+ .text.ARSTREAM_Reader_Delete
+                0x00000000000023c0       0xa6 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x00000000000023c0                ARSTREAM_Reader_Delete
+ *fill*         0x0000000000002466        0xa 
+ .text.ARSTREAM_Reader_RunDataThread
+                0x0000000000002470      0x873 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002470                ARSTREAM_Reader_RunDataThread
+ *fill*         0x0000000000002ce3        0xd 
+ .text.ARSTREAM_Reader_RunAckThread
+                0x0000000000002cf0      0x199 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002cf0                ARSTREAM_Reader_RunAckThread
+ *fill*         0x0000000000002e89        0x7 
+ .text.ARSTREAM_Reader_GetEstimatedEfficiency
+                0x0000000000002e90       0xac /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002e90                ARSTREAM_Reader_GetEstimatedEfficiency
+ *fill*         0x0000000000002f3c        0x4 
+ .text.ARSTREAM_Reader_GetCustom
+                0x0000000000002f40       0x13 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002f40                ARSTREAM_Reader_GetCustom
+ *fill*         0x0000000000002f53        0xd 
+ .text.ARSTREAM_Reader_AddFilter
+                0x0000000000002f60       0x96 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                0x0000000000002f60                ARSTREAM_Reader_AddFilter
+ *fill*         0x0000000000002ff6        0xa 
+ .text.ARSTREAM_Sender_NetworkCallback
+                0x0000000000003000      0x105 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000003000                ARSTREAM_Sender_NetworkCallback
+ *fill*         0x0000000000003105        0xb 
+ .text.ARSTREAM_Sender_FlushQueue
+                0x0000000000003110       0x6d /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ *fill*         0x000000000000317d        0x3 
+ .text.ARSTREAM_Sender_AddToQueue
+                0x0000000000003180       0xe8 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ *fill*         0x0000000000003268        0x8 
+ .text.ARSTREAM_Sender_CallCallback.constprop.1
+                0x0000000000003270       0x43 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ *fill*         0x00000000000032b3        0xd 
+ .text.ARSTREAM_Sender_InitStreamDataBuffer
+                0x00000000000032c0        0xf /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000032c0                ARSTREAM_Sender_InitStreamDataBuffer
+ *fill*         0x00000000000032cf        0x1 
+ .text.ARSTREAM_Sender_InitStreamAckBuffer
+                0x00000000000032d0        0x5 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000032d0                ARSTREAM_Sender_InitStreamAckBuffer
+ *fill*         0x00000000000032d5        0xb 
+ .text.ARSTREAM_Sender_New
+                0x00000000000032e0      0x39b /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000032e0                ARSTREAM_Sender_New
+ *fill*         0x000000000000367b        0x5 
+ .text.ARSTREAM_Sender_SetTimeBetweenRetries
+                0x0000000000003680       0x26 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000003680                ARSTREAM_Sender_SetTimeBetweenRetries
+ *fill*         0x00000000000036a6        0xa 
+ .text.ARSTREAM_Sender_StopSender
+                0x00000000000036b0       0x1d /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000036b0                ARSTREAM_Sender_StopSender
+ *fill*         0x00000000000036cd        0x3 
+ .text.ARSTREAM_Sender_Delete
+                0x00000000000036d0       0xf6 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000036d0                ARSTREAM_Sender_Delete
+ *fill*         0x00000000000037c6        0xa 
+ .text.ARSTREAM_Sender_SendNewFrame
+                0x00000000000037d0       0x74 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000037d0                ARSTREAM_Sender_SendNewFrame
+ *fill*         0x0000000000003844        0xc 
+ .text.ARSTREAM_Sender_FlushFramesQueue
+                0x0000000000003850       0x46 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000003850                ARSTREAM_Sender_FlushFramesQueue
+ *fill*         0x0000000000003896        0xa 
+ .text.ARSTREAM_Sender_RunDataThread
+                0x00000000000038a0      0x783 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000038a0                ARSTREAM_Sender_RunDataThread
+ *fill*         0x0000000000004023        0xd 
+ .text.ARSTREAM_Sender_RunAckThread
+                0x0000000000004030      0x274 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000004030                ARSTREAM_Sender_RunAckThread
+ *fill*         0x00000000000042a4        0xc 
+ .text.ARSTREAM_Sender_GetEstimatedEfficiency
+                0x00000000000042b0       0xbc /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x00000000000042b0                ARSTREAM_Sender_GetEstimatedEfficiency
+ *fill*         0x000000000000436c        0x4 
+ .text.ARSTREAM_Sender_GetCustom
+                0x0000000000004370       0x13 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000004370                ARSTREAM_Sender_GetCustom
+ *fill*         0x0000000000004383        0xd 
+ .text.ARSTREAM_Sender_AddFilter
+                0x0000000000004390       0x8c /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                0x0000000000004390                ARSTREAM_Sender_AddFilter
+ *fill*         0x000000000000441c        0x4 
+ .text.ARSTREAM_Error_ToString
+                0x0000000000004420       0x78 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+                0x0000000000004420                ARSTREAM_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x0000000000004498        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000004498        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000004498                _fini
+ .fini          0x000000000000449c        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x00000000000044c0      0x6b8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000044c0       0x7a /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ *fill*         0x000000000000453a        0x6 
+ .rodata        0x0000000000004540       0x2e /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ *fill*         0x000000000000456e        0x2 
+ .rodata.str1.8
+                0x0000000000004570      0x114 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .rodata.str1.1
+                0x0000000000004684       0x8d /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ *fill*         0x0000000000004711        0xf 
+ .rodata        0x0000000000004720       0x87 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ *fill*         0x00000000000047a7        0x1 
+ .rodata.cst4   0x00000000000047a8        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .rodata.str1.1
+                0x00000000000047b0       0xa0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .rodata.str1.8
+                0x0000000000004850      0x179 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                                        0x1dc (size before relaxing)
+ *fill*         0x00000000000049c9       0x17 
+ .rodata        0x00000000000049e0       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .rodata.cst4   0x0000000000004aa0        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .rodata.str1.1
+                0x0000000000004aa0       0x52 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ *fill*         0x0000000000004af2        0x6 
+ .rodata.str1.8
+                0x0000000000004af8       0x68 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+                                         0x67 (size before relaxing)
+ .rodata        0x0000000000004b60       0x18 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000004b78      0x16c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000004b78      0x16c /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+                0x0000000000004b78                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000004ce8      0x914
+ *(.eh_frame)
+ .eh_frame      0x0000000000004ce8       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000004d28       0x70 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000004d98      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                                        0x1a0 (size before relaxing)
+ .eh_frame      0x0000000000004f48      0x2c0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                                        0x2b8 (size before relaxing)
+ .eh_frame      0x0000000000005208      0x3d8 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                                        0x3b0 (size before relaxing)
+ .eh_frame      0x00000000000055e0       0x18 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000055f8        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000205db0                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000205db0        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000205db0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000205db8        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000205db8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000205dc0        0x8
+ *(.jcr)
+ .jcr           0x0000000000205dc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000205dc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000205dc8      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000205dc8      0x200 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000205dc8                _DYNAMIC
+
+.got            0x0000000000205fc8       0x38
+ *(.got)
+ .got           0x0000000000205fc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000206fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000206000      0x138
+ *(.got.plt)
+ .got.plt       0x0000000000206000      0x138 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000206000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000206138        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000206138        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x0000000000206138                __dso_handle
+
+.tm_clone_table
+                0x0000000000206140        0x0
+ .tm_clone_table
+                0x0000000000206140        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x0000000000206140        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000206140                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000206140                . = .
+                0x0000000000206140                __bss_start = .
+
+.bss            0x0000000000206140        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000206140        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000206140        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x0000000000206148                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000206141        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000206148                . = ALIGN (0x8)
+                0x0000000000206148                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000606148        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000606148                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000606148                . = ALIGN (0x8)
+                0x0000000000606148                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000606148                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x350
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x40 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_aranges
+                0x0000000000000040       0xe0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_aranges
+                0x0000000000000120       0xd0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_aranges
+                0x00000000000001f0      0x130 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_aranges
+                0x0000000000000320       0x30 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5148
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x221 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_info    0x0000000000000221      0x9c3 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_info    0x0000000000000be4     0x1c55 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_info    0x0000000000002839     0x285f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_info    0x0000000000005098       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_abbrev   0x0000000000000000      0xaa2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0xd4 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_abbrev  0x00000000000000d4      0x25f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_abbrev  0x0000000000000333      0x33f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_abbrev  0x0000000000000672      0x3b1 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_abbrev  0x0000000000000a23       0x7f /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_line     0x0000000000000000     0x1584
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x16e /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_line    0x000000000000016e      0x3d9 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_line    0x0000000000000547      0x75a /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_line    0x0000000000000ca1      0x82d /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_line    0x00000000000014ce       0xb6 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x1e8b
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x346 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+                                        0x387 (size before relaxing)
+ .debug_str     0x0000000000000346      0x576 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+                                        0x69d (size before relaxing)
+ .debug_str     0x00000000000008bc      0xd3b /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+                                       0x13e9 (size before relaxing)
+ .debug_str     0x00000000000015f7      0x84a /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+                                       0x1777 (size before relaxing)
+ .debug_str     0x0000000000001e41       0x4a /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+                                        0x1a7 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x5f19
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x218 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_loc     0x0000000000000218      0xbca /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_loc     0x0000000000000de2     0x1d99 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_loc     0x0000000000002b7b     0x3365 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_loc     0x0000000000005ee0       0x39 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xc90
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Buffers.c.o
+ .debug_ranges  0x0000000000000030      0x130 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_NetworkHeaders.c.o
+ .debug_ranges  0x0000000000000160      0x510 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Reader.c.o
+ .debug_ranges  0x0000000000000670      0x600 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/Sources/ARSTREAM_Sender.c.o
+ .debug_ranges  0x0000000000000c70       0x20 /home/david/drone_nav/out/arsdk-native/build/libARStream/obj/gen/Sources/ARSTREAM_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARStream/libarstream.so elf64-x86-64)

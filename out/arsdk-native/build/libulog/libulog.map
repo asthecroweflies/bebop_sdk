@@ -1,0 +1,891 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o (std::basic_streambuf<char, std::char_traits<char> >::seekoff(long, std::_Ios_Seekdir, std::_Ios_Openmode)@@GLIBCXX_3.4)
+libgcc_s.so.1                 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o (_Unwind_Resume@@GCC_3.0)
+libpthread.so.0               /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .group         0x0000000000000000       0x10 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000       0x10 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000       0x10 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10Ulogstream16keyBufDestructorEPv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10UlogstreamD2Ev
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10UlogstreamD0Ev
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10Ulogstream4syncEv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10Ulogstream8makeKeysEv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10Ulogstream6xsputnEPKcl
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal11OstreamUlogC2EPNS0_10UlogstreamE
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text._ZN4ulog8internal11OstreamUlogC2EPNS0_10UlogstreamE
+                0x0000000000000000       0x40 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal11OstreamUlogclER11ulog_cookie
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal10Ulogstream6setTagER11ulog_cookie
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text._ZN4ulog8internal10Ulogstream6setTagER11ulog_cookie
+                0x0000000000000000        0xb /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._GLOBAL__sub_I_ulog.cpp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_null
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_kernel
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.parse_level
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_stderr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_stderr_wrapper_color
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.__writer_stderr_wrapper
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_set_write_func
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_set_cookie_register_func
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_foreach
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_init_cookie
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_vlog_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_log_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_log_str
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_log_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_set_level
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_get_level
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_set_tag_level
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text.unlikely.ulog_get_tag_names
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .text.unlikely.get_token
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .text.unlikely.ulog_parse_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .text.unlikely.ulog_writer_android
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .text.ulog_writer_android
+                0x0000000000000000        0x2 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text.unlikely.ulog_bin_open
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text.unlikely.ulog_bin_close
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text.unlikely.ulog_bin_writev
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text.unlikely.ulog_bin_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .text.unlikely.ulog_raw_open
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .text.unlikely.ulog_raw_close
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .text.unlikely.ulog_raw_log
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x100
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000002f0      0x900
+ *(.dynsym)
+ .dynsym        0x00000000000002f0      0x900 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000bf0      0x943
+ *(.dynstr)
+ .dynstr        0x0000000000000bf0      0x943 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000001534       0xc0
+ *(.gnu.version)
+ .gnu.version   0x0000000000001534       0xc0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000015f8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000015f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000015f8       0xd0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000015f8       0xd0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x00000000000016c8      0x6f0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream4syncEv
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream8makeKeysEv
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream6xsputnEPKcl
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogclER11ulog_cookie
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10UlogstreamC2Eii
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream6setTagER11ulog_cookie
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.startup._GLOBAL__sub_I_ulog.cpp
+                0x00000000000016c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x00000000000016c8       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN4ulog8internal11OstreamUlogE
+                0x00000000000016f8       0x48 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN4ulog8internal10UlogstreamE
+                0x0000000000001740       0x48 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTCN4ulog8internal11OstreamUlogE0_So
+                0x0000000000001788       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local._ZTTN4ulog8internal11OstreamUlogE
+                0x00000000000017b8       0x60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local._ZTVN4ulog8internal11OstreamUlogE
+                0x0000000000001818       0x90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN4ulog8internal10UlogstreamE
+                0x00000000000018a8      0x168 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000001a10      0x198 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.DW.ref.__gxx_personality_v0
+                0x0000000000001ba8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel
+                0x0000000000001bc0       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001bf0      0x180 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001d70        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001d70       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001d88       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.eh_frame
+                0x0000000000001db8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001db8      0x3f0
+ *(.rela.plt)
+ .rela.plt      0x0000000000001db8      0x3f0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x00000000000021a8       0x1a
+ *(SORT(.init))
+ .init          0x00000000000021a8       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x00000000000021a8                _init
+ .init          0x00000000000021bd        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x00000000000021d0      0x2b0
+ *(.plt)
+ .plt           0x00000000000021d0      0x2b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000002480       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000002480       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000002490     0x192d
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely._ZN4ulog8internal11OstreamUlogD1Ev
+                0x0000000000002490        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZTv0_n24_N4ulog8internal11OstreamUlogD1Ev
+                0x0000000000002490        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZN4ulog8internal11OstreamUlogD0Ev
+                0x0000000000002490        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text.unlikely._ZTv0_n24_N4ulog8internal11OstreamUlogD0Ev
+                0x0000000000002490        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup._GLOBAL__sub_I_ulog.cpp
+                0x0000000000002490      0x280 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002710      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text._ZN4ulog8internal10Ulogstream16keyBufDestructorEPv
+                0x0000000000002810       0x2a /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002810                ulog::internal::Ulogstream::keyBufDestructor(void*)
+ *fill*         0x000000000000283a        0x6 
+ .text._ZN4ulog8internal11OstreamUlogD1Ev
+                0x0000000000002840       0x29 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002840                ulog::internal::OstreamUlog::~OstreamUlog()
+                0x0000000000002860                virtual thunk to ulog::internal::OstreamUlog::~OstreamUlog()
+ *fill*         0x0000000000002869        0x7 
+ .text._ZN4ulog8internal11OstreamUlogD0Ev
+                0x0000000000002870       0x39 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002870                ulog::internal::OstreamUlog::~OstreamUlog()
+                0x00000000000028a0                virtual thunk to ulog::internal::OstreamUlog::~OstreamUlog()
+ *fill*         0x00000000000028a9        0x7 
+ .text._ZN4ulog8internal10UlogstreamD2Ev
+                0x00000000000028b0       0x25 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x00000000000028b0                ulog::internal::Ulogstream::~Ulogstream()
+                0x00000000000028b0                ulog::internal::Ulogstream::~Ulogstream()
+ *fill*         0x00000000000028d5        0xb 
+ .text._ZN4ulog8internal10UlogstreamD0Ev
+                0x00000000000028e0       0x2d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x00000000000028e0                ulog::internal::Ulogstream::~Ulogstream()
+ *fill*         0x000000000000290d        0x3 
+ .text._ZN4ulog8internal10Ulogstream4syncEv
+                0x0000000000002910       0x81 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002910                ulog::internal::Ulogstream::sync()
+ *fill*         0x0000000000002991        0xf 
+ .text._ZN4ulog8internal10Ulogstream8makeKeysEv
+                0x00000000000029a0       0x29 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x00000000000029a0                ulog::internal::Ulogstream::makeKeys()
+ *fill*         0x00000000000029c9        0x7 
+ .text._ZN4ulog8internal10Ulogstream6xsputnEPKcl
+                0x00000000000029d0      0x159 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x00000000000029d0                ulog::internal::Ulogstream::xsputn(char const*, long)
+ *fill*         0x0000000000002b29        0x7 
+ .text._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000002b30       0xb7 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002b30                ulog::internal::OstreamUlog::OstreamUlog(ulog::internal::Ulogstream*)
+ *fill*         0x0000000000002be7        0x9 
+ .text._ZN4ulog8internal11OstreamUlogclER11ulog_cookie
+                0x0000000000002bf0       0x14 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002bf0                ulog::internal::OstreamUlog::operator()(ulog_cookie&)
+ *fill*         0x0000000000002c04        0xc 
+ .text._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000002c10       0xd5 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000002c10                ulog::internal::Ulogstream::Ulogstream(int, int)
+                0x0000000000002c10                ulog::internal::Ulogstream::Ulogstream(int, int)
+ *fill*         0x0000000000002ce5        0xb 
+ .text.__writer_null
+                0x0000000000002cf0        0x2 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000002cf2        0xe 
+ .text.__writer_kernel
+                0x0000000000002d00       0x95 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000002d95        0xb 
+ .text.__writer_init
+                0x0000000000002da0      0x199 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000002f39        0x7 
+ .text.parse_level
+                0x0000000000002f40       0x3f /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000002f7f        0x1 
+ .text.__writer_stderr
+                0x0000000000002f80       0x7b /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000002ffb        0x5 
+ .text.__writer_stderr_wrapper_color
+                0x0000000000003000       0x17 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000003017        0x9 
+ .text.__writer_stderr_wrapper
+                0x0000000000003020       0x17 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000003037        0x9 
+ .text.ulog_set_write_func
+                0x0000000000003040       0x6e /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003040                ulog_set_write_func
+ *fill*         0x00000000000030ae        0x2 
+ .text.ulog_set_cookie_register_func
+                0x00000000000030b0       0x36 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000030b0                ulog_set_cookie_register_func
+ *fill*         0x00000000000030e6        0xa 
+ .text.ulog_foreach
+                0x00000000000030f0       0x6d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000030f0                ulog_foreach
+ *fill*         0x000000000000315d        0x3 
+ .text.ulog_init_cookie
+                0x0000000000003160      0x142 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003160                ulog_init_cookie
+ *fill*         0x00000000000032a2        0xe 
+ .text.ulog_vlog_write
+                0x00000000000032b0       0x8a /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000032b0                ulog_vlog_write
+ *fill*         0x000000000000333a        0x6 
+ .text.ulog_log_write
+                0x0000000000003340       0xac /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003340                ulog_log_write
+ *fill*         0x00000000000033ec        0x4 
+ .text.ulog_log_str
+                0x00000000000033f0       0x6f /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000033f0                ulog_log_str
+ *fill*         0x000000000000345f        0x1 
+ .text.ulog_log_buf
+                0x0000000000003460       0x59 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003460                ulog_log_buf
+ *fill*         0x00000000000034b9        0x7 
+ .text.ulog_init
+                0x00000000000034c0       0x15 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000034c0                ulog_init
+ *fill*         0x00000000000034d5        0xb 
+ .text.ulog_set_level
+                0x00000000000034e0       0x2e /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000034e0                ulog_set_level
+ *fill*         0x000000000000350e        0x2 
+ .text.ulog_get_level
+                0x0000000000003510        0xe /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003510                ulog_get_level
+ *fill*         0x000000000000351e        0x2 
+ .text.ulog_set_tag_level
+                0x0000000000003520       0x76 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000003520                ulog_set_tag_level
+ *fill*         0x0000000000003596        0xa 
+ .text.ulog_get_tag_names
+                0x00000000000035a0       0x64 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000035a0                ulog_get_tag_names
+ *fill*         0x0000000000003604        0xc 
+ .text.get_token
+                0x0000000000003610       0x5d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ *fill*         0x000000000000366d        0x3 
+ .text.ulog_parse_buf
+                0x0000000000003670      0x247 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                0x0000000000003670                ulog_parse_buf
+ *fill*         0x00000000000038b7        0x9 
+ .text.ulog_bin_open
+                0x00000000000038c0       0xe4 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x00000000000038c0                ulog_bin_open
+ *fill*         0x00000000000039a4        0xc 
+ .text.ulog_bin_close
+                0x00000000000039b0       0x12 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x00000000000039b0                ulog_bin_close
+ *fill*         0x00000000000039c2        0xe 
+ .text.ulog_bin_writev
+                0x00000000000039d0      0x101 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x00000000000039d0                ulog_bin_writev
+ *fill*         0x0000000000003ad1        0xf 
+ .text.ulog_bin_write
+                0x0000000000003ae0       0x45 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x0000000000003ae0                ulog_bin_write
+ *fill*         0x0000000000003b25        0xb 
+ .text.ulog_raw_open
+                0x0000000000003b30      0x132 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000003b30                ulog_raw_open
+ *fill*         0x0000000000003c62        0xe 
+ .text.ulog_raw_close
+                0x0000000000003c70       0x12 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000003c70                ulog_raw_close
+ *fill*         0x0000000000003c82        0xe 
+ .text.ulog_raw_log
+                0x0000000000003c90      0x12d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000003c90                ulog_raw_log
+ *(.gnu.warning)
+
+.fini           0x0000000000003dc0        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000003dc0        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003dc0                _fini
+ .fini          0x0000000000003dc4        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000003dd0      0x16c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000003dd0       0x15 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *fill*         0x0000000000003de5        0xb 
+ .rodata._ZTSN4ulog8internal11OstreamUlogE
+                0x0000000000003df0       0x1e /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003df0                typeinfo name for ulog::internal::OstreamUlog
+ *fill*         0x0000000000003e0e        0x2 
+ .rodata._ZTSN4ulog8internal10UlogstreamE
+                0x0000000000003e10       0x1d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003e10                typeinfo name for ulog::internal::Ulogstream
+ .rodata.str1.1
+                0x0000000000003e2d       0xc5 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                         0xca (size before relaxing)
+ *fill*         0x0000000000003ef2        0xe 
+ .rodata        0x0000000000003f00       0x1a /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .rodata.str1.1
+                0x0000000000003f1a        0x1 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .rodata.str1.1
+                0x0000000000003f1a       0x22 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                         0x2f (size before relaxing)
+ .rodata.str1.1
+                0x0000000000003f3c       0x28 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000003f3c      0x16c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000003f3c      0x16c /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003f3c                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000040a8      0x76c
+ *(.eh_frame)
+ .eh_frame      0x00000000000040a8       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000040e8      0x230 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                                        0x250 (size before relaxing)
+ .eh_frame      0x0000000000004318      0x360 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                        0x338 (size before relaxing)
+ .eh_frame      0x0000000000004678       0x90 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000004708        0x0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000004708       0x88 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000004790       0x80 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000004810        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000004814       0x1d
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000004814        0xe /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .gcc_except_table._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000004822        0xf /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000204b60                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000204b60       0x10
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000204b60        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .init_array    0x0000000000204b68        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+
+.fini_array     0x0000000000204b70        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000204b70        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000204b78        0x8
+ *(.jcr)
+ .jcr           0x0000000000204b78        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000204b78        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro    0x0000000000204b80      0x200
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local._ZTTN4ulog8internal11OstreamUlogE
+                0x0000000000204b80       0x20 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204b80                VTT for ulog::internal::OstreamUlog
+ .data.rel.ro.local._ZTVN4ulog8internal11OstreamUlogE
+                0x0000000000204ba0       0x50 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204ba0                vtable for ulog::internal::OstreamUlog
+ .data.rel.ro.local
+                0x0000000000204bf0        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204bf0                ulog::UlogstreamCerr
+ *fill*         0x0000000000204bf8        0x8 
+ .data.rel.ro.local
+                0x0000000000204c00       0x80 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTIN4ulog8internal11OstreamUlogE
+                0x0000000000204c80       0x18 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204c80                typeinfo for ulog::internal::OstreamUlog
+ .data.rel.ro._ZTIN4ulog8internal10UlogstreamE
+                0x0000000000204c98       0x18 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204c98                typeinfo for ulog::internal::Ulogstream
+ .data.rel.ro._ZTCN4ulog8internal11OstreamUlogE0_So
+                0x0000000000204cb0       0x50 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204cb0                construction vtable for std::ostream-in-ulog::internal::OstreamUlog
+ .data.rel.ro._ZTVN4ulog8internal10UlogstreamE
+                0x0000000000204d00       0x80 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000204d00                vtable for ulog::internal::Ulogstream
+
+.dynamic        0x0000000000204d80      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000204d80      0x200 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000204d80                _DYNAMIC
+
+.got            0x0000000000204f80       0x80
+ *(.got)
+ .got           0x0000000000204f80       0x80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000205fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000205000      0x168
+ *(.got.plt)
+ .got.plt       0x0000000000205000      0x168 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000205000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000205180       0xa0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000205180        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x0000000000205180                __dso_handle
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000205188        0x8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000205188                DW.ref.__gxx_personality_v0
+ *fill*         0x0000000000205190       0x10 
+ .data.rel      0x00000000002051a0       0x50 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x00000000002051f0       0x10 
+ .data.rel.local
+                0x0000000000205200       0x20 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000205200                __ulog_default_cookie
+
+.tm_clone_table
+                0x0000000000205220        0x0
+ .tm_clone_table
+                0x0000000000205220        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x0000000000205220        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000205220                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000205220                . = .
+                0x0000000000205220                __bss_start = .
+
+.bss            0x0000000000205220      0x9a0
+ *(.dynbss)
+ .dynbss        0x0000000000205220        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000205220        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *fill*         0x0000000000205221       0x1f 
+ .bss           0x0000000000205240      0x979 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000205240                ulog::internal::UlogCraw
+                0x0000000000205360                ulog::internal::UlogCrawStream
+                0x00000000002053c0                ulog::internal::UlogEraw
+                0x00000000002054e0                ulog::internal::UlogErawStream
+                0x0000000000205540                ulog::internal::UlogWraw
+                0x0000000000205660                ulog::internal::UlogWrawStream
+                0x00000000002056c0                ulog::internal::UlogNraw
+                0x00000000002057e0                ulog::internal::UlogNrawStream
+                0x0000000000205840                ulog::internal::UlogIraw
+                0x0000000000205960                ulog::internal::UlogIrawStream
+                0x00000000002059c0                ulog::internal::UlogDraw
+                0x0000000000205ae0                ulog::internal::UlogDrawStream
+                0x0000000000205b38                ulog::internal::Ulogstream::mTagKey
+                0x0000000000205b3c                ulog::internal::Ulogstream::mBufKey
+                0x0000000000205b40                ulog::internal::Ulogstream::mKeyOnce
+ *(COMMON)
+                0x0000000000205bc0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000205bb9        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000205bc0                . = ALIGN (0x8)
+                0x0000000000205bc0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000605bc0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000605bc0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000605bc0                . = ALIGN (0x8)
+                0x0000000000605bc0                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000605bc0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x3a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x120 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_aranges
+                0x0000000000000120      0x160 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_aranges
+                0x0000000000000280       0x40 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_aranges
+                0x00000000000002c0       0x30 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_aranges
+                0x00000000000002f0       0x60 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_aranges
+                0x0000000000000350       0x50 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x8fc9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x5b9c /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_info    0x0000000000005b9c     0x1939 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_info    0x00000000000074d5      0x49b /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_info    0x0000000000007970      0x361 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_info    0x0000000000007cd1      0x949 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_info    0x000000000000861a      0x9af /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_abbrev   0x0000000000000000     0x14b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x8d3 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_abbrev  0x00000000000008d3      0x44b /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_abbrev  0x0000000000000d1e      0x1df /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_abbrev  0x0000000000000efd       0xf0 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_abbrev  0x0000000000000fed      0x266 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_abbrev  0x0000000000001253      0x263 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_line     0x0000000000000000     0x140e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x730 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_line    0x0000000000000730      0x520 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_line    0x0000000000000c50      0x1c3 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_line    0x0000000000000e13      0x117 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_line    0x0000000000000f2a      0x257 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_line    0x0000000000001181      0x28d /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x6280
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x590e /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                                       0x5cee (size before relaxing)
+ .debug_str     0x000000000000590e      0x778 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                        0x97a (size before relaxing)
+ .debug_str     0x0000000000006086       0xb4 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                                        0x270 (size before relaxing)
+ .debug_str     0x000000000000613a       0x3f /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+                                        0x356 (size before relaxing)
+ .debug_str     0x0000000000006179       0x72 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                        0x544 (size before relaxing)
+ .debug_str     0x00000000000061eb       0x95 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                                        0x5ba (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x3a1b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x12b4 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_loc     0x00000000000012b4     0x17d8 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_loc     0x0000000000002a8c      0x3f2 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_loc     0x0000000000002e7e      0x6b9 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_loc     0x0000000000003537      0x4e4 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x880
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x550 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_ranges  0x0000000000000550      0x190 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_ranges  0x00000000000006e0       0x90 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_ranges  0x0000000000000770       0x20 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_ranges  0x0000000000000790       0x80 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_ranges  0x0000000000000810       0x70 /home/david/drone_nav/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libulog/libulog.so elf64-x86-64)

@@ -1,0 +1,856 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libulog.so                    /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o (ulog_log_write)
+librt.so.1                    /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o (clock_gettime@@GLIBC_2.2.5)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o (gmtime_r@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_lookup_entry
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_insert_entry.constprop.0
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_remove_all
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_insert
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_insert_const
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_lookup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_lookup_const
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text.unlikely.hash_remove
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_get_monotonic
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_diff
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_to_ns
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_to_us
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_ns_to_timespec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_us_to_timespec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_diff_now
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_cmp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_diff_in_range
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_add_ns
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timespec_add_us
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timeval_to_timespec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text.unlikely.time_timeval_to_ms
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .text.unlikely.fd_set_close_on_exec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .text.unlikely.fd_has_close_on_exec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .text.unlikely.fd_add_flags
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .text.unlikely.synctool
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .text.unlikely.sync_file
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .text.unlikely.sync_folder
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .text.unlikely.sync_file_and_folder
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_ctx_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_ctx_set_date
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_ctx_set_hour
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_ctx_get_time
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_system_set_time
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_system_get_time
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_system_create_tm
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text.unlikely.time_system_convert_time
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text.unlikely.mbox_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text.unlikely.mbox_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text.unlikely.mbox_get_read_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text.unlikely.mbox_push
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text.unlikely.mbox_peek
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.read_no_eintr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_get_read_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_get_max_size
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_push
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text.unlikely.dynmbox_peek
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libulog.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x1b4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x1b4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000003a8      0x828
+ *(.dynsym)
+ .dynsym        0x00000000000003a8      0x828 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000bd0      0x507
+ *(.dynstr)
+ .dynstr        0x0000000000000bd0      0x507 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000010d8       0xae
+ *(.gnu.version)
+ .gnu.version   0x00000000000010d8       0xae /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001188        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001188        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001188       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001188       0x80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001208      0x150
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001208        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001208       0x78 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001280       0xa8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001328        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001328       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001340       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001358      0x360
+ *(.rela.plt)
+ .rela.plt      0x0000000000001358      0x360 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x00000000000016b8       0x1a
+ *(SORT(.init))
+ .init          0x00000000000016b8       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x00000000000016b8                _init
+ .init          0x00000000000016cd        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x00000000000016e0      0x250
+ *(.plt)
+ .plt           0x00000000000016e0      0x250 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000001930       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000001930       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000001940     0x19fe
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001940      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.hash_lookup_entry
+                0x0000000000001a40       0x8c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ *fill*         0x0000000000001acc        0x4 
+ .text.hash_insert_entry.constprop.0
+                0x0000000000001ad0       0xa7 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ *fill*         0x0000000000001b77        0x9 
+ .text.hash_init
+                0x0000000000001b80       0x93 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001b80                hash_init
+ *fill*         0x0000000000001c13        0xd 
+ .text.hash_remove_all
+                0x0000000000001c20       0x8e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001c20                hash_remove_all
+ *fill*         0x0000000000001cae        0x2 
+ .text.hash_destroy
+                0x0000000000001cb0       0x46 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001cb0                hash_destroy
+ *fill*         0x0000000000001cf6        0xa 
+ .text.hash_insert
+                0x0000000000001d00       0x97 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001d00                hash_insert
+ *fill*         0x0000000000001d97        0x9 
+ .text.hash_insert_const
+                0x0000000000001da0       0x97 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001da0                hash_insert_const
+ *fill*         0x0000000000001e37        0x9 
+ .text.hash_lookup
+                0x0000000000001e40       0x5c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001e40                hash_lookup
+ *fill*         0x0000000000001e9c        0x4 
+ .text.hash_lookup_const
+                0x0000000000001ea0       0x59 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001ea0                hash_lookup_const
+ *fill*         0x0000000000001ef9        0x7 
+ .text.hash_remove
+                0x0000000000001f00       0xc5 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000001f00                hash_remove
+ *fill*         0x0000000000001fc5        0xb 
+ .text.time_get_monotonic
+                0x0000000000001fd0       0x27 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000001fd0                time_get_monotonic
+ *fill*         0x0000000000001ff7        0x9 
+ .text.time_timespec_diff
+                0x0000000000002000       0x6b /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002000                time_timespec_diff
+ *fill*         0x000000000000206b        0x5 
+ .text.time_timespec_to_ns
+                0x0000000000002070       0x26 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002070                time_timespec_to_ns
+ *fill*         0x0000000000002096        0xa 
+ .text.time_timespec_to_us
+                0x00000000000020a0       0x46 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x00000000000020a0                time_timespec_to_us
+ *fill*         0x00000000000020e6        0xa 
+ .text.time_ns_to_timespec
+                0x00000000000020f0       0x56 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x00000000000020f0                time_ns_to_timespec
+ *fill*         0x0000000000002146        0xa 
+ .text.time_us_to_timespec
+                0x0000000000002150       0x56 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002150                time_us_to_timespec
+ *fill*         0x00000000000021a6        0xa 
+ .text.time_timespec_diff_now
+                0x00000000000021b0       0xda /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x00000000000021b0                time_timespec_diff_now
+ *fill*         0x000000000000228a        0x6 
+ .text.time_timespec_cmp
+                0x0000000000002290       0x97 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002290                time_timespec_cmp
+ *fill*         0x0000000000002327        0x9 
+ .text.time_timespec_diff_in_range
+                0x0000000000002330       0xec /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002330                time_timespec_diff_in_range
+ *fill*         0x000000000000241c        0x4 
+ .text.time_timespec_add_ns
+                0x0000000000002420       0x96 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002420                time_timespec_add_ns
+ *fill*         0x00000000000024b6        0xa 
+ .text.time_timespec_add_us
+                0x00000000000024c0        0xc /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x00000000000024c0                time_timespec_add_us
+ *fill*         0x00000000000024cc        0x4 
+ .text.time_timeval_to_timespec
+                0x00000000000024d0       0x26 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x00000000000024d0                time_timeval_to_timespec
+ *fill*         0x00000000000024f6        0xa 
+ .text.time_timeval_to_ms
+                0x0000000000002500       0x3e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000002500                time_timeval_to_ms
+ *fill*         0x000000000000253e        0x2 
+ .text.fd_set_close_on_exec
+                0x0000000000002540       0x45 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+                0x0000000000002540                fd_set_close_on_exec
+ *fill*         0x0000000000002585        0xb 
+ .text.fd_has_close_on_exec
+                0x0000000000002590       0x26 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+                0x0000000000002590                fd_has_close_on_exec
+ *fill*         0x00000000000025b6        0xa 
+ .text.fd_add_flags
+                0x00000000000025c0       0x52 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+                0x00000000000025c0                fd_add_flags
+ *fill*         0x0000000000002612        0xe 
+ .text.synctool
+                0x0000000000002620      0x119 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ *fill*         0x0000000000002739        0x7 
+ .text.sync_file
+                0x0000000000002740        0x7 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                0x0000000000002740                sync_file
+ *fill*         0x0000000000002747        0x9 
+ .text.sync_folder
+                0x0000000000002750        0xa /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                0x0000000000002750                sync_folder
+ *fill*         0x000000000000275a        0x6 
+ .text.sync_file_and_folder
+                0x0000000000002760      0x1e9 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                0x0000000000002760                sync_file_and_folder
+ *fill*         0x0000000000002949        0x7 
+ .text.time_ctx_init
+                0x0000000000002950       0x36 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002950                time_ctx_init
+ *fill*         0x0000000000002986        0xa 
+ .text.time_ctx_set_date
+                0x0000000000002990       0xcc /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002990                time_ctx_set_date
+ *fill*         0x0000000000002a5c        0x4 
+ .text.time_ctx_set_hour
+                0x0000000000002a60       0xcc /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002a60                time_ctx_set_hour
+ *fill*         0x0000000000002b2c        0x4 
+ .text.time_ctx_get_time
+                0x0000000000002b30       0xe5 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002b30                time_ctx_get_time
+ *fill*         0x0000000000002c15        0xb 
+ .text.time_system_set_time
+                0x0000000000002c20       0x82 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002c20                time_system_set_time
+ *fill*         0x0000000000002ca2        0xe 
+ .text.time_system_get_time
+                0x0000000000002cb0       0x8c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002cb0                time_system_get_time
+ *fill*         0x0000000000002d3c        0x4 
+ .text.time_system_create_tm
+                0x0000000000002d40       0x8c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002d40                time_system_create_tm
+ *fill*         0x0000000000002dcc        0x4 
+ .text.time_system_convert_time
+                0x0000000000002dd0       0x9e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x0000000000002dd0                time_system_convert_time
+ *fill*         0x0000000000002e6e        0x2 
+ .text.mbox_new
+                0x0000000000002e70       0x84 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                0x0000000000002e70                mbox_new
+ *fill*         0x0000000000002ef4        0xc 
+ .text.mbox_destroy
+                0x0000000000002f00       0x2a /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                0x0000000000002f00                mbox_destroy
+ *fill*         0x0000000000002f2a        0x6 
+ .text.mbox_get_read_fd
+                0x0000000000002f30        0xe /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                0x0000000000002f30                mbox_get_read_fd
+ *fill*         0x0000000000002f3e        0x2 
+ .text.mbox_push
+                0x0000000000002f40       0x6c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                0x0000000000002f40                mbox_push
+ *fill*         0x0000000000002fac        0x4 
+ .text.mbox_peek
+                0x0000000000002fb0       0x7a /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                0x0000000000002fb0                mbox_peek
+ *fill*         0x000000000000302a        0x6 
+ .text.read_no_eintr
+                0x0000000000003030       0x55 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ *fill*         0x0000000000003085        0xb 
+ .text.dynmbox_new
+                0x0000000000003090       0xb4 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x0000000000003090                dynmbox_new
+ *fill*         0x0000000000003144        0xc 
+ .text.dynmbox_destroy
+                0x0000000000003150       0x2a /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x0000000000003150                dynmbox_destroy
+ *fill*         0x000000000000317a        0x6 
+ .text.dynmbox_get_read_fd
+                0x0000000000003180        0xe /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x0000000000003180                dynmbox_get_read_fd
+ *fill*         0x000000000000318e        0x2 
+ .text.dynmbox_get_max_size
+                0x0000000000003190       0x12 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x0000000000003190                dynmbox_get_max_size
+ *fill*         0x00000000000031a2        0xe 
+ .text.dynmbox_push
+                0x00000000000031b0      0x113 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x00000000000031b0                dynmbox_push
+ *fill*         0x00000000000032c3        0xd 
+ .text.dynmbox_peek
+                0x00000000000032d0       0x6e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x00000000000032d0                dynmbox_peek
+ *(.gnu.warning)
+
+.fini           0x0000000000003340        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000003340        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003340                _fini
+ .fini          0x0000000000003344        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000003360      0x1a2
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000003360       0x80 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .rodata.str1.1
+                0x00000000000033e0       0x1d /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                                         0x27 (size before relaxing)
+ *fill*         0x00000000000033fd        0x3 
+ .rodata.str1.8
+                0x0000000000003400       0x23 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .rodata.str1.1
+                0x0000000000003423       0x74 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ *fill*         0x0000000000003497        0x1 
+ .rodata.str1.8
+                0x0000000000003498       0x48 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .rodata.str1.1
+                0x00000000000034e0       0x1a /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .rodata.str1.1
+                0x00000000000034fa        0x8 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000003504      0x1a4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000003504      0x1a4 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                0x0000000000003504                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000036a8      0x854
+ *(.eh_frame)
+ .eh_frame      0x00000000000036a8       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000036e8      0x1c0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .eh_frame      0x00000000000038a8      0x1a0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                                        0x188 (size before relaxing)
+ .eh_frame      0x0000000000003a48       0x70 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000003ab8       0xb8 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000003b70      0x178 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                                        0x170 (size before relaxing)
+ .eh_frame      0x0000000000003ce8       0xf0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                                        0x100 (size before relaxing)
+ .eh_frame      0x0000000000003dd8      0x120 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .eh_frame      0x0000000000003ef8        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000204db0                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000204db0        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000204db0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000204db8        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000204db8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000204dc0        0x8
+ *(.jcr)
+ .jcr           0x0000000000204dc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000204dc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000204dc8      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000204dc8      0x200 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000204dc8                _DYNAMIC
+
+.got            0x0000000000204fc8       0x38
+ *(.got)
+ .got           0x0000000000204fc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000205fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000205000      0x138
+ *(.got.plt)
+ .got.plt       0x0000000000205000      0x138 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000205000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000205140       0xa0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000205140        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x0000000000205140                __dso_handle
+ *fill*         0x0000000000205148       0x18 
+ .data.rel.local
+                0x0000000000205160       0x20 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                0x0000000000205160                __ulog_cookie_timetools
+ .data.rel.local
+                0x0000000000205180       0x20 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                0x0000000000205180                __ulog_cookie_synctools
+ .data.rel.local
+                0x00000000002051a0       0x20 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                0x00000000002051a0                __ulog_cookie_systimetools
+ .data.rel.local
+                0x00000000002051c0       0x20 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                0x00000000002051c0                __ulog_cookie_dynmbox
+
+.tm_clone_table
+                0x00000000002051e0        0x0
+ .tm_clone_table
+                0x00000000002051e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x00000000002051e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000002051e0                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000002051e0                . = .
+                0x00000000002051e0                __bss_start = .
+
+.bss            0x00000000002051e0        0x8
+ *(.dynbss)
+ .dynbss        0x00000000002051e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000002051e0        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x00000000002051e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000002051e1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000002051e8                . = ALIGN (0x8)
+                0x00000000002051e8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000006051e8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000006051e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000006051e8                . = ALIGN (0x8)
+                0x00000000006051e8                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x00000000006051e8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x400
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xc0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_aranges
+                0x00000000000000c0       0xf0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_aranges
+                0x00000000000001b0       0x50 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_aranges
+                0x0000000000000200       0x60 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_aranges
+                0x0000000000000260       0xa0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_aranges
+                0x0000000000000300       0x70 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_aranges
+                0x0000000000000370       0x90 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x35a2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xa8d /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_info    0x0000000000000a8d      0x946 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_info    0x00000000000013d3      0x235 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_info    0x0000000000001608      0x672 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_info    0x0000000000001c7a      0x9e4 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_info    0x000000000000265e      0x651 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_info    0x0000000000002caf      0x8f3 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_abbrev   0x0000000000000000      0xee9
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x319 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_abbrev  0x0000000000000319      0x2bf /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_abbrev  0x00000000000005d8       0xc2 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_abbrev  0x000000000000069a      0x1a5 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_abbrev  0x000000000000083f      0x23e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_abbrev  0x0000000000000a7d      0x1ec /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_abbrev  0x0000000000000c69      0x280 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_line     0x0000000000000000     0x11d2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x345 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_line    0x0000000000000345      0x334 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_line    0x0000000000000679       0xe0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_line    0x0000000000000759      0x257 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_line    0x00000000000009b0      0x2fe /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_line    0x0000000000000cae      0x234 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_line    0x0000000000000ee2      0x2f0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0xadf
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x2c8 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+                                        0x32f (size before relaxing)
+ .debug_str     0x00000000000002c8      0x25d /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+                                        0x3f5 (size before relaxing)
+ .debug_str     0x0000000000000525       0x5e /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+                                        0x1b0 (size before relaxing)
+ .debug_str     0x0000000000000583       0xca /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+                                        0x287 (size before relaxing)
+ .debug_str     0x000000000000064d      0x1db /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+                                        0x40f (size before relaxing)
+ .debug_str     0x0000000000000828      0x1b8 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x00000000000009e0       0xff /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+                                        0x497 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x41d3
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1734 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_loc     0x0000000000001734      0xa2a /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_loc     0x000000000000215e      0x247 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_loc     0x00000000000023a5      0x56c /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_loc     0x0000000000002911      0xcd4 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_loc     0x00000000000035e5      0x4a9 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_loc     0x0000000000003a8e      0x745 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x730
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x1a0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/hash.c.o
+ .debug_ranges  0x00000000000001a0      0x150 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/timetools.c.o
+ .debug_ranges  0x00000000000002f0       0x40 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/fdutils.c.o
+ .debug_ranges  0x0000000000000330      0x200 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/synctools.c.o
+ .debug_ranges  0x0000000000000530       0xf0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/systimetools.c.o
+ .debug_ranges  0x0000000000000620       0x60 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/mbox.c.o
+ .debug_ranges  0x0000000000000680       0xb0 /home/david/drone_nav/out/arsdk-native/build/libfutils/obj/src/dynmbox.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libfutils/libfutils.so elf64-x86-64)

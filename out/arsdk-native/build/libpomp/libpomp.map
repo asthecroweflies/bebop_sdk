@@ -1,0 +1,1950 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libulog.so                    /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o (ulog_log_write)
+librt.so.1                    /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o (timer_settime@@GLIBC_2.3.3)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o (epoll_create@@GLIBC_2.3.2)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text.unlikely.pomp_addr_parse_inet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text.unlikely.pomp_addr_parse
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text.unlikely.pomp_addr_format
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text.unlikely.pomp_addr_is_unix
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_register_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_new_copy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_ref
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_unref
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_is_shared
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_set_capacity
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_new_with_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_new_get_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_set_len
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_get_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_get_cdata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_ensure_capacity
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_append_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_writeb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_write_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_read
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_cread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_readb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.unlikely.pomp_buffer_read_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_add_idle_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.clear_pending_callbacks
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_fixup_rx_fds_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_clear_rx_fds.isra.3
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_io_buffer_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send_buf_internal
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_idle_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_close
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_get_next
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_set_next
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_disconnect
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_get_local_addr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_get_peer_addr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_get_peer_cred
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_suspend_read
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_resume_read
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send_msg_to
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_sendv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send_raw_buf_to
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.unlikely.pomp_conn_send_raw_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.fd_socket_setup_keepalive
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.client_complete_conn
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.client_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.server_start
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.server_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.client_start
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.dgram_start
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.timer_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_event_str
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_socket_kind_str
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_set_raw
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_set_socket_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_set_send_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_setup_keepalive
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_new_with_loop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_listen
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_connect
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_bind
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_process_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_wait_and_process
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_wakeup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_get_loop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_get_next_conn
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_get_conn
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_get_local_addr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_send_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_send_msg_to
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_sendv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_send
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_send_raw_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_send_raw_buf_to
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_remove_conn
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_stop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_notify_event
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.pomp_ctx_notify_event
+                0x0000000000000000       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_notify_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_notify_raw_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_notify_send
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.unlikely.pomp_ctx_sendcb_is_set
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.dump_append
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.decoder_dump_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.decoder_read_varint
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.decoder_read_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_i8
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_u8
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_i16
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_u16
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_i32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_u32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_i64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_u64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_cstr
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_str
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_cbuf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_f32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_f64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_readv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_read
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_walk
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.decoder_dump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_dump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text.unlikely.pomp_decoder_adump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.encoder_write_data
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.encoder_write_varint
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_i8
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_u8
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_i16
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_u16
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_i32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_u32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_i64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_u64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_str
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_buf
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_f32
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_f64
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.encoder_writev_internal
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_writev
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.encoder_write_internal
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.unlikely.pomp_encoder_write_argv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.fd_events_to_epoll
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_remove
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_wakeup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_wakeup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_idle_check
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_wait_and_process
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_wait_and_process
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_ctl.isra.2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_remove
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_update
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_add
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_epoll_do_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_update
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_poll_do_add
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_set_ops
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_set_ops
+                0x0000000000000000        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_find_pfd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_find_pfd
+                0x0000000000000000       0x25 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_add_pfd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_remove_pfd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_add
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_update
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_update2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_remove
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_has_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_get_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_wait_and_process
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_process_fd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_wakeup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_idle_add
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.unlikely.pomp_loop_idle_remove
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_new_copy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_new_with_buffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_finish
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_get_id
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_get_buffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_writev
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_write
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_write_argv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_readv
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_read
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_dump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text.unlikely.pomp_msg_adump
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_reset_state
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_check_magic
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.copy.constprop.2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_decode_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text.unlikely.pomp_prot_release_msg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_fd_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_fd_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_fd_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_sighandler
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_fd_set
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_fd_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_set
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_posix_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_set_ops
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.pomp_timer_set_ops
+                0x0000000000000000        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_destroy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_set
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_set_periodic
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.unlikely.pomp_timer_clear
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libulog.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x4bc
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x4bc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000006b0     0x1398
+ *(.dynsym)
+ .dynsym        0x00000000000006b0     0x1398 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000001a48      0xd9e
+ *(.dynstr)
+ .dynstr        0x0000000000001a48      0xd9e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000027e6      0x1a2
+ *(.gnu.version)
+ .gnu.version   0x00000000000027e6      0x1a2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000002988        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000002988        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000002988       0xc0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000002988       0xc0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000002a48      0x348
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_new_copy
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_unref
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_write_fd
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_ctx_stop
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.decoder_dump
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_add
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_remove
+                0x0000000000002a48        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000002a48       0x60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000002aa8      0x240 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000002ce8       0x78 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000002d60        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000002d60       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000002d78       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000002d90      0xcc0
+ *(.rela.plt)
+ .rela.plt      0x0000000000002d90      0xcc0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000003a50       0x1a
+ *(SORT(.init))
+ .init          0x0000000000003a50       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003a50                _init
+ .init          0x0000000000003a65        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003a70      0x890
+ *(.plt)
+ .plt           0x0000000000003a70      0x890 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000004300       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000004300       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000004310     0xbeed
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004310      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.pomp_addr_parse_inet
+                0x0000000000004410      0x17f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ *fill*         0x000000000000458f        0x1 
+ .text.pomp_addr_parse
+                0x0000000000004590      0x150 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x0000000000004590                pomp_addr_parse
+ .text.pomp_addr_format
+                0x00000000000046e0      0x1e0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x00000000000046e0                pomp_addr_format
+ .text.pomp_addr_is_unix
+                0x00000000000048c0       0x1b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x00000000000048c0                pomp_addr_is_unix
+ *fill*         0x00000000000048db        0x5 
+ .text.pomp_buffer_get_fd
+                0x00000000000048e0       0x26 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x00000000000048e0                pomp_buffer_get_fd
+ *fill*         0x0000000000004906        0xa 
+ .text.pomp_buffer_register_fd
+                0x0000000000004910       0xb7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004910                pomp_buffer_register_fd
+ *fill*         0x00000000000049c7        0x9 
+ .text.pomp_buffer_clear
+                0x00000000000049d0      0x18f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x00000000000049d0                pomp_buffer_clear
+ *fill*         0x0000000000004b5f        0x1 
+ .text.pomp_buffer_new_copy
+                0x0000000000004b60      0x1bd /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004b60                pomp_buffer_new_copy
+ *fill*         0x0000000000004d1d        0x3 
+ .text.pomp_buffer_ref
+                0x0000000000004d20        0x5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004d20                pomp_buffer_ref
+ *fill*         0x0000000000004d25        0xb 
+ .text.pomp_buffer_unref
+                0x0000000000004d30       0x22 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004d30                pomp_buffer_unref
+ *fill*         0x0000000000004d52        0xe 
+ .text.pomp_buffer_is_shared
+                0x0000000000004d60       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004d60                pomp_buffer_is_shared
+ *fill*         0x0000000000004d73        0xd 
+ .text.pomp_buffer_set_capacity
+                0x0000000000004d80       0x55 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004d80                pomp_buffer_set_capacity
+ *fill*         0x0000000000004dd5        0xb 
+ .text.pomp_buffer_new
+                0x0000000000004de0       0x5c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004de0                pomp_buffer_new
+ *fill*         0x0000000000004e3c        0x4 
+ .text.pomp_buffer_new_with_data
+                0x0000000000004e40       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004e40                pomp_buffer_new_with_data
+ *fill*         0x0000000000004e75        0xb 
+ .text.pomp_buffer_new_get_data
+                0x0000000000004e80       0x1c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004e80                pomp_buffer_new_get_data
+ *fill*         0x0000000000004e9c        0x4 
+ .text.pomp_buffer_set_len
+                0x0000000000004ea0       0x27 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004ea0                pomp_buffer_set_len
+ *fill*         0x0000000000004ec7        0x9 
+ .text.pomp_buffer_get_data
+                0x0000000000004ed0       0x4a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004ed0                pomp_buffer_get_data
+ *fill*         0x0000000000004f1a        0x6 
+ .text.pomp_buffer_get_cdata
+                0x0000000000004f20       0x39 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004f20                pomp_buffer_get_cdata
+ *fill*         0x0000000000004f59        0x7 
+ .text.pomp_buffer_ensure_capacity
+                0x0000000000004f60       0x3c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004f60                pomp_buffer_ensure_capacity
+ *fill*         0x0000000000004f9c        0x4 
+ .text.pomp_buffer_write
+                0x0000000000004fa0       0x80 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000004fa0                pomp_buffer_write
+ .text.pomp_buffer_append_data
+                0x0000000000005020       0x5c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005020                pomp_buffer_append_data
+ *fill*         0x000000000000507c        0x4 
+ .text.pomp_buffer_writeb
+                0x0000000000005080       0x1c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005080                pomp_buffer_writeb
+ *fill*         0x000000000000509c        0x4 
+ .text.pomp_buffer_write_fd
+                0x00000000000050a0      0x13c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x00000000000050a0                pomp_buffer_write_fd
+ *fill*         0x00000000000051dc        0x4 
+ .text.pomp_buffer_read
+                0x00000000000051e0       0x5d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x00000000000051e0                pomp_buffer_read
+ *fill*         0x000000000000523d        0x3 
+ .text.pomp_buffer_cread
+                0x0000000000005240       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005240                pomp_buffer_cread
+ *fill*         0x0000000000005276        0xa 
+ .text.pomp_buffer_readb
+                0x0000000000005280        0xa /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005280                pomp_buffer_readb
+ *fill*         0x000000000000528a        0x6 
+ .text.pomp_buffer_read_fd
+                0x0000000000005290       0xc4 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005290                pomp_buffer_read_fd
+ *fill*         0x0000000000005354        0xc 
+ .text.pomp_conn_add_idle_cb
+                0x0000000000005360      0x102 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000005462        0xe 
+ .text.clear_pending_callbacks
+                0x0000000000005470      0x13d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x00000000000055ad        0x3 
+ .text.pomp_conn_fixup_rx_fds_cb
+                0x00000000000055b0      0x1a4 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000005754        0xc 
+ .text.pomp_conn_clear_rx_fds.isra.3
+                0x0000000000005760       0xfb /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x000000000000585b        0x5 
+ .text.pomp_io_buffer_write
+                0x0000000000005860      0x3aa /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000005c0a        0x6 
+ .text.pomp_conn_cb
+                0x0000000000005c10      0x807 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006417        0x9 
+ .text.pomp_conn_send_buf_internal
+                0x0000000000006420      0x381 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x00000000000067a1        0xf 
+ .text.pomp_idle_cb
+                0x00000000000067b0      0x105 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x00000000000068b5        0xb 
+ .text.pomp_conn_new
+                0x00000000000068c0      0x37d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x00000000000068c0                pomp_conn_new
+ *fill*         0x0000000000006c3d        0x3 
+ .text.pomp_conn_destroy
+                0x0000000000006c40       0x44 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006c40                pomp_conn_destroy
+ *fill*         0x0000000000006c84        0xc 
+ .text.pomp_conn_close
+                0x0000000000006c90      0x15b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006c90                pomp_conn_close
+ *fill*         0x0000000000006deb        0x5 
+ .text.pomp_conn_get_next
+                0x0000000000006df0       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006df0                pomp_conn_get_next
+ *fill*         0x0000000000006e03        0xd 
+ .text.pomp_conn_set_next
+                0x0000000000006e10       0x12 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006e10                pomp_conn_set_next
+ *fill*         0x0000000000006e22        0xe 
+ .text.pomp_conn_disconnect
+                0x0000000000006e30       0xf0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006e30                pomp_conn_disconnect
+ .text.pomp_conn_get_local_addr
+                0x0000000000006f20       0x23 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006f20                pomp_conn_get_local_addr
+ *fill*         0x0000000000006f43        0xd 
+ .text.pomp_conn_get_peer_addr
+                0x0000000000006f50       0x23 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006f50                pomp_conn_get_peer_addr
+ *fill*         0x0000000000006f73        0xd 
+ .text.pomp_conn_get_peer_cred
+                0x0000000000006f80       0x23 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006f80                pomp_conn_get_peer_cred
+ *fill*         0x0000000000006fa3        0xd 
+ .text.pomp_conn_get_fd
+                0x0000000000006fb0        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006fb0                pomp_conn_get_fd
+ *fill*         0x0000000000006fbf        0x1 
+ .text.pomp_conn_suspend_read
+                0x0000000000006fc0       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000006fc0                pomp_conn_suspend_read
+ *fill*         0x0000000000006ff6        0xa 
+ .text.pomp_conn_resume_read
+                0x0000000000007000       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007000                pomp_conn_resume_read
+ *fill*         0x0000000000007036        0xa 
+ .text.pomp_conn_send_msg_to
+                0x0000000000007040       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007040                pomp_conn_send_msg_to
+ *fill*         0x0000000000007056        0xa 
+ .text.pomp_conn_send_msg
+                0x0000000000007060       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007060                pomp_conn_send_msg
+ *fill*         0x000000000000707e        0x2 
+ .text.pomp_conn_sendv
+                0x0000000000007080       0x79 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007080                pomp_conn_sendv
+ *fill*         0x00000000000070f9        0x7 
+ .text.pomp_conn_send
+                0x0000000000007100       0xac /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007100                pomp_conn_send
+ *fill*         0x00000000000071ac        0x4 
+ .text.pomp_conn_send_raw_buf_to
+                0x00000000000071b0        0x5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x00000000000071b0                pomp_conn_send_raw_buf_to
+ *fill*         0x00000000000071b5        0xb 
+ .text.pomp_conn_send_raw_buf
+                0x00000000000071c0        0x9 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x00000000000071c0                pomp_conn_send_raw_buf
+ *fill*         0x00000000000071c9        0x7 
+ .text.fd_socket_setup_keepalive
+                0x00000000000071d0      0x282 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000007452        0xe 
+ .text.client_complete_conn
+                0x0000000000007460      0x1f2 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000007652        0xe 
+ .text.client_cb
+                0x0000000000007660        0x8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000007668        0x8 
+ .text.server_start
+                0x0000000000007670      0x669 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000007cd9        0x7 
+ .text.server_cb
+                0x0000000000007ce0      0x3f6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x00000000000080d6        0xa 
+ .text.client_start
+                0x00000000000080e0      0x452 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008532        0xe 
+ .text.dgram_start
+                0x0000000000008540      0x5f1 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008b31        0xf 
+ .text.timer_cb
+                0x0000000000008b40       0x49 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008b89        0x7 
+ .text.pomp_event_str
+                0x0000000000008b90       0x2c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008b90                pomp_event_str
+ *fill*         0x0000000000008bbc        0x4 
+ .text.pomp_socket_kind_str
+                0x0000000000008bc0       0x38 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008bc0                pomp_socket_kind_str
+ *fill*         0x0000000000008bf8        0x8 
+ .text.pomp_ctx_set_raw
+                0x0000000000008c00       0x2b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008c00                pomp_ctx_set_raw
+ *fill*         0x0000000000008c2b        0x5 
+ .text.pomp_ctx_set_socket_cb
+                0x0000000000008c30       0x24 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008c30                pomp_ctx_set_socket_cb
+ *fill*         0x0000000000008c54        0xc 
+ .text.pomp_ctx_set_send_cb
+                0x0000000000008c60       0x24 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008c60                pomp_ctx_set_send_cb
+ *fill*         0x0000000000008c84        0xc 
+ .text.pomp_ctx_setup_keepalive
+                0x0000000000008c90       0x1b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008c90                pomp_ctx_setup_keepalive
+ *fill*         0x0000000000008cab        0x5 
+ .text.pomp_ctx_destroy
+                0x0000000000008cb0       0x58 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008cb0                pomp_ctx_destroy
+ *fill*         0x0000000000008d08        0x8 
+ .text.pomp_ctx_new_with_loop
+                0x0000000000008d10       0xb3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008d10                pomp_ctx_new_with_loop
+ *fill*         0x0000000000008dc3        0xd 
+ .text.pomp_ctx_new
+                0x0000000000008dd0       0x66 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008dd0                pomp_ctx_new
+ *fill*         0x0000000000008e36        0xa 
+ .text.pomp_ctx_listen
+                0x0000000000008e40       0xe6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008e40                pomp_ctx_listen
+ *fill*         0x0000000000008f26        0xa 
+ .text.pomp_ctx_connect
+                0x0000000000008f30       0xa6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008f30                pomp_ctx_connect
+ *fill*         0x0000000000008fd6        0xa 
+ .text.pomp_ctx_bind
+                0x0000000000008fe0       0xd6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000008fe0                pomp_ctx_bind
+ *fill*         0x00000000000090b6        0xa 
+ .text.pomp_ctx_get_fd
+                0x00000000000090c0       0x18 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000090c0                pomp_ctx_get_fd
+ *fill*         0x00000000000090d8        0x8 
+ .text.pomp_ctx_process_fd
+                0x00000000000090e0       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000090e0                pomp_ctx_process_fd
+ *fill*         0x00000000000090f6        0xa 
+ .text.pomp_ctx_wait_and_process
+                0x0000000000009100       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009100                pomp_ctx_wait_and_process
+ *fill*         0x0000000000009116        0xa 
+ .text.pomp_ctx_wakeup
+                0x0000000000009120       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009120                pomp_ctx_wakeup
+ *fill*         0x0000000000009136        0xa 
+ .text.pomp_ctx_get_loop
+                0x0000000000009140       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009140                pomp_ctx_get_loop
+ *fill*         0x0000000000009153        0xd 
+ .text.pomp_ctx_get_next_conn
+                0x0000000000009160       0x2b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009160                pomp_ctx_get_next_conn
+ *fill*         0x000000000000918b        0x5 
+ .text.pomp_ctx_get_conn
+                0x0000000000009190       0x1a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009190                pomp_ctx_get_conn
+ *fill*         0x00000000000091aa        0x6 
+ .text.pomp_ctx_get_local_addr
+                0x00000000000091b0       0x40 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000091b0                pomp_ctx_get_local_addr
+ .text.pomp_ctx_send_msg
+                0x00000000000091f0       0x82 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000091f0                pomp_ctx_send_msg
+ *fill*         0x0000000000009272        0xe 
+ .text.pomp_ctx_send_msg_to
+                0x0000000000009280       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009280                pomp_ctx_send_msg_to
+ *fill*         0x00000000000092b6        0xa 
+ .text.pomp_ctx_sendv
+                0x00000000000092c0       0x79 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000092c0                pomp_ctx_sendv
+ *fill*         0x0000000000009339        0x7 
+ .text.pomp_ctx_send
+                0x0000000000009340       0xac /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009340                pomp_ctx_send
+ *fill*         0x00000000000093ec        0x4 
+ .text.pomp_ctx_send_raw_buf
+                0x00000000000093f0       0x8c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000093f0                pomp_ctx_send_raw_buf
+ *fill*         0x000000000000947c        0x4 
+ .text.pomp_ctx_send_raw_buf_to
+                0x0000000000009480       0x3e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009480                pomp_ctx_send_raw_buf_to
+ *fill*         0x00000000000094be        0x2 
+ .text.pomp_ctx_remove_conn
+                0x00000000000094c0      0x1bf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000094c0                pomp_ctx_remove_conn
+ *fill*         0x000000000000967f        0x1 
+ .text.pomp_ctx_stop
+                0x0000000000009680      0x199 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009680                pomp_ctx_stop
+ *fill*         0x0000000000009819        0x7 
+ .text.pomp_ctx_notify_msg
+                0x0000000000009820       0x3e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009820                pomp_ctx_notify_msg
+ *fill*         0x000000000000985e        0x2 
+ .text.pomp_ctx_notify_raw_buf
+                0x0000000000009860       0x3e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009860                pomp_ctx_notify_raw_buf
+ *fill*         0x000000000000989e        0x2 
+ .text.pomp_ctx_notify_send
+                0x00000000000098a0       0x38 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000098a0                pomp_ctx_notify_send
+ *fill*         0x00000000000098d8        0x8 
+ .text.pomp_ctx_sendcb_is_set
+                0x00000000000098e0       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x00000000000098e0                pomp_ctx_sendcb_is_set
+ *fill*         0x00000000000098f3        0xd 
+ .text.dump_append
+                0x0000000000009900      0x1b9 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x0000000000009ab9        0x7 
+ .text.decoder_dump_cb
+                0x0000000000009ac0      0x273 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x0000000000009d33        0xd 
+ .text.decoder_read_varint
+                0x0000000000009d40      0x11f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x0000000000009e5f        0x1 
+ .text.decoder_read_data
+                0x0000000000009e60       0xec /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x0000000000009f4c        0x4 
+ .text.pomp_decoder_new
+                0x0000000000009f50        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x0000000000009f50                pomp_decoder_new
+ *fill*         0x0000000000009f5f        0x1 
+ .text.pomp_decoder_destroy
+                0x0000000000009f60       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x0000000000009f60                pomp_decoder_destroy
+ *fill*         0x0000000000009f7e        0x2 
+ .text.pomp_decoder_init
+                0x0000000000009f80       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x0000000000009f80                pomp_decoder_init
+ *fill*         0x0000000000009f9e        0x2 
+ .text.pomp_decoder_clear
+                0x0000000000009fa0       0x1d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x0000000000009fa0                pomp_decoder_clear
+ *fill*         0x0000000000009fbd        0x3 
+ .text.pomp_decoder_read_i8
+                0x0000000000009fc0       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x0000000000009fc0                pomp_decoder_read_i8
+ *fill*         0x000000000000a02c        0x4 
+ .text.pomp_decoder_read_u8
+                0x000000000000a030       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a030                pomp_decoder_read_u8
+ *fill*         0x000000000000a09c        0x4 
+ .text.pomp_decoder_read_i16
+                0x000000000000a0a0       0x74 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a0a0                pomp_decoder_read_i16
+ *fill*         0x000000000000a114        0xc 
+ .text.pomp_decoder_read_u16
+                0x000000000000a120       0x74 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a120                pomp_decoder_read_u16
+ *fill*         0x000000000000a194        0xc 
+ .text.pomp_decoder_read_i32
+                0x000000000000a1a0       0x74 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a1a0                pomp_decoder_read_i32
+ *fill*         0x000000000000a214        0xc 
+ .text.pomp_decoder_read_u32
+                0x000000000000a220       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a220                pomp_decoder_read_u32
+ *fill*         0x000000000000a28c        0x4 
+ .text.pomp_decoder_read_i64
+                0x000000000000a290       0x7c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a290                pomp_decoder_read_i64
+ *fill*         0x000000000000a30c        0x4 
+ .text.pomp_decoder_read_u64
+                0x000000000000a310       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a310                pomp_decoder_read_u64
+ *fill*         0x000000000000a37c        0x4 
+ .text.pomp_decoder_read_cstr
+                0x000000000000a380      0x209 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a380                pomp_decoder_read_cstr
+ *fill*         0x000000000000a589        0x7 
+ .text.pomp_decoder_read_str
+                0x000000000000a590       0x7c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a590                pomp_decoder_read_str
+ *fill*         0x000000000000a60c        0x4 
+ .text.pomp_decoder_read_cbuf
+                0x000000000000a610      0x14c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a610                pomp_decoder_read_cbuf
+ *fill*         0x000000000000a75c        0x4 
+ .text.pomp_decoder_read_buf
+                0x000000000000a760       0xac /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a760                pomp_decoder_read_buf
+ *fill*         0x000000000000a80c        0x4 
+ .text.pomp_decoder_read_f32
+                0x000000000000a810       0x64 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a810                pomp_decoder_read_f32
+ *fill*         0x000000000000a874        0xc 
+ .text.pomp_decoder_read_f64
+                0x000000000000a880       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a880                pomp_decoder_read_f64
+ *fill*         0x000000000000a8ec        0x4 
+ .text.pomp_decoder_read_fd
+                0x000000000000a8f0       0xfc /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a8f0                pomp_decoder_read_fd
+ *fill*         0x000000000000a9ec        0x4 
+ .text.pomp_decoder_readv
+                0x000000000000a9f0      0x76e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000a9f0                pomp_decoder_readv
+ *fill*         0x000000000000b15e        0x2 
+ .text.pomp_decoder_read
+                0x000000000000b160       0xb1 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b160                pomp_decoder_read
+ *fill*         0x000000000000b211        0xf 
+ .text.pomp_decoder_walk
+                0x000000000000b220      0x311 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b220                pomp_decoder_walk
+ *fill*         0x000000000000b531        0xf 
+ .text.decoder_dump
+                0x000000000000b540       0xc3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000b603        0xd 
+ .text.pomp_decoder_dump
+                0x000000000000b610       0x7c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b610                pomp_decoder_dump
+ *fill*         0x000000000000b68c        0x4 
+ .text.pomp_decoder_adump
+                0x000000000000b690       0xb4 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b690                pomp_decoder_adump
+ *fill*         0x000000000000b744        0xc 
+ .text.encoder_write_data
+                0x000000000000b750       0x58 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ *fill*         0x000000000000b7a8        0x8 
+ .text.encoder_write_varint
+                0x000000000000b7b0       0xb0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.pomp_encoder_new
+                0x000000000000b860        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b860                pomp_encoder_new
+ *fill*         0x000000000000b86f        0x1 
+ .text.pomp_encoder_destroy
+                0x000000000000b870       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b870                pomp_encoder_destroy
+ *fill*         0x000000000000b88e        0x2 
+ .text.pomp_encoder_init
+                0x000000000000b890       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b890                pomp_encoder_init
+ *fill*         0x000000000000b8ae        0x2 
+ .text.pomp_encoder_clear
+                0x000000000000b8b0       0x1d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b8b0                pomp_encoder_clear
+ *fill*         0x000000000000b8cd        0x3 
+ .text.pomp_encoder_write_i8
+                0x000000000000b8d0       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b8d0                pomp_encoder_write_i8
+ *fill*         0x000000000000b93c        0x4 
+ .text.pomp_encoder_write_u8
+                0x000000000000b940       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b940                pomp_encoder_write_u8
+ *fill*         0x000000000000b9ac        0x4 
+ .text.pomp_encoder_write_i16
+                0x000000000000b9b0       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000b9b0                pomp_encoder_write_i16
+ *fill*         0x000000000000ba1c        0x4 
+ .text.pomp_encoder_write_u16
+                0x000000000000ba20       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ba20                pomp_encoder_write_u16
+ *fill*         0x000000000000ba8c        0x4 
+ .text.pomp_encoder_write_i32
+                0x000000000000ba90       0x46 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ba90                pomp_encoder_write_i32
+ *fill*         0x000000000000bad6        0xa 
+ .text.pomp_encoder_write_u32
+                0x000000000000bae0       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bae0                pomp_encoder_write_u32
+ *fill*         0x000000000000bb16        0xa 
+ .text.pomp_encoder_write_i64
+                0x000000000000bb20       0x46 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bb20                pomp_encoder_write_i64
+ *fill*         0x000000000000bb66        0xa 
+ .text.pomp_encoder_write_u64
+                0x000000000000bb70       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bb70                pomp_encoder_write_u64
+ *fill*         0x000000000000bba6        0xa 
+ .text.pomp_encoder_write_str
+                0x000000000000bbb0      0x110 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bbb0                pomp_encoder_write_str
+ .text.pomp_encoder_write_buf
+                0x000000000000bcc0       0xa6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bcc0                pomp_encoder_write_buf
+ *fill*         0x000000000000bd66        0xa 
+ .text.pomp_encoder_write_f32
+                0x000000000000bd70       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bd70                pomp_encoder_write_f32
+ *fill*         0x000000000000bddc        0x4 
+ .text.pomp_encoder_write_f64
+                0x000000000000bde0       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000bde0                pomp_encoder_write_f64
+ *fill*         0x000000000000be4c        0x4 
+ .text.pomp_encoder_write_fd
+                0x000000000000be50       0x66 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000be50                pomp_encoder_write_fd
+ *fill*         0x000000000000beb6        0xa 
+ .text.encoder_writev_internal
+                0x000000000000bec0      0xdd7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ *fill*         0x000000000000cc97        0x9 
+ .text.pomp_encoder_write
+                0x000000000000cca0       0xb5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cca0                pomp_encoder_write
+ *fill*         0x000000000000cd55        0xb 
+ .text.pomp_encoder_writev
+                0x000000000000cd60        0xc /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cd60                pomp_encoder_writev
+ *fill*         0x000000000000cd6c        0x4 
+ .text.encoder_write_internal
+                0x000000000000cd70       0xa7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ *fill*         0x000000000000ce17        0x9 
+ .text.pomp_encoder_write_argv
+                0x000000000000ce20       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ce20                pomp_encoder_write_argv
+ *fill*         0x000000000000ce3e        0x2 
+ .text.fd_events_to_epoll
+                0x000000000000ce40        0x6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ce46        0xa 
+ .text.pomp_loop_epoll_do_get_fd
+                0x000000000000ce50        0x5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ce55        0xb 
+ .text.pomp_loop_poll_do_remove
+                0x000000000000ce60        0x3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ce63        0xd 
+ .text.pomp_loop_poll_do_get_fd
+                0x000000000000ce70        0x8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ce78        0x8 
+ .text.pomp_loop_epoll_do_wakeup
+                0x000000000000ce80       0xd8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000cf58        0x8 
+ .text.pomp_loop_poll_do_wakeup
+                0x000000000000cf60       0xd8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d038        0x8 
+ .text.pomp_loop_epoll_do_destroy
+                0x000000000000d040       0x40 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_poll_do_destroy
+                0x000000000000d080       0x4b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d0cb        0x5 
+ .text.pomp_loop_idle_check
+                0x000000000000d0d0       0x75 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d145        0xb 
+ .text.pomp_loop_epoll_do_wait_and_process
+                0x000000000000d150      0x204 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d354        0xc 
+ .text.pomp_loop_poll_do_wait_and_process
+                0x000000000000d360      0x3c5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d725        0xb 
+ .text.pomp_loop_epoll_ctl.isra.2
+                0x000000000000d730       0xc4 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d7f4        0xc 
+ .text.pomp_loop_epoll_do_remove
+                0x000000000000d800       0x12 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d812        0xe 
+ .text.pomp_loop_epoll_do_update
+                0x000000000000d820       0x12 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d832        0xe 
+ .text.pomp_loop_epoll_do_add
+                0x000000000000d840       0x12 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d852        0xe 
+ .text.pomp_loop_poll_do_new
+                0x000000000000d860       0xa7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000d907        0x9 
+ .text.pomp_loop_epoll_do_new
+                0x000000000000d910      0x479 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000dd89        0x7 
+ .text.pomp_loop_poll_do_update
+                0x000000000000dd90        0x3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000dd93        0xd 
+ .text.pomp_loop_poll_do_add
+                0x000000000000dda0        0x3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000dda3        0xd 
+ .text.pomp_loop_add_pfd
+                0x000000000000ddb0       0x6c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000ddb0                pomp_loop_add_pfd
+ *fill*         0x000000000000de1c        0x4 
+ .text.pomp_loop_remove_pfd
+                0x000000000000de20      0x10c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000de20                pomp_loop_remove_pfd
+ *fill*         0x000000000000df2c        0x4 
+ .text.pomp_loop_new
+                0x000000000000df30       0x44 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000df30                pomp_loop_new
+ *fill*         0x000000000000df74        0xc 
+ .text.pomp_loop_destroy
+                0x000000000000df80       0xb9 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000df80                pomp_loop_destroy
+ *fill*         0x000000000000e039        0x7 
+ .text.pomp_loop_add
+                0x000000000000e040      0x11c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e040                pomp_loop_add
+ *fill*         0x000000000000e15c        0x4 
+ .text.pomp_loop_update
+                0x000000000000e160       0xd3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e160                pomp_loop_update
+ *fill*         0x000000000000e233        0xd 
+ .text.pomp_loop_update2
+                0x000000000000e240       0xd5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e240                pomp_loop_update2
+ *fill*         0x000000000000e315        0xb 
+ .text.pomp_loop_remove
+                0x000000000000e320       0xe6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e320                pomp_loop_remove
+ *fill*         0x000000000000e406        0xa 
+ .text.pomp_loop_has_fd
+                0x000000000000e410       0x33 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e410                pomp_loop_has_fd
+ *fill*         0x000000000000e443        0xd 
+ .text.pomp_loop_get_fd
+                0x000000000000e450       0x20 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e450                pomp_loop_get_fd
+ .text.pomp_loop_wait_and_process
+                0x000000000000e470       0x37 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e470                pomp_loop_wait_and_process
+ *fill*         0x000000000000e4a7        0x9 
+ .text.pomp_loop_process_fd
+                0x000000000000e4b0        0x7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e4b0                pomp_loop_process_fd
+ *fill*         0x000000000000e4b7        0x9 
+ .text.pomp_loop_wakeup
+                0x000000000000e4c0       0x1e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e4c0                pomp_loop_wakeup
+ *fill*         0x000000000000e4de        0x2 
+ .text.pomp_loop_idle_add
+                0x000000000000e4e0       0xb8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e4e0                pomp_loop_idle_add
+ *fill*         0x000000000000e598        0x8 
+ .text.pomp_loop_idle_remove
+                0x000000000000e5a0       0x4d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000e5a0                pomp_loop_idle_remove
+ *fill*         0x000000000000e5ed        0x3 
+ .text.pomp_msg_new
+                0x000000000000e5f0        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e5f0                pomp_msg_new
+ *fill*         0x000000000000e5ff        0x1 
+ .text.pomp_msg_new_copy
+                0x000000000000e600       0x5f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e600                pomp_msg_new_copy
+ *fill*         0x000000000000e65f        0x1 
+ .text.pomp_msg_new_with_buffer
+                0x000000000000e660      0x21e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e660                pomp_msg_new_with_buffer
+ *fill*         0x000000000000e87e        0x2 
+ .text.pomp_msg_init
+                0x000000000000e880       0x3b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e880                pomp_msg_init
+ *fill*         0x000000000000e8bb        0x5 
+ .text.pomp_msg_finish
+                0x000000000000e8c0      0x126 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e8c0                pomp_msg_finish
+ *fill*         0x000000000000e9e6        0xa 
+ .text.pomp_msg_clear
+                0x000000000000e9f0       0x36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000e9f0                pomp_msg_clear
+ *fill*         0x000000000000ea26        0xa 
+ .text.pomp_msg_destroy
+                0x000000000000ea30       0x26 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ea30                pomp_msg_destroy
+ *fill*         0x000000000000ea56        0xa 
+ .text.pomp_msg_get_id
+                0x000000000000ea60       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ea60                pomp_msg_get_id
+ *fill*         0x000000000000ea73        0xd 
+ .text.pomp_msg_get_buffer
+                0x000000000000ea80       0x13 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ea80                pomp_msg_get_buffer
+ *fill*         0x000000000000ea93        0xd 
+ .text.pomp_msg_writev
+                0x000000000000eaa0       0xbc /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000eaa0                pomp_msg_writev
+ *fill*         0x000000000000eb5c        0x4 
+ .text.pomp_msg_write
+                0x000000000000eb60       0xac /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000eb60                pomp_msg_write
+ *fill*         0x000000000000ec0c        0x4 
+ .text.pomp_msg_write_argv
+                0x000000000000ec10       0xbc /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ec10                pomp_msg_write_argv
+ *fill*         0x000000000000eccc        0x4 
+ .text.pomp_msg_readv
+                0x000000000000ecd0       0x94 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ecd0                pomp_msg_readv
+ *fill*         0x000000000000ed64        0xc 
+ .text.pomp_msg_read
+                0x000000000000ed70       0xb1 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ed70                pomp_msg_read
+ *fill*         0x000000000000ee21        0xf 
+ .text.pomp_msg_dump
+                0x000000000000ee30       0x94 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000ee30                pomp_msg_dump
+ *fill*         0x000000000000eec4        0xc 
+ .text.pomp_msg_adump
+                0x000000000000eed0       0x9c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000eed0                pomp_msg_adump
+ *fill*         0x000000000000ef6c        0x4 
+ .text.pomp_prot_reset_state
+                0x000000000000ef70       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x000000000000efa5        0xb 
+ .text.pomp_prot_check_magic
+                0x000000000000efb0       0x96 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x000000000000f046        0xa 
+ .text.copy.constprop.2
+                0x000000000000f050       0x49 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x000000000000f099        0x7 
+ .text.pomp_prot_new
+                0x000000000000f0a0       0x25 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x000000000000f0a0                pomp_prot_new
+ *fill*         0x000000000000f0c5        0xb 
+ .text.pomp_prot_destroy
+                0x000000000000f0d0       0x31 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x000000000000f0d0                pomp_prot_destroy
+ *fill*         0x000000000000f101        0xf 
+ .text.pomp_prot_decode_msg
+                0x000000000000f110      0x402 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x000000000000f110                pomp_prot_decode_msg
+ *fill*         0x000000000000f512        0xe 
+ .text.pomp_prot_release_msg
+                0x000000000000f520       0x46 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x000000000000f520                pomp_prot_release_msg
+ *fill*         0x000000000000f566        0xa 
+ .text.pomp_timer_fd_destroy
+                0x000000000000f570       0x32 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f5a2        0xe 
+ .text.pomp_timer_fd_new
+                0x000000000000f5b0      0x10d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f6bd        0x3 
+ .text.pomp_timer_fd_cb
+                0x000000000000f6c0       0x75 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f735        0xb 
+ .text.pomp_timer_posix_cb
+                0x000000000000f740       0x6d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f7ad        0x3 
+ .text.pomp_timer_posix_destroy
+                0x000000000000f7b0       0x4c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f7fc        0x4 
+ .text.pomp_timer_posix_sighandler
+                0x000000000000f800       0x76 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f876        0xa 
+ .text.pomp_timer_fd_set
+                0x000000000000f880      0x10f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f98f        0x1 
+ .text.pomp_timer_fd_clear
+                0x000000000000f990       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000f9a6        0xa 
+ .text.pomp_timer_posix_set
+                0x000000000000f9b0      0x10f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000fabf        0x1 
+ .text.pomp_timer_posix_clear
+                0x000000000000fac0       0x16 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x000000000000fad6        0xa 
+ .text.pomp_timer_posix_new
+                0x000000000000fae0      0x6c1 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000101a1        0xf 
+ .text.pomp_timer_new
+                0x00000000000101b0        0xc /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x00000000000101b0                pomp_timer_new
+ *fill*         0x00000000000101bc        0x4 
+ .text.pomp_timer_destroy
+                0x00000000000101c0        0xd /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x00000000000101c0                pomp_timer_destroy
+ *fill*         0x00000000000101cd        0x3 
+ .text.pomp_timer_set
+                0x00000000000101d0        0xf /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x00000000000101d0                pomp_timer_set
+ *fill*         0x00000000000101df        0x1 
+ .text.pomp_timer_set_periodic
+                0x00000000000101e0        0xd /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x00000000000101e0                pomp_timer_set_periodic
+ *fill*         0x00000000000101ed        0x3 
+ .text.pomp_timer_clear
+                0x00000000000101f0        0xd /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x00000000000101f0                pomp_timer_clear
+ *(.gnu.warning)
+
+.fini           0x0000000000010200        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000010200        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000010200                _fini
+ .fini          0x0000000000010204        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000010210      0xb30
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.8
+                0x0000000000010210       0x1f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .rodata.str1.1
+                0x000000000001022f       0x4a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ *fill*         0x0000000000010279        0x7 
+ .rodata.str1.8
+                0x0000000000010280       0x4d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .rodata.str1.1
+                0x00000000000102cd       0x37 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ *fill*         0x0000000000010304        0x4 
+ .rodata.str1.8
+                0x0000000000010308      0x111 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .rodata.str1.1
+                0x0000000000010419       0x81 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                         0x9c (size before relaxing)
+ .rodata.str1.1
+                0x000000000001049a      0x13a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                        0x165 (size before relaxing)
+ *fill*         0x00000000000105d4        0x4 
+ .rodata.str1.8
+                0x00000000000105d8       0x4e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .rodata.str1.1
+                0x0000000000010626       0xd0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x00000000000106f6        0x2 
+ .rodata        0x00000000000106f8      0x140 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .rodata.str1.8
+                0x0000000000010838      0x138 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .rodata.str1.8
+                0x0000000000010970       0xc8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .rodata.str1.1
+                0x0000000000010a38       0x5a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                         0x5d (size before relaxing)
+ *fill*         0x0000000000010a92        0x2 
+ .rodata        0x0000000000010a94       0xd0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .rodata.str1.1
+                0x0000000000010b64        0x5 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .rodata.str1.1
+                0x0000000000010b69       0x89 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                         0xe7 (size before relaxing)
+ *fill*         0x0000000000010bf2        0x6 
+ .rodata.str1.8
+                0x0000000000010bf8       0x43 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .rodata.str1.1
+                0x0000000000010c3b       0x4e /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ *fill*         0x0000000000010c89        0x7 
+ .rodata.str1.8
+                0x0000000000010c90       0x28 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                                         0x25 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000010cb8       0x26 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x0000000000010cde        0x2 
+ .rodata        0x0000000000010ce0       0x1c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .rodata.str1.1
+                0x0000000000010cfc       0x44 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                         0x9c (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000010d40      0x6ec
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000010d40      0x6ec /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x0000000000010d40                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000011430     0x2a7c
+ *(.eh_frame)
+ .eh_frame      0x0000000000011430       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000011470      0x140 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                                        0x150 (size before relaxing)
+ .eh_frame      0x00000000000115b0      0x400 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                                        0x3d0 (size before relaxing)
+ .eh_frame      0x00000000000119b0      0x5b8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                        0x580 (size before relaxing)
+ .eh_frame      0x0000000000011f68      0x8a0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                        0x840 (size before relaxing)
+ .eh_frame      0x0000000000012808      0x530 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                                        0x4e0 (size before relaxing)
+ .eh_frame      0x0000000000012d38      0x3b8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                        0x380 (size before relaxing)
+ .eh_frame      0x00000000000130f0      0x6b8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                        0x690 (size before relaxing)
+ .eh_frame      0x00000000000137a8      0x2d0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                                        0x2b0 (size before relaxing)
+ .eh_frame      0x0000000000013a78      0x128 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                                        0x130 (size before relaxing)
+ .eh_frame      0x0000000000013ba0      0x308 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                        0x300 (size before relaxing)
+ .eh_frame      0x0000000000013ea8        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000214ce8                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000214ce8        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000214ce8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000214cf0        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000214cf0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000214cf8        0x8
+ *(.jcr)
+ .jcr           0x0000000000214cf8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000214cf8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro    0x0000000000214d00       0xc0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000214d00       0x80 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x0000000000214d00                pomp_loop_poll_ops
+                0x0000000000214d40                pomp_loop_epoll_ops
+ .data.rel.ro.local
+                0x0000000000214d80       0x40 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000214d80                pomp_timer_posix_ops
+                0x0000000000214da0                pomp_timer_fd_ops
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000214dc0      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000214dc0      0x200 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000214dc0                _DYNAMIC
+
+.got            0x0000000000214fc0       0x28
+ *(.got)
+ .got           0x0000000000214fc0       0x28 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000214fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000215000      0x458
+ *(.got.plt)
+ .got.plt       0x0000000000215000      0x458 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000215000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000215460       0x50
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000215460        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x0000000000215460                __dso_handle
+ *fill*         0x0000000000215468       0x18 
+ .data.rel.local
+                0x0000000000215480       0x20 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+                0x0000000000215480                __ulog_cookie_pomp
+ .data.rel.local
+                0x00000000002154a0        0x8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .data.rel.local
+                0x00000000002154a8        0x8 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.tm_clone_table
+                0x00000000002154b0        0x0
+ .tm_clone_table
+                0x00000000002154b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x00000000002154b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000002154b0                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000002154b0                . = .
+                0x00000000002154b0                __bss_start = .
+
+.bss            0x00000000002154b0        0x8
+ *(.dynbss)
+ .dynbss        0x00000000002154b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000002154b0        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x00000000002154b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000002154b1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000002154b8                . = ALIGN (0x8)
+                0x00000000002154b8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000006154b8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000006154b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000006154b8                . = ALIGN (0x8)
+                0x00000000006154b8                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x00000000006154b8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xf30
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x60 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_aranges
+                0x0000000000000060      0x190 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_aranges
+                0x00000000000001f0      0x1c0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_aranges
+                0x00000000000003b0      0x2b0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_aranges
+                0x0000000000000660      0x1f0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_aranges
+                0x0000000000000850      0x1a0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_aranges
+                0x00000000000009f0       0x20 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_aranges
+                0x0000000000000a10      0x240 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_aranges
+                0x0000000000000c50      0x120 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_aranges
+                0x0000000000000d70       0x90 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_aranges
+                0x0000000000000e00      0x130 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1709c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xeb3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_info    0x0000000000000eb3     0x18fb /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_info    0x00000000000027ae     0x3a38 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_info    0x00000000000061e6     0x42af /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_info    0x000000000000a495     0x2a8b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_info    0x000000000000cf20     0x1f3c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_info    0x000000000000ee5c      0x67a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_info    0x000000000000f4d6     0x2f62 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_info    0x0000000000012438     0x14aa /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_info    0x00000000000138e2     0x1336 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_info    0x0000000000014c18     0x2484 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_abbrev   0x0000000000000000     0x28ee
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x28d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_abbrev  0x000000000000028d      0x413 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_abbrev  0x00000000000006a0      0x4bb /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_abbrev  0x0000000000000b5b      0x4cb /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_abbrev  0x0000000000001026      0x44b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_abbrev  0x0000000000001471      0x381 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_abbrev  0x00000000000017f2       0xef /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_abbrev  0x00000000000018e1      0x572 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_abbrev  0x0000000000001e53      0x2c2 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_abbrev  0x0000000000002115      0x33c /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_abbrev  0x0000000000002451      0x49d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_line     0x0000000000000000     0x51fc
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x32b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_line    0x000000000000032b      0x62a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_line    0x0000000000000955      0xa57 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_line    0x00000000000013ac      0xe38 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_line    0x00000000000021e4      0xaf6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_line    0x0000000000002cda      0xa04 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_line    0x00000000000036de      0x15a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_line    0x0000000000003838      0xb36 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_line    0x000000000000436e      0x462 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_line    0x00000000000047d0      0x3a1 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_line    0x0000000000004b71      0x68b /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2d20
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x5f9 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                                        0x6bc (size before relaxing)
+ .debug_str     0x00000000000005f9      0x255 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                                        0x7b4 (size before relaxing)
+ .debug_str     0x000000000000084e      0xb61 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                       0x1260 (size before relaxing)
+ .debug_str     0x00000000000013af      0x665 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                       0x1004 (size before relaxing)
+ .debug_str     0x0000000000001a14      0x313 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                                        0xa0c (size before relaxing)
+ .debug_str     0x0000000000001d27      0x2d7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                        0x921 (size before relaxing)
+ .debug_str     0x0000000000001ffe       0x20 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+                                        0x4ea (size before relaxing)
+ .debug_str     0x000000000000201e      0x51d /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                        0xd7e (size before relaxing)
+ .debug_str     0x000000000000253b      0x10f /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                                        0x855 (size before relaxing)
+ .debug_str     0x000000000000264a      0x1d7 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                                        0x840 (size before relaxing)
+ .debug_str     0x0000000000002821      0x4ff /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                        0xd0f (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1b63a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xbd2 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_loc     0x0000000000000bd2     0x1e00 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_loc     0x00000000000029d2     0x47b3 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_loc     0x0000000000007185     0x5495 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_loc     0x000000000000c61a     0x3e3a /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_loc     0x0000000000010454     0x3041 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_loc     0x0000000000013495     0x3c41 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_loc     0x00000000000170d6     0x11e6 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_loc     0x00000000000182bc     0x1095 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_loc     0x0000000000019351     0x22e9 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x4d40
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_ranges  0x00000000000001b0      0x360 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_ranges  0x0000000000000510      0xce0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_ranges  0x00000000000011f0     0x1810 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_ranges  0x0000000000002a00      0x600 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_ranges  0x0000000000003000      0x550 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_ranges  0x0000000000003550      0xb60 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_ranges  0x00000000000040b0      0x1e0 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_ranges  0x0000000000004290      0x280 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_ranges  0x0000000000004510      0x830 /home/david/drone_nav/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libpomp/libpomp.so elf64-x86-64)

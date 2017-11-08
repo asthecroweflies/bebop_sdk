@@ -1,0 +1,1280 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o (ARSAL_Socket_Create)
+libarnetworkal.so             /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o (ARNETWORKAL_Manager_SetRecvClassSelector)
+libarcommands.so              /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o (ARCOMMANDS_Generator_GenerateJumpingSumoMediaStreamingVideoEnable)
+libmux.so                     /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o (mux_ref)
+libpomp.so                    /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o (pomp_msg_get_id)
+libjson-c.so.2                /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o (json_object_new_int)
+libavahi-common.so.3          /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o (avahi_alternative_service_name)
+libavahi-client.so.3          /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o (avahi_service_resolver_new)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o (strncmp@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_RxPending
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_TxPending
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_CreateSocket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_ControllerInitSocket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_DeviceListeningLoop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_Device_StopListening
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_ControllerConnection
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text.unlikely.ARDISCOVERY_Connection_getControllerIP
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductID
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductPathName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductFromName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductFromPathName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductFromProductID
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text.unlikely.ARDISCOVERY_getProductFamily
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_NewByCopy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_NewARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_DeleteARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_InitNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_DestroyNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_InitWifi
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_WifiAddConnectionCallbacks
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_WifiGetIpAddress
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_WifiSetQoSLevel
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_WifiSetDeviceToControllerPort
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_InitBLE
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_BLEGetManager
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_BLEGetDevice
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_InitUSB
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_UsbAddConnectionCallbacks
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text.unlikely.ARDISCOVERY_Device_UsbGetMux
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.discovery_cleanup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.connection_cleanup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.mux_discovery_channel_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.mux_backend_channel_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.mux_write_msg.constprop.5
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.ARDiscovery_MuxDiscovery_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.ARDiscovery_MuxConnection_new
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.ARDiscovery_MuxConnection_sendConnReq
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.ARDiscovery_MuxDiscovery_dispose
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text.unlikely.ARDiscovery_MuxConnection_dispose
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.BebopStopStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.BebopStartStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.JSStopStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.JSStartStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.PowerUpStopStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.PowerUpStartStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_SendJsonCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_ReceiveJsonCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_SetDeviceToControllerPort
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_DeleteSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_CreateSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_GetCopyOfSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_AddConnectionCallbacks
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_DeleteARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_GetIpAddress
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_SetQoSLevel
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitBebopNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitSkyControllerNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitBebop2NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_4NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_5NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitDelos3NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitChimeraNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitSkyController2NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoEvoNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitPowerUpNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_InitEvinrudeNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_DiscoveryConnect
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Wifi_NewARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_DeleteSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_CreateSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_GetCopyOfSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_DeleteARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_NewARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Ble_InitRollingSpiderNetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_Device_Ble_GetManager
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text.unlikely.ARDISCOVERY_Device_Ble_GetDevice
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.SkyController2StopStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.SkyController2StartStreamingGenerator
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.device_conn_resp_cb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_DeleteSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_CreateSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_GetCopyOfSpecificParameters
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_AddConnectionCallbacks
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_DeleteARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_InitSkyController2NetworkConfiguration
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_DiscoveryConnect
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_NewARNetworkAL
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text.unlikely.ARDISCOVERY_DEVICE_Usb_GetMux
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .text.unlikely.ARDISCOVERY_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_CreateService
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_EntryGroupCb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_BuildName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browser_BrowseCb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browser_ResolveCb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browser_ClientCb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Publisher_ClientCb
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_ResetService
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_SetServiceName
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Publish
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_StopPublishing
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Publisher_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Publisher_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browse
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_StopBrowsing
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browser_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text.unlikely.ARDISCOVERY_AvahiDiscovery_Browser_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarnetwork.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarnetworkal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarcommands.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libjson-c.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libavahi-common.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libavahi-client.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x2c4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x2c4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000004b8     0x1308
+ *(.dynsym)
+ .dynsym        0x00000000000004b8     0x1308 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x00000000000017c0     0x17ac
+ *(.dynstr)
+ .dynstr        0x00000000000017c0     0x17ac /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000002f6c      0x196
+ *(.gnu.version)
+ .gnu.version   0x0000000000002f6c      0x196 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000003108        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000003108        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000003108       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000003108       0x70 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000003178      0x570
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000003178        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000003178       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000003190      0x210 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000033a0      0x318 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000036b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x00000000000036b8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x00000000000036d0       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x00000000000036e8      0xc60
+ *(.rela.plt)
+ .rela.plt      0x00000000000036e8      0xc60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000004348       0x1a
+ *(SORT(.init))
+ .init          0x0000000000004348       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000004348                _init
+ .init          0x000000000000435d        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000004370      0x850
+ *(.plt)
+ .plt           0x0000000000004370      0x850 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000004bc0       0x48
+ *(.plt.got)
+ .plt.got       0x0000000000004bc0       0x48 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000004c10     0x5d8b
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004c10      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARDISCOVERY_Connection_RxPending
+                0x0000000000004d10      0x3d6 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ *fill*         0x00000000000050e6        0xa 
+ .text.ARDISCOVERY_Connection_TxPending
+                0x00000000000050f0      0x289 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ *fill*         0x0000000000005379        0x7 
+ .text.ARDISCOVERY_Connection_CreateSocket
+                0x0000000000005380       0xa9 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ *fill*         0x0000000000005429        0x7 
+ .text.ARDISCOVERY_Connection_ControllerInitSocket
+                0x0000000000005430      0x677 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ *fill*         0x0000000000005aa7        0x9 
+ .text.ARDISCOVERY_Connection_Delete
+                0x0000000000005ab0       0xe6 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x0000000000005ab0                ARDISCOVERY_Connection_Delete
+ *fill*         0x0000000000005b96        0xa 
+ .text.ARDISCOVERY_Connection_New
+                0x0000000000005ba0      0x189 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x0000000000005ba0                ARDISCOVERY_Connection_New
+ *fill*         0x0000000000005d29        0x7 
+ .text.ARDISCOVERY_Connection_DeviceListeningLoop
+                0x0000000000005d30      0x4cf /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x0000000000005d30                ARDISCOVERY_Connection_DeviceListeningLoop
+ *fill*         0x00000000000061ff        0x1 
+ .text.ARDISCOVERY_Connection_Device_StopListening
+                0x0000000000006200       0x98 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x0000000000006200                ARDISCOVERY_Connection_Device_StopListening
+ *fill*         0x0000000000006298        0x8 
+ .text.ARDISCOVERY_Connection_ControllerConnection
+                0x00000000000062a0       0x8a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x00000000000062a0                ARDISCOVERY_Connection_ControllerConnection
+ *fill*         0x000000000000632a        0x6 
+ .text.ARDISCOVERY_Connection_getControllerIP
+                0x0000000000006330       0x1d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x0000000000006330                ARDISCOVERY_Connection_getControllerIP
+ *fill*         0x000000000000634d        0x3 
+ .text.ARDISCOVERY_getProductID
+                0x0000000000006350       0x4c /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x0000000000006350                ARDISCOVERY_getProductID
+ *fill*         0x000000000000639c        0x4 
+ .text.ARDISCOVERY_getProductName
+                0x00000000000063a0       0x51 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x00000000000063a0                ARDISCOVERY_getProductName
+ *fill*         0x00000000000063f1        0xf 
+ .text.ARDISCOVERY_getProductPathName
+                0x0000000000006400       0xa8 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x0000000000006400                ARDISCOVERY_getProductPathName
+ *fill*         0x00000000000064a8        0x8 
+ .text.ARDISCOVERY_getProductFromName
+                0x00000000000064b0       0x5d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x00000000000064b0                ARDISCOVERY_getProductFromName
+ *fill*         0x000000000000650d        0x3 
+ .text.ARDISCOVERY_getProductFromPathName
+                0x0000000000006510       0xe0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x0000000000006510                ARDISCOVERY_getProductFromPathName
+ .text.ARDISCOVERY_getProductFromProductID
+                0x00000000000065f0       0x2f /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x00000000000065f0                ARDISCOVERY_getProductFromProductID
+ *fill*         0x000000000000661f        0x1 
+ .text.ARDISCOVERY_getProductFamily
+                0x0000000000006620       0x18 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                0x0000000000006620                ARDISCOVERY_getProductFamily
+ *fill*         0x0000000000006638        0x8 
+ .text.ARDISCOVERY_Device_Delete
+                0x0000000000006640       0x4e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006640                ARDISCOVERY_Device_Delete
+ *fill*         0x000000000000668e        0x2 
+ .text.ARDISCOVERY_Device_New
+                0x0000000000006690       0xa8 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006690                ARDISCOVERY_Device_New
+ *fill*         0x0000000000006738        0x8 
+ .text.ARDISCOVERY_Device_NewByCopy
+                0x0000000000006740      0x13f /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006740                ARDISCOVERY_Device_NewByCopy
+ *fill*         0x000000000000687f        0x1 
+ .text.ARDISCOVERY_Device_NewARNetworkAL
+                0x0000000000006880      0x15d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006880                ARDISCOVERY_Device_NewARNetworkAL
+ *fill*         0x00000000000069dd        0x3 
+ .text.ARDISCOVERY_Device_DeleteARNetworkAL
+                0x00000000000069e0       0x26 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x00000000000069e0                ARDISCOVERY_Device_DeleteARNetworkAL
+ *fill*         0x0000000000006a06        0xa 
+ .text.ARDISCOVERY_Device_InitNetworkConfiguration
+                0x0000000000006a10       0x36 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006a10                ARDISCOVERY_Device_InitNetworkConfiguration
+ *fill*         0x0000000000006a46        0xa 
+ .text.ARDISCOVERY_Device_DestroyNetworkConfiguration
+                0x0000000000006a50       0x2e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006a50                ARDISCOVERY_Device_DestroyNetworkConfiguration
+ *fill*         0x0000000000006a7e        0x2 
+ .text.ARDISCOVERY_Device_InitWifi
+                0x0000000000006a80      0x1da /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006a80                ARDISCOVERY_Device_InitWifi
+ *fill*         0x0000000000006c5a        0x6 
+ .text.ARDISCOVERY_Device_WifiAddConnectionCallbacks
+                0x0000000000006c60        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006c60                ARDISCOVERY_Device_WifiAddConnectionCallbacks
+ *fill*         0x0000000000006c65        0xb 
+ .text.ARDISCOVERY_DEVICE_WifiGetIpAddress
+                0x0000000000006c70        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006c70                ARDISCOVERY_DEVICE_WifiGetIpAddress
+ *fill*         0x0000000000006c75        0xb 
+ .text.ARDISCOVERY_DEVICE_WifiSetQoSLevel
+                0x0000000000006c80        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006c80                ARDISCOVERY_DEVICE_WifiSetQoSLevel
+ *fill*         0x0000000000006c85        0xb 
+ .text.ARDISCOVERY_Device_WifiSetDeviceToControllerPort
+                0x0000000000006c90        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006c90                ARDISCOVERY_Device_WifiSetDeviceToControllerPort
+ *fill*         0x0000000000006c95        0xb 
+ .text.ARDISCOVERY_Device_InitBLE
+                0x0000000000006ca0       0xd3 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006ca0                ARDISCOVERY_Device_InitBLE
+ *fill*         0x0000000000006d73        0xd 
+ .text.ARDISCOVERY_Device_BLEGetManager
+                0x0000000000006d80        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006d80                ARDISCOVERY_Device_BLEGetManager
+ *fill*         0x0000000000006d85        0xb 
+ .text.ARDISCOVERY_Device_BLEGetDevice
+                0x0000000000006d90        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006d90                ARDISCOVERY_Device_BLEGetDevice
+ *fill*         0x0000000000006d95        0xb 
+ .text.ARDISCOVERY_Device_InitUSB
+                0x0000000000006da0       0xb3 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006da0                ARDISCOVERY_Device_InitUSB
+ *fill*         0x0000000000006e53        0xd 
+ .text.ARDISCOVERY_Device_UsbAddConnectionCallbacks
+                0x0000000000006e60        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006e60                ARDISCOVERY_Device_UsbAddConnectionCallbacks
+ *fill*         0x0000000000006e65        0xb 
+ .text.ARDISCOVERY_Device_UsbGetMux
+                0x0000000000006e70        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                0x0000000000006e70                ARDISCOVERY_Device_UsbGetMux
+ *fill*         0x0000000000006e75        0xb 
+ .text.discovery_cleanup
+                0x0000000000006e80       0x32 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x0000000000006eb2        0xe 
+ .text.connection_cleanup
+                0x0000000000006ec0       0x32 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x0000000000006ef2        0xe 
+ .text.mux_discovery_channel_cb
+                0x0000000000006f00      0x275 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x0000000000007175        0xb 
+ .text.mux_backend_channel_cb
+                0x0000000000007180      0x182 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x0000000000007302        0xe 
+ .text.mux_write_msg.constprop.5
+                0x0000000000007310      0x17c /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x000000000000748c        0x4 
+ .text.ARDiscovery_MuxDiscovery_new
+                0x0000000000007490      0x10b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                0x0000000000007490                ARDiscovery_MuxDiscovery_new
+ *fill*         0x000000000000759b        0x5 
+ .text.ARDiscovery_MuxConnection_new
+                0x00000000000075a0       0xad /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                0x00000000000075a0                ARDiscovery_MuxConnection_new
+ *fill*         0x000000000000764d        0x3 
+ .text.ARDiscovery_MuxConnection_sendConnReq
+                0x0000000000007650       0xcb /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                0x0000000000007650                ARDiscovery_MuxConnection_sendConnReq
+ *fill*         0x000000000000771b        0x5 
+ .text.ARDiscovery_MuxDiscovery_dispose
+                0x0000000000007720        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                0x0000000000007720                ARDiscovery_MuxDiscovery_dispose
+ *fill*         0x0000000000007725        0xb 
+ .text.ARDiscovery_MuxConnection_dispose
+                0x0000000000007730        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                0x0000000000007730                ARDiscovery_MuxConnection_dispose
+ *fill*         0x0000000000007735        0xb 
+ .text.BebopStopStreamingGenerator
+                0x0000000000007740        0x7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x0000000000007747        0x9 
+ .text.BebopStartStreamingGenerator
+                0x0000000000007750        0xa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x000000000000775a        0x6 
+ .text.JSStopStreamingGenerator
+                0x0000000000007760        0x7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x0000000000007767        0x9 
+ .text.JSStartStreamingGenerator
+                0x0000000000007770        0xa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x000000000000777a        0x6 
+ .text.PowerUpStopStreamingGenerator
+                0x0000000000007780        0x7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x0000000000007787        0x9 
+ .text.PowerUpStartStreamingGenerator
+                0x0000000000007790        0xa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ *fill*         0x000000000000779a        0x6 
+ .text.ARDISCOVERY_DEVICE_Wifi_SendJsonCallback
+                0x00000000000077a0      0x15b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x00000000000077a0                ARDISCOVERY_DEVICE_Wifi_SendJsonCallback
+ *fill*         0x00000000000078fb        0x5 
+ .text.ARDISCOVERY_DEVICE_Wifi_ReceiveJsonCallback
+                0x0000000000007900      0x13b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007900                ARDISCOVERY_DEVICE_Wifi_ReceiveJsonCallback
+ *fill*         0x0000000000007a3b        0x5 
+ .text.ARDISCOVERY_DEVICE_Wifi_SetDeviceToControllerPort
+                0x0000000000007a40       0x27 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007a40                ARDISCOVERY_DEVICE_Wifi_SetDeviceToControllerPort
+ *fill*         0x0000000000007a67        0x9 
+ .text.ARDISCOVERY_DEVICE_Wifi_DeleteSpecificParameters
+                0x0000000000007a70       0x66 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007a70                ARDISCOVERY_DEVICE_Wifi_DeleteSpecificParameters
+ *fill*         0x0000000000007ad6        0xa 
+ .text.ARDISCOVERY_DEVICE_Wifi_CreateSpecificParameters
+                0x0000000000007ae0       0xca /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007ae0                ARDISCOVERY_DEVICE_Wifi_CreateSpecificParameters
+ *fill*         0x0000000000007baa        0x6 
+ .text.ARDISCOVERY_DEVICE_Wifi_GetCopyOfSpecificParameters
+                0x0000000000007bb0       0xd2 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007bb0                ARDISCOVERY_DEVICE_Wifi_GetCopyOfSpecificParameters
+ *fill*         0x0000000000007c82        0xe 
+ .text.ARDISCOVERY_DEVICE_Wifi_AddConnectionCallbacks
+                0x0000000000007c90       0x2d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007c90                ARDISCOVERY_DEVICE_Wifi_AddConnectionCallbacks
+ *fill*         0x0000000000007cbd        0x3 
+ .text.ARDISCOVERY_DEVICE_Wifi_DeleteARNetworkAL
+                0x0000000000007cc0       0x54 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007cc0                ARDISCOVERY_DEVICE_Wifi_DeleteARNetworkAL
+ *fill*         0x0000000000007d14        0xc 
+ .text.ARDISCOVERY_DEVICE_Wifi_GetIpAddress
+                0x0000000000007d20       0x77 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007d20                ARDISCOVERY_DEVICE_Wifi_GetIpAddress
+ *fill*         0x0000000000007d97        0x9 
+ .text.ARDISCOVERY_DEVICE_Wifi_SetQoSLevel
+                0x0000000000007da0       0x24 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007da0                ARDISCOVERY_DEVICE_Wifi_SetQoSLevel
+ *fill*         0x0000000000007dc4        0xc 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitBebopNetworkConfiguration
+                0x0000000000007dd0      0x12e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007dd0                ARDISCOVERY_DEVICE_Wifi_InitBebopNetworkConfiguration
+ *fill*         0x0000000000007efe        0x2 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitSkyControllerNetworkConfiguration
+                0x0000000000007f00        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007f00                ARDISCOVERY_DEVICE_Wifi_InitSkyControllerNetworkConfiguration
+ *fill*         0x0000000000007f05        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitBebop2NetworkConfiguration
+                0x0000000000007f10        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007f10                ARDISCOVERY_DEVICE_Wifi_InitBebop2NetworkConfiguration
+ *fill*         0x0000000000007f15        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_4NetworkConfiguration
+                0x0000000000007f20        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007f20                ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_4NetworkConfiguration
+ *fill*         0x0000000000007f25        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_5NetworkConfiguration
+                0x0000000000007f30        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007f30                ARDISCOVERY_DEVICE_Wifi_InitUnknownproduct_5NetworkConfiguration
+ *fill*         0x0000000000007f35        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitDelos3NetworkConfiguration
+                0x0000000000007f40      0x16e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000007f40                ARDISCOVERY_DEVICE_Wifi_InitDelos3NetworkConfiguration
+ *fill*         0x00000000000080ae        0x2 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitChimeraNetworkConfiguration
+                0x00000000000080b0        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x00000000000080b0                ARDISCOVERY_DEVICE_Wifi_InitChimeraNetworkConfiguration
+ *fill*         0x00000000000080b5        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitSkyController2NetworkConfiguration
+                0x00000000000080c0      0x12e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x00000000000080c0                ARDISCOVERY_DEVICE_Wifi_InitSkyController2NetworkConfiguration
+ *fill*         0x00000000000081ee        0x2 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoNetworkConfiguration
+                0x00000000000081f0      0x11e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x00000000000081f0                ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoNetworkConfiguration
+ *fill*         0x000000000000830e        0x2 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoEvoNetworkConfiguration
+                0x0000000000008310      0x126 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000008310                ARDISCOVERY_DEVICE_Wifi_InitJumpingSumoEvoNetworkConfiguration
+ *fill*         0x0000000000008436        0xa 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitPowerUpNetworkConfiguration
+                0x0000000000008440      0x11e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000008440                ARDISCOVERY_DEVICE_Wifi_InitPowerUpNetworkConfiguration
+ *fill*         0x000000000000855e        0x2 
+ .text.ARDISCOVERY_DEVICE_Wifi_InitEvinrudeNetworkConfiguration
+                0x0000000000008560        0x5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000008560                ARDISCOVERY_DEVICE_Wifi_InitEvinrudeNetworkConfiguration
+ *fill*         0x0000000000008565        0xb 
+ .text.ARDISCOVERY_DEVICE_Wifi_DiscoveryConnect
+                0x0000000000008570       0xaa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000008570                ARDISCOVERY_DEVICE_Wifi_DiscoveryConnect
+ *fill*         0x000000000000861a        0x6 
+ .text.ARDISCOVERY_DEVICE_Wifi_NewARNetworkAL
+                0x0000000000008620      0x1a9 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                0x0000000000008620                ARDISCOVERY_DEVICE_Wifi_NewARNetworkAL
+ *fill*         0x00000000000087c9        0x7 
+ .text.ARDISCOVERY_DEVICE_Ble_DeleteSpecificParameters
+                0x00000000000087d0       0x44 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x00000000000087d0                ARDISCOVERY_DEVICE_Ble_DeleteSpecificParameters
+ *fill*         0x0000000000008814        0xc 
+ .text.ARDISCOVERY_DEVICE_Ble_CreateSpecificParameters
+                0x0000000000008820       0x6e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008820                ARDISCOVERY_DEVICE_Ble_CreateSpecificParameters
+ *fill*         0x000000000000888e        0x2 
+ .text.ARDISCOVERY_DEVICE_Ble_GetCopyOfSpecificParameters
+                0x0000000000008890       0x6f /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008890                ARDISCOVERY_DEVICE_Ble_GetCopyOfSpecificParameters
+ *fill*         0x00000000000088ff        0x1 
+ .text.ARDISCOVERY_DEVICE_Ble_DeleteARNetworkAL
+                0x0000000000008900       0x54 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008900                ARDISCOVERY_DEVICE_Ble_DeleteARNetworkAL
+ *fill*         0x0000000000008954        0xc 
+ .text.ARDISCOVERY_DEVICE_Ble_NewARNetworkAL
+                0x0000000000008960      0x151 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008960                ARDISCOVERY_DEVICE_Ble_NewARNetworkAL
+ *fill*         0x0000000000008ab1        0xf 
+ .text.ARDISCOVERY_DEVICE_Ble_InitRollingSpiderNetworkConfiguration
+                0x0000000000008ac0      0x117 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008ac0                ARDISCOVERY_DEVICE_Ble_InitRollingSpiderNetworkConfiguration
+ *fill*         0x0000000000008bd7        0x9 
+ .text.ARDISCOVERY_Device_Ble_GetManager
+                0x0000000000008be0       0x26 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008be0                ARDISCOVERY_Device_Ble_GetManager
+ *fill*         0x0000000000008c06        0xa 
+ .text.ARDISCOVERY_Device_Ble_GetDevice
+                0x0000000000008c10       0x26 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                0x0000000000008c10                ARDISCOVERY_Device_Ble_GetDevice
+ *fill*         0x0000000000008c36        0xa 
+ .text.SkyController2StopStreamingGenerator
+                0x0000000000008c40        0x7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ *fill*         0x0000000000008c47        0x9 
+ .text.SkyController2StartStreamingGenerator
+                0x0000000000008c50        0xa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ *fill*         0x0000000000008c5a        0x6 
+ .text.device_conn_resp_cb
+                0x0000000000008c60       0x5e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ *fill*         0x0000000000008cbe        0x2 
+ .text.ARDISCOVERY_DEVICE_Usb_DeleteSpecificParameters
+                0x0000000000008cc0       0x64 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008cc0                ARDISCOVERY_DEVICE_Usb_DeleteSpecificParameters
+ *fill*         0x0000000000008d24        0xc 
+ .text.ARDISCOVERY_DEVICE_Usb_CreateSpecificParameters
+                0x0000000000008d30       0x91 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008d30                ARDISCOVERY_DEVICE_Usb_CreateSpecificParameters
+ *fill*         0x0000000000008dc1        0xf 
+ .text.ARDISCOVERY_DEVICE_Usb_GetCopyOfSpecificParameters
+                0x0000000000008dd0       0xe7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008dd0                ARDISCOVERY_DEVICE_Usb_GetCopyOfSpecificParameters
+ *fill*         0x0000000000008eb7        0x9 
+ .text.ARDISCOVERY_DEVICE_Usb_AddConnectionCallbacks
+                0x0000000000008ec0       0x2d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008ec0                ARDISCOVERY_DEVICE_Usb_AddConnectionCallbacks
+ *fill*         0x0000000000008eed        0x3 
+ .text.ARDISCOVERY_DEVICE_Usb_DeleteARNetworkAL
+                0x0000000000008ef0       0x54 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008ef0                ARDISCOVERY_DEVICE_Usb_DeleteARNetworkAL
+ *fill*         0x0000000000008f44        0xc 
+ .text.ARDISCOVERY_DEVICE_Usb_InitSkyController2NetworkConfiguration
+                0x0000000000008f50      0x12e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000008f50                ARDISCOVERY_DEVICE_Usb_InitSkyController2NetworkConfiguration
+ *fill*         0x000000000000907e        0x2 
+ .text.ARDISCOVERY_DEVICE_Usb_DiscoveryConnect
+                0x0000000000009080      0x296 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000009080                ARDISCOVERY_DEVICE_Usb_DiscoveryConnect
+ *fill*         0x0000000000009316        0xa 
+ .text.ARDISCOVERY_DEVICE_Usb_NewARNetworkAL
+                0x0000000000009320      0x142 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000009320                ARDISCOVERY_DEVICE_Usb_NewARNetworkAL
+ *fill*         0x0000000000009462        0xe 
+ .text.ARDISCOVERY_DEVICE_Usb_GetMux
+                0x0000000000009470       0x32 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                0x0000000000009470                ARDISCOVERY_DEVICE_Usb_GetMux
+ *fill*         0x00000000000094a2        0xe 
+ .text.ARDISCOVERY_Error_ToString
+                0x00000000000094b0      0x388 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+                0x00000000000094b0                ARDISCOVERY_Error_ToString
+ *fill*         0x0000000000009838        0x8 
+ .text.ARDISCOVERY_AvahiDiscovery_CreateService
+                0x0000000000009840      0x12a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x000000000000996a        0x6 
+ .text.ARDISCOVERY_AvahiDiscovery_EntryGroupCb
+                0x0000000000009970      0x131 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009aa1        0xf 
+ .text.ARDISCOVERY_AvahiDiscovery_BuildName
+                0x0000000000009ab0       0x52 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009b02        0xe 
+ .text.ARDISCOVERY_AvahiDiscovery_Browser_BrowseCb
+                0x0000000000009b10      0x195 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009ca5        0xb 
+ .text.ARDISCOVERY_AvahiDiscovery_Browser_ResolveCb
+                0x0000000000009cb0      0x13e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009dee        0x2 
+ .text.ARDISCOVERY_AvahiDiscovery_Browser_ClientCb
+                0x0000000000009df0       0x86 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009e76        0xa 
+ .text.ARDISCOVERY_AvahiDiscovery_Publisher_ClientCb
+                0x0000000000009e80       0xe8 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ *fill*         0x0000000000009f68        0x8 
+ .text.ARDISCOVERY_AvahiDiscovery_ResetService
+                0x0000000000009f70       0xc5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x0000000000009f70                ARDISCOVERY_AvahiDiscovery_ResetService
+ *fill*         0x000000000000a035        0xb 
+ .text.ARDISCOVERY_AvahiDiscovery_SetServiceName
+                0x000000000000a040       0xa5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a040                ARDISCOVERY_AvahiDiscovery_SetServiceName
+ *fill*         0x000000000000a0e5        0xb 
+ .text.ARDISCOVERY_AvahiDiscovery_Publish
+                0x000000000000a0f0      0x191 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a0f0                ARDISCOVERY_AvahiDiscovery_Publish
+ *fill*         0x000000000000a281        0xf 
+ .text.ARDISCOVERY_AvahiDiscovery_StopPublishing
+                0x000000000000a290       0x1a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a290                ARDISCOVERY_AvahiDiscovery_StopPublishing
+ *fill*         0x000000000000a2aa        0x6 
+ .text.ARDISCOVERY_AvahiDiscovery_Publisher_Delete
+                0x000000000000a2b0       0x6e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a2b0                ARDISCOVERY_AvahiDiscovery_Publisher_Delete
+ *fill*         0x000000000000a31e        0x2 
+ .text.ARDISCOVERY_AvahiDiscovery_Publisher_New
+                0x000000000000a320      0x195 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a320                ARDISCOVERY_AvahiDiscovery_Publisher_New
+ *fill*         0x000000000000a4b5        0xb 
+ .text.ARDISCOVERY_AvahiDiscovery_Browse
+                0x000000000000a4c0      0x2aa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a4c0                ARDISCOVERY_AvahiDiscovery_Browse
+ *fill*         0x000000000000a76a        0x6 
+ .text.ARDISCOVERY_AvahiDiscovery_StopBrowsing
+                0x000000000000a770       0x1a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a770                ARDISCOVERY_AvahiDiscovery_StopBrowsing
+ *fill*         0x000000000000a78a        0x6 
+ .text.ARDISCOVERY_AvahiDiscovery_Browser_Delete
+                0x000000000000a790       0x73 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a790                ARDISCOVERY_AvahiDiscovery_Browser_Delete
+ *fill*         0x000000000000a803        0xd 
+ .text.ARDISCOVERY_AvahiDiscovery_Browser_New
+                0x000000000000a810      0x18b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                0x000000000000a810                ARDISCOVERY_AvahiDiscovery_Browser_New
+ *(.gnu.warning)
+
+.fini           0x000000000000a99c        0x9
+ *(SORT(.fini))
+ .fini          0x000000000000a99c        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000000a99c                _fini
+ .fini          0x000000000000a9a0        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x000000000000a9c0     0x1429
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000a9c0      0x16d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                                        0x177 (size before relaxing)
+ *fill*         0x000000000000ab2d        0x3 
+ .rodata.str1.8
+                0x000000000000ab30       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .rodata        0x000000000000abe0      0x1ab /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .rodata.str1.1
+                0x000000000000ad8b      0x12b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ *fill*         0x000000000000aeb6        0xa 
+ .rodata        0x000000000000aec0       0xec /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .rodata.str1.1
+                0x000000000000afac       0x28 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                                         0x32 (size before relaxing)
+ *fill*         0x000000000000afd4        0xc 
+ .rodata        0x000000000000afe0       0xe2 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .rodata.str1.1
+                0x000000000000b0c2       0xaa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x000000000000b16c        0x4 
+ .rodata.str1.8
+                0x000000000000b170      0x198 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ *fill*         0x000000000000b308       0x18 
+ .rodata        0x000000000000b320      0x10d /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .rodata.str1.1
+                0x000000000000b42d       0x22 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                                         0x25 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000b44f       0x20 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                                         0x21 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000b46f      0x28a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ *fill*         0x000000000000b6f9        0x7 
+ .rodata.str1.8
+                0x000000000000b700      0x205 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .rodata.str1.1
+                0x000000000000b905       0xa5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                                         0xaf (size before relaxing)
+ *fill*         0x000000000000b9aa        0x6 
+ .rodata.str1.8
+                0x000000000000b9b0      0x150 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                                        0x14f (size before relaxing)
+ .rodata        0x000000000000bb00      0x2e9 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000bdec      0x39c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000bdec      0x39c /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                0x000000000000bdec                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000c188     0x14bc
+ *(.eh_frame)
+ .eh_frame      0x000000000000c188       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000000c1c8      0x318 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                                        0x320 (size before relaxing)
+ .eh_frame      0x000000000000c4e0      0x120 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                                        0x130 (size before relaxing)
+ .eh_frame      0x000000000000c600      0x278 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                                        0x258 (size before relaxing)
+ .eh_frame      0x000000000000c878      0x1e8 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x000000000000ca60      0x408 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                                        0x3b8 (size before relaxing)
+ .eh_frame      0x000000000000ce68      0x148 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .eh_frame      0x000000000000cfb0      0x230 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                                        0x220 (size before relaxing)
+ .eh_frame      0x000000000000d1e0       0x18 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000d1f8      0x448 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                                        0x428 (size before relaxing)
+ .eh_frame      0x000000000000d640        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000020dbc8                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000020dbc8        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000020dbc8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x000000000020dbd0        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000020dbd0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000020dbd8        0x8
+ *(.jcr)
+ .jcr           0x000000000020dbd8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x000000000020dbd8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro    0x000000000020dbe0       0xb0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000020dbe0       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000020dc90      0x260
+ *(.dynamic)
+ .dynamic       0x000000000020dc90      0x260 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000020dc90                _DYNAMIC
+
+.got            0x000000000020def0      0x108
+ *(.got)
+ .got           0x000000000020def0      0x108 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000020efe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000020e000      0x438
+ *(.got.plt)
+ .got.plt       0x000000000020e000      0x438 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000020e000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000020e440      0x720
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000020e440        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x000000000020e440                __dso_handle
+ *fill*         0x000000000020e448       0x18 
+ .data          0x000000000020e460      0x580 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .data          0x000000000020e9e0       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .data          0x000000000020eaa0       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+
+.tm_clone_table
+                0x000000000020eb60        0x0
+ .tm_clone_table
+                0x000000000020eb60        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x000000000020eb60        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000020eb60                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000020eb60                . = .
+                0x000000000020eb60                __bss_start = .
+
+.bss            0x000000000020eb60        0x8
+ *(.dynbss)
+ .dynbss        0x000000000020eb60        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000020eb60        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x000000000020eb68                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000020eb61        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000020eb68                . = ALIGN (0x8)
+                0x000000000020eb68                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000060eb68        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000060eb68                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000060eb68                . = ALIGN (0x8)
+                0x000000000060eb68                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000060eb68                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x7e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_aranges
+                0x00000000000000c0       0x90 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_aranges
+                0x0000000000000150      0x140 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_aranges
+                0x0000000000000290       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_aranges
+                0x0000000000000350      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_aranges
+                0x0000000000000500       0xa0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_aranges
+                0x00000000000005a0       0xe0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_aranges
+                0x0000000000000680       0x30 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .debug_aranges
+                0x00000000000006b0      0x130 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe060
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x292c /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_info    0x000000000000292c      0xa50 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_info    0x000000000000337c     0x198c /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_info    0x0000000000004d08     0x16ae /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_info    0x00000000000063b6     0x2599 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_info    0x000000000000894f     0x13f1 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_info    0x0000000000009d40     0x1c69 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_info    0x000000000000b9a9      0x1a7 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .debug_info    0x000000000000bb50     0x2510 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_abbrev   0x0000000000000000     0x1b6e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x3fb /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_abbrev  0x00000000000003fb      0x284 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_abbrev  0x000000000000067f      0x275 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_abbrev  0x00000000000008f4      0x333 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_abbrev  0x0000000000000c27      0x39f /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_abbrev  0x0000000000000fc6      0x294 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_abbrev  0x000000000000125a      0x3ab /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_abbrev  0x0000000000001605       0x93 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .debug_abbrev  0x0000000000001698      0x4d6 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_line     0x0000000000000000     0x349f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x7d2 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_line    0x00000000000007d2      0x2c6 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_line    0x0000000000000a98      0x71e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_line    0x00000000000011b6      0x3db /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_line    0x0000000000001591      0xa00 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_line    0x0000000000001f91      0x502 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_line    0x0000000000002493      0x6d5 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_line    0x0000000000002b68      0x216 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .debug_line    0x0000000000002d7e      0x721 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x4647
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xfc1 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+                                       0x1080 (size before relaxing)
+ .debug_str     0x0000000000000fc1      0x618 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+                                        0x9e2 (size before relaxing)
+ .debug_str     0x00000000000015d9     0x152e /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+                                       0x218a (size before relaxing)
+ .debug_str     0x0000000000002b07      0x386 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+                                        0x750 (size before relaxing)
+ .debug_str     0x0000000000002e8d      0x7ce /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+                                       0x2538 (size before relaxing)
+ .debug_str     0x000000000000365b      0x1f3 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+                                       0x2004 (size before relaxing)
+ .debug_str     0x000000000000384e      0x2a6 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+                                       0x2194 (size before relaxing)
+ .debug_str     0x0000000000003af4       0x38 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+                                        0x5d8 (size before relaxing)
+ .debug_str     0x0000000000003b2c      0xb1b /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+                                       0x1472 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xc837
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x25b2 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_loc     0x00000000000025b2      0x852 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_loc     0x0000000000002e04     0x113a /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_loc     0x0000000000003f3e     0x172f /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_loc     0x000000000000566d     0x28aa /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_loc     0x0000000000007f17      0xaae /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_loc     0x00000000000089c5     0x1601 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_loc     0x0000000000009fc6     0x2871 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1290
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x670 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Connection.c.o
+ .debug_ranges  0x0000000000000670       0xe0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Discovery.c.o
+ .debug_ranges  0x0000000000000750      0x130 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_Device.c.o
+ .debug_ranges  0x0000000000000880      0x1a0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_MuxDiscovery.c.o
+ .debug_ranges  0x0000000000000a20      0x370 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Wifi/ARDISCOVERY_DEVICE_Wifi.c.o
+ .debug_ranges  0x0000000000000d90      0x120 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/BLE/ARDISCOVERY_DEVICE_Ble.c.o
+ .debug_ranges  0x0000000000000eb0      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/Usb/ARDISCOVERY_DEVICE_Usb.c.o
+ .debug_ranges  0x0000000000001060       0x20 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/gen/Sources/ARDISCOVERY_Error.c.o
+ .debug_ranges  0x0000000000001080      0x210 /home/david/drone_nav/out/arsdk-native/build/libARDiscovery/obj/Sources/ARDISCOVERY_AvahiDiscovery.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARDiscovery/libardiscovery.so elf64-x86-64)

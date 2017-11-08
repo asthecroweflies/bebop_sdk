@@ -1,0 +1,2219 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o (ARSAL_Mutex_Destroy)
+libmux.so                     /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (mux_queue_try_get_buf)
+libpomp.so                    /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (pomp_buffer_unref)
+libarmedia.so                 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o (ARMEDIA_VideoEncapsuler_SetUntimedMetadata)
+libm.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o (roundf@@GLIBC_2.2.5)
+libpthread.so.0               /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (socket@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .text.unlikely.ARSTREAM2_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_FillSliceMbStatus
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_ResetAu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_ProcessAu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_GetSpsPps
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_GetVideoParams
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text.unlikely.ARSTREAM2_H264Filter_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .text.unlikely.ARSTREAM2_H264FilterError_GenerateGrayIdrFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .text.unlikely.ARSTREAM2_H264FilterError_HandleMissingSlices
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .text.unlikely.ARSTREAM2_H264FilterError_HandleMissingEndOfFrame
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.readBits
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseFillerData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_StartcodeMatch_file.isra.7
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseAud
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.readBits_expGolomb_ue.constprop.10
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.readBits_expGolomb_se.constprop.8
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseScalingList
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseHrdParams
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseSlice
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParsePps
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseVui
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseSeiPayload_picTiming.isra.5
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseSei
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseSps
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ParseNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ReadNextNalu_file
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_ReadNextNalu_buffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_SetupNalu_buffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetLastNaluType
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetSliceInfo
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetUserDataSeiCount
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetRecoveryPointSei
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetUserDataSei
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetSpsPpsContext
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_GetSliceContext
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.unlikely.ARSTREAM2_H264Parser_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV1
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV1
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV1
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text.unlikely.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV2
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.writeBits
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.writeBits_expGolomb_ue.constprop.7
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.writeBits_expGolomb_se.constprop.6
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_WriteSliceHeader
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_WriteSeiNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_RewriteNonRefPSliceNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_WriteSkippedPSliceNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_WriteGrayISliceNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_SetSpsPpsContext
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text.unlikely.ARSTREAM2_H264Writer_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluReset
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluCopy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuReset
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuCopy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoInit
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoFree
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoPopFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoPushFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoEnqueueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoDequeueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_NaluFifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoAddQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoRemoveQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoGetBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoBufferAddRef
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoUnrefBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoPopFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoEnqueueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoDequeueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuNaluFifoInit
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuNaluFifoFree
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoFree
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoInit
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuNaluFifoPopFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuNaluFifoPushFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuEnqueueNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuEnqueueNaluBefore
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuDequeueNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuNaluFifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoPushFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoFlushQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuFifoDuplicateItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuCheckSizeRealloc
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text.unlikely.ARSTREAM2_H264_AuMbStatusCheckSizeRealloc
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ControlMuxTeardown
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_StreamMuxTeardown
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_MuxReadControlData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_MuxSendControlData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ControlMuxSetup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_StreamMuxSetup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_MuxRecvMmsg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ControlSocketTeardown
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_StreamSocketTeardown
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_NetReadControlData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_StreamSocketSetup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_NetSendControlData
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_NetRecvMmsg
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ControlSocketSetup
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_Stop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_GetSelectParams
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ProcessRtp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ProcessRtcp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_ProcessEnd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_UpdateVideoStats
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_GetSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_SetSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_GetPeerSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.unlikely.ARSTREAM2_RtpReceiver_GetMonitoring
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_UpdateMonitoring
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_RtpStatsCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_SetSocketSendBufferSize.isra.0
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_FlushNaluQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_GetSelectParams
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_ProcessRtp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_ProcessRtcp
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_ProcessEnd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_GetDynamicConfig
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_SetDynamicConfig
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_GetSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_SetSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_GetPeerSdesItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.unlikely.ARSTREAM2_RtpSender_GetMonitoring
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketReset
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketCopy
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoFree
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoInit
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoAddQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoRemoveQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoGetBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoBufferAddRef
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoUnrefBuffer
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoPopFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoPushFreeItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoEnqueueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedByPriority
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedBySeqNum
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoDequeueItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoPeekItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_PacketFifoDuplicateItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoFillMsgVec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_GeneratePacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_FinishPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoCleanFromMsgVec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoCleanFromTimeout
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoRandomDrop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoFlushQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Sender_PacketFifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Receiver_PacketFifoAddFromMsgVec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Receiver_PacketFifoFlushQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Receiver_PacketFifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text.unlikely.ARSTREAM2_RTP_Receiver_PacketFifoFillMsgVec
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Sender_FinishStapAPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_FifoDequeueNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Receiver_DropFuAPackets
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Sender_NaluDrop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Sender_NaluFifoToPacketFifo
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Sender_FifoFlush
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.unlikely.ARSTREAM2_RTPH264_Receiver_PacketFifoToAuFifo
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GetPacketType
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Sender_ProcessReceiverReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Sender_GenerateSenderReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Receiver_ProcessSenderReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Receiver_GenerateReceiverReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GenerateSourceDescription
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_ProcessSourceDescription
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_LossReportReset
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_LossReportSet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GenerateExtendedReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_ProcessExtendedReport
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GetApplicationPacketSubtype
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GenerateApplicationClockDelta
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_ProcessApplicationClockDelta
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_GenerateApplicationVideoStats
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_ProcessApplicationVideoStats
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Sender_GenerateCompoundPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Receiver_GenerateCompoundPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Sender_ProcessCompoundPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text.unlikely.ARSTREAM2_RTCP_Receiver_ProcessCompoundPacket
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text.unlikely.ARSTREAM2_StreamRecorder_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text.unlikely.ARSTREAM2_StreamRecorder_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text.unlikely.ARSTREAM2_StreamRecorder_Stop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text.unlikely.ARSTREAM2_StreamRecorder_SetUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text.unlikely.ARSTREAM2_StreamRecorder_RunThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_VideoStatsFileOpen
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_VideoStatsFileClose
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_VideoStatsFileWrite
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpStatsFileOpen
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpStatsFileClose
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpStatsFileWrite
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpLossFileOpen
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpLossFileClose
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text.unlikely.ARSTREAM2_StreamStats_RtpLossFileWrite
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_VideoStatsCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_RtpStatsCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_Stop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_SendNNewNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_SendNewNalu
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_FlushNaluQueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_RunThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_GetDynamicConfig
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_SetDynamicConfig
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_GetUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_SetUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_GetPeerUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text.unlikely.ARSTREAM2_StreamSender_GetMonitoring
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_AppOutputAuEnqueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_RecorderAuEnqueue
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_RtpReceiverAuCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StreamRecorderFree
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StreamRecorderInit
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_H264FilterSpsPpsCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_RtpReceiverStatsCallback
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_Init
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_Free
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_RunAppOutputThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_RunNetworkThread
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StartAppOutput
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StopAppOutput
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_GetSpsPps
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_GetUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_SetUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_GetPeerUntimedMetadata
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StreamRecorderStop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_Stop
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StartResender
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StopResender
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StartRecorder
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text.unlikely.ARSTREAM2_StreamReceiver_StopRecorder
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarmedia.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x620
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x620 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000810     0x1b78
+ *(.dynsym)
+ .dynsym        0x0000000000000810     0x1b78 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000002388     0x2104
+ *(.dynstr)
+ .dynstr        0x0000000000002388     0x2104 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000448c      0x24a
+ *(.gnu.version)
+ .gnu.version   0x000000000000448c      0x24a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000046d8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000046d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000046d8       0xc0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000046d8       0xc0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000004798      0x570
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000004798        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000004798       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x00000000000047b0      0x498 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000004c48       0x90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000004cd8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000004cd8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000004cf0       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000004d08     0x16b0
+ *(.rela.plt)
+ .rela.plt      0x0000000000004d08     0x16b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x00000000000063b8       0x1a
+ *(SORT(.init))
+ .init          0x00000000000063b8       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x00000000000063b8                _init
+ .init          0x00000000000063cd        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x00000000000063e0      0xf30
+ *(.plt)
+ .plt           0x00000000000063e0      0xf30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000007310       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000007310       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000007320    0x39a2d
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000007320      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARSTREAM2_Error_ToString
+                0x0000000000007420       0xd8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                0x0000000000007420                ARSTREAM2_Error_ToString
+ *fill*         0x00000000000074f8        0x8 
+ .text.ARSTREAM2_H264Filter_FillSliceMbStatus
+                0x0000000000007500       0x7a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x000000000000757a        0x6 
+ .text.ARSTREAM2_H264Filter_ResetAu
+                0x0000000000007580       0xc8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000007580                ARSTREAM2_H264Filter_ResetAu
+ *fill*         0x0000000000007648        0x8 
+ .text.ARSTREAM2_H264Filter_ProcessAu
+                0x0000000000007650     0x13c3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000007650                ARSTREAM2_H264Filter_ProcessAu
+ *fill*         0x0000000000008a13        0xd 
+ .text.ARSTREAM2_H264Filter_GetSpsPps
+                0x0000000000008a20       0xe6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000008a20                ARSTREAM2_H264Filter_GetSpsPps
+ *fill*         0x0000000000008b06        0xa 
+ .text.ARSTREAM2_H264Filter_GetVideoParams
+                0x0000000000008b10       0x6e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000008b10                ARSTREAM2_H264Filter_GetVideoParams
+ *fill*         0x0000000000008b7e        0x2 
+ .text.ARSTREAM2_H264Filter_Init
+                0x0000000000008b80      0x24e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000008b80                ARSTREAM2_H264Filter_Init
+ *fill*         0x0000000000008dce        0x2 
+ .text.ARSTREAM2_H264Filter_Free
+                0x0000000000008dd0       0x8d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000008dd0                ARSTREAM2_H264Filter_Free
+ *fill*         0x0000000000008e5d        0x3 
+ .text.ARSTREAM2_H264FilterError_GenerateGrayIdrFrame
+                0x0000000000008e60      0x675 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x0000000000008e60                ARSTREAM2_H264FilterError_GenerateGrayIdrFrame
+ *fill*         0x00000000000094d5        0xb 
+ .text.ARSTREAM2_H264FilterError_HandleMissingSlices
+                0x00000000000094e0      0x59a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x00000000000094e0                ARSTREAM2_H264FilterError_HandleMissingSlices
+ *fill*         0x0000000000009a7a        0x6 
+ .text.ARSTREAM2_H264FilterError_HandleMissingEndOfFrame
+                0x0000000000009a80      0x4be /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x0000000000009a80                ARSTREAM2_H264FilterError_HandleMissingEndOfFrame
+ *fill*         0x0000000000009f3e        0x2 
+ .text.readBits
+                0x0000000000009f40      0x1e4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000a124        0xc 
+ .text.ARSTREAM2_H264Parser_ParseFillerData
+                0x000000000000a130       0x41 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000a171        0xf 
+ .text.ARSTREAM2_H264Parser_StartcodeMatch_file.isra.7
+                0x000000000000a180      0x18c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000a30c        0x4 
+ .text.ARSTREAM2_H264Parser_ParseAud
+                0x000000000000a310      0x3b6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000a6c6        0xa 
+ .text.readBits_expGolomb_ue.constprop.10
+                0x000000000000a6d0      0x371 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000aa41        0xf 
+ .text.readBits_expGolomb_se.constprop.8
+                0x000000000000aa50      0x38f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000addf        0x1 
+ .text.ARSTREAM2_H264Parser_ParseScalingList
+                0x000000000000ade0      0x477 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000b257        0x9 
+ .text.ARSTREAM2_H264Parser_ParseHrdParams
+                0x000000000000b260     0x159d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000c7fd        0x3 
+ .text.ARSTREAM2_H264Parser_ParseSlice
+                0x000000000000c800     0x1dc9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000e5c9        0x7 
+ .text.ARSTREAM2_H264Parser_ParsePps
+                0x000000000000e5d0     0x1ced /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x00000000000102bd        0x3 
+ .text.ARSTREAM2_H264Parser_ParseVui
+                0x00000000000102c0     0x2a61 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000012d21        0xf 
+ .text.ARSTREAM2_H264Parser_ParseSeiPayload_picTiming.isra.5
+                0x0000000000012d30     0x26c5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x00000000000153f5        0xb 
+ .text.ARSTREAM2_H264Parser_ParseSei
+                0x0000000000015400     0x22d0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.ARSTREAM2_H264Parser_ParseSps
+                0x00000000000176d0     0x1e39 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000019509        0x7 
+ .text.ARSTREAM2_H264Parser_ParseNalu
+                0x0000000000019510      0x2d2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019510                ARSTREAM2_H264Parser_ParseNalu
+ *fill*         0x00000000000197e2        0xe 
+ .text.ARSTREAM2_H264Parser_ReadNextNalu_file
+                0x00000000000197f0      0x2f8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x00000000000197f0                ARSTREAM2_H264Parser_ReadNextNalu_file
+ *fill*         0x0000000000019ae8        0x8 
+ .text.ARSTREAM2_H264Parser_ReadNextNalu_buffer
+                0x0000000000019af0      0x253 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019af0                ARSTREAM2_H264Parser_ReadNextNalu_buffer
+ *fill*         0x0000000000019d43        0xd 
+ .text.ARSTREAM2_H264Parser_SetupNalu_buffer
+                0x0000000000019d50       0x9a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019d50                ARSTREAM2_H264Parser_SetupNalu_buffer
+ *fill*         0x0000000000019dea        0x6 
+ .text.ARSTREAM2_H264Parser_GetLastNaluType
+                0x0000000000019df0       0x41 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019df0                ARSTREAM2_H264Parser_GetLastNaluType
+ *fill*         0x0000000000019e31        0xf 
+ .text.ARSTREAM2_H264Parser_GetSliceInfo
+                0x0000000000019e40       0xc9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019e40                ARSTREAM2_H264Parser_GetSliceInfo
+ *fill*         0x0000000000019f09        0x7 
+ .text.ARSTREAM2_H264Parser_GetUserDataSeiCount
+                0x0000000000019f10       0x47 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019f10                ARSTREAM2_H264Parser_GetUserDataSeiCount
+ *fill*         0x0000000000019f57        0x9 
+ .text.ARSTREAM2_H264Parser_GetRecoveryPointSei
+                0x0000000000019f60       0x79 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019f60                ARSTREAM2_H264Parser_GetRecoveryPointSei
+ *fill*         0x0000000000019fd9        0x7 
+ .text.ARSTREAM2_H264Parser_GetUserDataSei
+                0x0000000000019fe0       0xcd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x0000000000019fe0                ARSTREAM2_H264Parser_GetUserDataSei
+ *fill*         0x000000000001a0ad        0x3 
+ .text.ARSTREAM2_H264Parser_GetSpsPpsContext
+                0x000000000001a0b0       0x92 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001a0b0                ARSTREAM2_H264Parser_GetSpsPpsContext
+ *fill*         0x000000000001a142        0xe 
+ .text.ARSTREAM2_H264Parser_GetSliceContext
+                0x000000000001a150       0x79 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001a150                ARSTREAM2_H264Parser_GetSliceContext
+ *fill*         0x000000000001a1c9        0x7 
+ .text.ARSTREAM2_H264Parser_Init
+                0x000000000001a1d0       0xbf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001a1d0                ARSTREAM2_H264Parser_Init
+ *fill*         0x000000000001a28f        0x1 
+ .text.ARSTREAM2_H264Parser_Free
+                0x000000000001a290       0x5d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001a290                ARSTREAM2_H264Parser_Free
+ *fill*         0x000000000001a2ed        0x3 
+ .text.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV1
+                0x000000000001a2f0       0xaa /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a2f0                ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV1
+ *fill*         0x000000000001a39a        0x6 
+ .text.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV1
+                0x000000000001a3a0       0xb6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a3a0                ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV1
+ *fill*         0x000000000001a456        0xa 
+ .text.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV1
+                0x000000000001a460       0x56 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a460                ARSTREAM2_H264Sei_IsUserDataParrotStreamingV1
+ *fill*         0x000000000001a4b6        0xa 
+ .text.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV2
+                0x000000000001a4c0       0x5e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a4c0                ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV2
+ *fill*         0x000000000001a51e        0x2 
+ .text.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV2
+                0x000000000001a520       0x66 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a520                ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV2
+ *fill*         0x000000000001a586        0xa 
+ .text.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV2
+                0x000000000001a590       0x56 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001a590                ARSTREAM2_H264Sei_IsUserDataParrotStreamingV2
+ *fill*         0x000000000001a5e6        0xa 
+ .text.writeBits
+                0x000000000001a5f0       0xf6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001a6e6        0xa 
+ .text.writeBits_expGolomb_ue.constprop.7
+                0x000000000001a6f0      0x375 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001aa65        0xb 
+ .text.writeBits_expGolomb_se.constprop.6
+                0x000000000001aa70      0x579 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001afe9        0x7 
+ .text.ARSTREAM2_H264Writer_WriteSliceHeader
+                0x000000000001aff0     0x3272 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001e262        0xe 
+ .text.ARSTREAM2_H264Writer_WriteSeiNalu
+                0x000000000001e270     0x2f76 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x000000000001e270                ARSTREAM2_H264Writer_WriteSeiNalu
+ *fill*         0x00000000000211e6        0xa 
+ .text.ARSTREAM2_H264Writer_RewriteNonRefPSliceNalu
+                0x00000000000211f0      0x828 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x00000000000211f0                ARSTREAM2_H264Writer_RewriteNonRefPSliceNalu
+ *fill*         0x0000000000021a18        0x8 
+ .text.ARSTREAM2_H264Writer_WriteSkippedPSliceNalu
+                0x0000000000021a20      0x863 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000021a20                ARSTREAM2_H264Writer_WriteSkippedPSliceNalu
+ *fill*         0x0000000000022283        0xd 
+ .text.ARSTREAM2_H264Writer_WriteGrayISliceNalu
+                0x0000000000022290      0xa1d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000022290                ARSTREAM2_H264Writer_WriteGrayISliceNalu
+ *fill*         0x0000000000022cad        0x3 
+ .text.ARSTREAM2_H264Writer_SetSpsPpsContext
+                0x0000000000022cb0       0xb6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000022cb0                ARSTREAM2_H264Writer_SetSpsPpsContext
+ *fill*         0x0000000000022d66        0xa 
+ .text.ARSTREAM2_H264Writer_Init
+                0x0000000000022d70       0x57 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000022d70                ARSTREAM2_H264Writer_Init
+ *fill*         0x0000000000022dc7        0x9 
+ .text.ARSTREAM2_H264Writer_Free
+                0x0000000000022dd0       0x1e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000022dd0                ARSTREAM2_H264Writer_Free
+ *fill*         0x0000000000022dee        0x2 
+ .text.ARSTREAM2_H264_NaluReset
+                0x0000000000022df0       0x9a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000022df0                ARSTREAM2_H264_NaluReset
+ *fill*         0x0000000000022e8a        0x6 
+ .text.ARSTREAM2_H264_NaluCopy
+                0x0000000000022e90       0xa0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000022e90                ARSTREAM2_H264_NaluCopy
+ .text.ARSTREAM2_H264_AuReset
+                0x0000000000022f30       0x98 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000022f30                ARSTREAM2_H264_AuReset
+ *fill*         0x0000000000022fc8        0x8 
+ .text.ARSTREAM2_H264_AuCopy
+                0x0000000000022fd0       0x9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000022fd0                ARSTREAM2_H264_AuCopy
+ *fill*         0x000000000002306d        0x3 
+ .text.ARSTREAM2_H264_NaluFifoInit
+                0x0000000000023070      0x184 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023070                ARSTREAM2_H264_NaluFifoInit
+ *fill*         0x00000000000231f4        0xc 
+ .text.ARSTREAM2_H264_NaluFifoFree
+                0x0000000000023200       0x6f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023200                ARSTREAM2_H264_NaluFifoFree
+ *fill*         0x000000000002326f        0x1 
+ .text.ARSTREAM2_H264_NaluFifoPopFreeItem
+                0x0000000000023270       0xc2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023270                ARSTREAM2_H264_NaluFifoPopFreeItem
+ *fill*         0x0000000000023332        0xe 
+ .text.ARSTREAM2_H264_NaluFifoPushFreeItem
+                0x0000000000023340       0x95 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023340                ARSTREAM2_H264_NaluFifoPushFreeItem
+ *fill*         0x00000000000233d5        0xb 
+ .text.ARSTREAM2_H264_NaluFifoEnqueueItem
+                0x00000000000233e0      0x108 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000233e0                ARSTREAM2_H264_NaluFifoEnqueueItem
+ *fill*         0x00000000000234e8        0x8 
+ .text.ARSTREAM2_H264_NaluFifoDequeueItem
+                0x00000000000234f0       0xda /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000234f0                ARSTREAM2_H264_NaluFifoDequeueItem
+ *fill*         0x00000000000235ca        0x6 
+ .text.ARSTREAM2_H264_NaluFifoFlush
+                0x00000000000235d0       0x7b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000235d0                ARSTREAM2_H264_NaluFifoFlush
+ *fill*         0x000000000002364b        0x5 
+ .text.ARSTREAM2_H264_AuFifoAddQueue
+                0x0000000000023650       0xe0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023650                ARSTREAM2_H264_AuFifoAddQueue
+ .text.ARSTREAM2_H264_AuFifoRemoveQueue
+                0x0000000000023730       0xcd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023730                ARSTREAM2_H264_AuFifoRemoveQueue
+ *fill*         0x00000000000237fd        0x3 
+ .text.ARSTREAM2_H264_AuFifoGetBuffer
+                0x0000000000023800       0xba /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023800                ARSTREAM2_H264_AuFifoGetBuffer
+ *fill*         0x00000000000238ba        0x6 
+ .text.ARSTREAM2_H264_AuFifoBufferAddRef
+                0x00000000000238c0       0x5c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000238c0                ARSTREAM2_H264_AuFifoBufferAddRef
+ *fill*         0x000000000002391c        0x4 
+ .text.ARSTREAM2_H264_AuFifoUnrefBuffer
+                0x0000000000023920       0xd5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023920                ARSTREAM2_H264_AuFifoUnrefBuffer
+ *fill*         0x00000000000239f5        0xb 
+ .text.ARSTREAM2_H264_AuFifoPopFreeItem
+                0x0000000000023a00       0xc2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023a00                ARSTREAM2_H264_AuFifoPopFreeItem
+ *fill*         0x0000000000023ac2        0xe 
+ .text.ARSTREAM2_H264_AuFifoEnqueueItem
+                0x0000000000023ad0       0xbd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023ad0                ARSTREAM2_H264_AuFifoEnqueueItem
+ *fill*         0x0000000000023b8d        0x3 
+ .text.ARSTREAM2_H264_AuFifoDequeueItem
+                0x0000000000023b90       0xd2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023b90                ARSTREAM2_H264_AuFifoDequeueItem
+ *fill*         0x0000000000023c62        0xe 
+ .text.ARSTREAM2_H264_AuNaluFifoInit
+                0x0000000000023c70      0x104 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023c70                ARSTREAM2_H264_AuNaluFifoInit
+ *fill*         0x0000000000023d74        0xc 
+ .text.ARSTREAM2_H264_AuNaluFifoFree
+                0x0000000000023d80       0x6f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023d80                ARSTREAM2_H264_AuNaluFifoFree
+ *fill*         0x0000000000023def        0x1 
+ .text.ARSTREAM2_H264_AuFifoFree
+                0x0000000000023df0      0x193 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023df0                ARSTREAM2_H264_AuFifoFree
+ *fill*         0x0000000000023f83        0xd 
+ .text.ARSTREAM2_H264_AuFifoInit
+                0x0000000000023f90      0x48a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000023f90                ARSTREAM2_H264_AuFifoInit
+ *fill*         0x000000000002441a        0x6 
+ .text.ARSTREAM2_H264_AuNaluFifoPopFreeItem
+                0x0000000000024420       0x9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024420                ARSTREAM2_H264_AuNaluFifoPopFreeItem
+ *fill*         0x00000000000244bd        0x3 
+ .text.ARSTREAM2_H264_AuNaluFifoPushFreeItem
+                0x00000000000244c0       0x85 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000244c0                ARSTREAM2_H264_AuNaluFifoPushFreeItem
+ *fill*         0x0000000000024545        0xb 
+ .text.ARSTREAM2_H264_AuEnqueueNalu
+                0x0000000000024550       0xf0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024550                ARSTREAM2_H264_AuEnqueueNalu
+ .text.ARSTREAM2_H264_AuEnqueueNaluBefore
+                0x0000000000024640       0x8e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024640                ARSTREAM2_H264_AuEnqueueNaluBefore
+ *fill*         0x00000000000246ce        0x2 
+ .text.ARSTREAM2_H264_AuDequeueNalu
+                0x00000000000246d0       0xad /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000246d0                ARSTREAM2_H264_AuDequeueNalu
+ *fill*         0x000000000002477d        0x3 
+ .text.ARSTREAM2_H264_AuNaluFifoFlush
+                0x0000000000024780       0x88 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024780                ARSTREAM2_H264_AuNaluFifoFlush
+ *fill*         0x0000000000024808        0x8 
+ .text.ARSTREAM2_H264_AuFifoPushFreeItem
+                0x0000000000024810       0xd8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024810                ARSTREAM2_H264_AuFifoPushFreeItem
+ *fill*         0x00000000000248e8        0x8 
+ .text.ARSTREAM2_H264_AuFifoFlushQueue
+                0x00000000000248f0      0x102 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000248f0                ARSTREAM2_H264_AuFifoFlushQueue
+ *fill*         0x00000000000249f2        0xe 
+ .text.ARSTREAM2_H264_AuFifoFlush
+                0x0000000000024a00      0x11c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024a00                ARSTREAM2_H264_AuFifoFlush
+ *fill*         0x0000000000024b1c        0x4 
+ .text.ARSTREAM2_H264_AuFifoDuplicateItem
+                0x0000000000024b20      0x1e5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024b20                ARSTREAM2_H264_AuFifoDuplicateItem
+ *fill*         0x0000000000024d05        0xb 
+ .text.ARSTREAM2_H264_AuCheckSizeRealloc
+                0x0000000000024d10      0x13c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024d10                ARSTREAM2_H264_AuCheckSizeRealloc
+ *fill*         0x0000000000024e4c        0x4 
+ .text.ARSTREAM2_H264_AuMbStatusCheckSizeRealloc
+                0x0000000000024e50       0xca /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000024e50                ARSTREAM2_H264_AuMbStatusCheckSizeRealloc
+ *fill*         0x0000000000024f1a        0x6 
+ .text.ARSTREAM2_RtpReceiver_ControlMuxTeardown
+                0x0000000000024f20       0x46 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000024f66        0xa 
+ .text.ARSTREAM2_RtpReceiver_StreamMuxTeardown
+                0x0000000000024f70       0x46 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000024fb6        0xa 
+ .text.ARSTREAM2_RtpReceiver_MuxReadControlData
+                0x0000000000024fc0       0xcc /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002508c        0x4 
+ .text.ARSTREAM2_RtpReceiver_MuxSendControlData
+                0x0000000000025090       0x77 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000025107        0x9 
+ .text.ARSTREAM2_RtpReceiver_ControlMuxSetup
+                0x0000000000025110       0xc6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x00000000000251d6        0xa 
+ .text.ARSTREAM2_RtpReceiver_StreamMuxSetup
+                0x00000000000251e0       0xc6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x00000000000252a6        0xa 
+ .text.ARSTREAM2_RtpReceiver_MuxRecvMmsg
+                0x00000000000252b0      0x1e8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000025498        0x8 
+ .text.ARSTREAM2_RtpReceiver_ControlSocketTeardown
+                0x00000000000254a0       0x4a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x00000000000254ea        0x6 
+ .text.ARSTREAM2_RtpReceiver_StreamSocketTeardown
+                0x00000000000254f0       0x4a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002553a        0x6 
+ .text.ARSTREAM2_RtpReceiver_NetReadControlData
+                0x0000000000025540       0xf0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.ARSTREAM2_RtpReceiver_StreamSocketSetup
+                0x0000000000025630      0x417 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000025a47        0x9 
+ .text.ARSTREAM2_RtpReceiver_NetSendControlData
+                0x0000000000025a50       0x73 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000025ac3        0xd 
+ .text.ARSTREAM2_RtpReceiver_NetRecvMmsg
+                0x0000000000025ad0       0xcf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x0000000000025b9f        0x1 
+ .text.ARSTREAM2_RtpReceiver_ControlSocketSetup
+                0x0000000000025ba0      0x624 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x00000000000261c4        0xc 
+ .text.ARSTREAM2_RtpReceiver_Stop
+                0x00000000000261d0       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x00000000000261d0                ARSTREAM2_RtpReceiver_Stop
+ .text.ARSTREAM2_RtpReceiver_New
+                0x0000000000026280      0xa3d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000026280                ARSTREAM2_RtpReceiver_New
+ *fill*         0x0000000000026cbd        0x3 
+ .text.ARSTREAM2_RtpReceiver_Delete
+                0x0000000000026cc0      0x186 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000026cc0                ARSTREAM2_RtpReceiver_Delete
+ *fill*         0x0000000000026e46        0xa 
+ .text.ARSTREAM2_RtpReceiver_GetSelectParams
+                0x0000000000026e50      0x1d4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000026e50                ARSTREAM2_RtpReceiver_GetSelectParams
+ *fill*         0x0000000000027024        0xc 
+ .text.ARSTREAM2_RtpReceiver_ProcessRtp
+                0x0000000000027030      0x30d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027030                ARSTREAM2_RtpReceiver_ProcessRtp
+ *fill*         0x000000000002733d        0x3 
+ .text.ARSTREAM2_RtpReceiver_ProcessRtcp
+                0x0000000000027340      0x804 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027340                ARSTREAM2_RtpReceiver_ProcessRtcp
+ *fill*         0x0000000000027b44        0xc 
+ .text.ARSTREAM2_RtpReceiver_ProcessEnd
+                0x0000000000027b50       0x40 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027b50                ARSTREAM2_RtpReceiver_ProcessEnd
+ .text.ARSTREAM2_RtpReceiver_UpdateVideoStats
+                0x0000000000027b90       0x5e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027b90                ARSTREAM2_RtpReceiver_UpdateVideoStats
+ *fill*         0x0000000000027bee        0x2 
+ .text.ARSTREAM2_RtpReceiver_GetSdesItem
+                0x0000000000027bf0      0x11a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027bf0                ARSTREAM2_RtpReceiver_GetSdesItem
+ *fill*         0x0000000000027d0a        0x6 
+ .text.ARSTREAM2_RtpReceiver_SetSdesItem
+                0x0000000000027d10      0x1d2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027d10                ARSTREAM2_RtpReceiver_SetSdesItem
+ *fill*         0x0000000000027ee2        0xe 
+ .text.ARSTREAM2_RtpReceiver_GetPeerSdesItem
+                0x0000000000027ef0       0xe2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027ef0                ARSTREAM2_RtpReceiver_GetPeerSdesItem
+ *fill*         0x0000000000027fd2        0xe 
+ .text.ARSTREAM2_RtpReceiver_GetMonitoring
+                0x0000000000027fe0      0x4a3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x0000000000027fe0                ARSTREAM2_RtpReceiver_GetMonitoring
+ *fill*         0x0000000000028483        0xd 
+ .text.ARSTREAM2_RtpSender_UpdateMonitoring
+                0x0000000000028490      0x1ff /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ *fill*         0x000000000002868f        0x1 
+ .text.ARSTREAM2_RtpSender_RtpStatsCallback
+                0x0000000000028690      0x22d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ *fill*         0x00000000000288bd        0x3 
+ .text.ARSTREAM2_RtpSender_SetSocketSendBufferSize.isra.0
+                0x00000000000288c0      0x16f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ *fill*         0x0000000000028a2f        0x1 
+ .text.ARSTREAM2_RtpSender_New
+                0x0000000000028a30     0x1258 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000028a30                ARSTREAM2_RtpSender_New
+ *fill*         0x0000000000029c88        0x8 
+ .text.ARSTREAM2_RtpSender_Delete
+                0x0000000000029c90      0x13f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000029c90                ARSTREAM2_RtpSender_Delete
+ *fill*         0x0000000000029dcf        0x1 
+ .text.ARSTREAM2_RtpSender_FlushNaluQueue
+                0x0000000000029dd0       0x8c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000029dd0                ARSTREAM2_RtpSender_FlushNaluQueue
+ *fill*         0x0000000000029e5c        0x4 
+ .text.ARSTREAM2_RtpSender_GetSelectParams
+                0x0000000000029e60      0x19f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000029e60                ARSTREAM2_RtpSender_GetSelectParams
+ *fill*         0x0000000000029fff        0x1 
+ .text.ARSTREAM2_RtpSender_ProcessRtp
+                0x000000000002a000      0x6f7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002a000                ARSTREAM2_RtpSender_ProcessRtp
+ *fill*         0x000000000002a6f7        0x9 
+ .text.ARSTREAM2_RtpSender_ProcessRtcp
+                0x000000000002a700      0x5d8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002a700                ARSTREAM2_RtpSender_ProcessRtcp
+ *fill*         0x000000000002acd8        0x8 
+ .text.ARSTREAM2_RtpSender_ProcessEnd
+                0x000000000002ace0       0xdc /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002ace0                ARSTREAM2_RtpSender_ProcessEnd
+ *fill*         0x000000000002adbc        0x4 
+ .text.ARSTREAM2_RtpSender_GetDynamicConfig
+                0x000000000002adc0       0x2e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002adc0                ARSTREAM2_RtpSender_GetDynamicConfig
+ *fill*         0x000000000002adee        0x2 
+ .text.ARSTREAM2_RtpSender_SetDynamicConfig
+                0x000000000002adf0       0xbe /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002adf0                ARSTREAM2_RtpSender_SetDynamicConfig
+ *fill*         0x000000000002aeae        0x2 
+ .text.ARSTREAM2_RtpSender_GetSdesItem
+                0x000000000002aeb0      0x11a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002aeb0                ARSTREAM2_RtpSender_GetSdesItem
+ *fill*         0x000000000002afca        0x6 
+ .text.ARSTREAM2_RtpSender_SetSdesItem
+                0x000000000002afd0      0x1d2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002afd0                ARSTREAM2_RtpSender_SetSdesItem
+ *fill*         0x000000000002b1a2        0xe 
+ .text.ARSTREAM2_RtpSender_GetPeerSdesItem
+                0x000000000002b1b0       0xe2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002b1b0                ARSTREAM2_RtpSender_GetPeerSdesItem
+ *fill*         0x000000000002b292        0xe 
+ .text.ARSTREAM2_RtpSender_GetMonitoring
+                0x000000000002b2a0      0x6d5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002b2a0                ARSTREAM2_RtpSender_GetMonitoring
+ *fill*         0x000000000002b975        0xb 
+ .text.ARSTREAM2_RTP_PacketReset
+                0x000000000002b980       0x98 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002b980                ARSTREAM2_RTP_PacketReset
+ *fill*         0x000000000002ba18        0x8 
+ .text.ARSTREAM2_RTP_PacketCopy
+                0x000000000002ba20       0xa8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002ba20                ARSTREAM2_RTP_PacketCopy
+ *fill*         0x000000000002bac8        0x8 
+ .text.ARSTREAM2_RTP_PacketFifoFree
+                0x000000000002bad0       0xc7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002bad0                ARSTREAM2_RTP_PacketFifoFree
+ *fill*         0x000000000002bb97        0x9 
+ .text.ARSTREAM2_RTP_PacketFifoInit
+                0x000000000002bba0      0x342 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002bba0                ARSTREAM2_RTP_PacketFifoInit
+ *fill*         0x000000000002bee2        0xe 
+ .text.ARSTREAM2_RTP_PacketFifoAddQueue
+                0x000000000002bef0       0x7d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002bef0                ARSTREAM2_RTP_PacketFifoAddQueue
+ *fill*         0x000000000002bf6d        0x3 
+ .text.ARSTREAM2_RTP_PacketFifoRemoveQueue
+                0x000000000002bf70       0x9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002bf70                ARSTREAM2_RTP_PacketFifoRemoveQueue
+ *fill*         0x000000000002c00d        0x3 
+ .text.ARSTREAM2_RTP_PacketFifoGetBuffer
+                0x000000000002c010       0x92 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c010                ARSTREAM2_RTP_PacketFifoGetBuffer
+ *fill*         0x000000000002c0a2        0xe 
+ .text.ARSTREAM2_RTP_PacketFifoBufferAddRef
+                0x000000000002c0b0       0x40 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c0b0                ARSTREAM2_RTP_PacketFifoBufferAddRef
+ .text.ARSTREAM2_RTP_PacketFifoUnrefBuffer
+                0x000000000002c0f0       0xcd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c0f0                ARSTREAM2_RTP_PacketFifoUnrefBuffer
+ *fill*         0x000000000002c1bd        0x3 
+ .text.ARSTREAM2_RTP_PacketFifoPopFreeItem
+                0x000000000002c1c0       0x97 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c1c0                ARSTREAM2_RTP_PacketFifoPopFreeItem
+ *fill*         0x000000000002c257        0x9 
+ .text.ARSTREAM2_RTP_PacketFifoPushFreeItem
+                0x000000000002c260       0x7d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c260                ARSTREAM2_RTP_PacketFifoPushFreeItem
+ *fill*         0x000000000002c2dd        0x3 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItem
+                0x000000000002c2e0       0x9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c2e0                ARSTREAM2_RTP_PacketFifoEnqueueItem
+ *fill*         0x000000000002c37d        0x3 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedByPriority
+                0x000000000002c380      0x11a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c380                ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedByPriority
+ *fill*         0x000000000002c49a        0x6 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedBySeqNum
+                0x000000000002c4a0      0x133 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c4a0                ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedBySeqNum
+ *fill*         0x000000000002c5d3        0xd 
+ .text.ARSTREAM2_RTP_PacketFifoDequeueItem
+                0x000000000002c5e0       0xa5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c5e0                ARSTREAM2_RTP_PacketFifoDequeueItem
+ *fill*         0x000000000002c685        0xb 
+ .text.ARSTREAM2_RTP_PacketFifoPeekItem
+                0x000000000002c690       0x4e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c690                ARSTREAM2_RTP_PacketFifoPeekItem
+ *fill*         0x000000000002c6de        0x2 
+ .text.ARSTREAM2_RTP_PacketFifoDuplicateItem
+                0x000000000002c6e0       0x85 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c6e0                ARSTREAM2_RTP_PacketFifoDuplicateItem
+ *fill*         0x000000000002c765        0xb 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFillMsgVec
+                0x000000000002c770       0xd5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c770                ARSTREAM2_RTP_Sender_PacketFifoFillMsgVec
+ *fill*         0x000000000002c845        0xb 
+ .text.ARSTREAM2_RTP_Sender_GeneratePacket
+                0x000000000002c850      0x1eb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002c850                ARSTREAM2_RTP_Sender_GeneratePacket
+ *fill*         0x000000000002ca3b        0x5 
+ .text.ARSTREAM2_RTP_Sender_FinishPacket
+                0x000000000002ca40      0x17e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002ca40                ARSTREAM2_RTP_Sender_FinishPacket
+ *fill*         0x000000000002cbbe        0x2 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoCleanFromMsgVec
+                0x000000000002cbc0      0x257 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002cbc0                ARSTREAM2_RTP_Sender_PacketFifoCleanFromMsgVec
+ *fill*         0x000000000002ce17        0x9 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoCleanFromTimeout
+                0x000000000002ce20      0x26e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002ce20                ARSTREAM2_RTP_Sender_PacketFifoCleanFromTimeout
+ *fill*         0x000000000002d08e        0x2 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoRandomDrop
+                0x000000000002d090      0x248 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002d090                ARSTREAM2_RTP_Sender_PacketFifoRandomDrop
+ *fill*         0x000000000002d2d8        0x8 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFlushQueue
+                0x000000000002d2e0      0x193 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002d2e0                ARSTREAM2_RTP_Sender_PacketFifoFlushQueue
+ *fill*         0x000000000002d473        0xd 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFlush
+                0x000000000002d480      0x1a4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002d480                ARSTREAM2_RTP_Sender_PacketFifoFlush
+ *fill*         0x000000000002d624        0xc 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoAddFromMsgVec
+                0x000000000002d630      0xbca /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002d630                ARSTREAM2_RTP_Receiver_PacketFifoAddFromMsgVec
+ *fill*         0x000000000002e1fa        0x6 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFlushQueue
+                0x000000000002e200      0x102 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002e200                ARSTREAM2_RTP_Receiver_PacketFifoFlushQueue
+ *fill*         0x000000000002e302        0xe 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFlush
+                0x000000000002e310      0x11c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002e310                ARSTREAM2_RTP_Receiver_PacketFifoFlush
+ *fill*         0x000000000002e42c        0x4 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFillMsgVec
+                0x000000000002e430      0x14f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x000000000002e430                ARSTREAM2_RTP_Receiver_PacketFifoFillMsgVec
+ *fill*         0x000000000002e57f        0x1 
+ .text.ARSTREAM2_RTPH264_Sender_FinishStapAPacket
+                0x000000000002e580      0x110 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.ARSTREAM2_RTPH264_FifoDequeueNalu
+                0x000000000002e690      0x14d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ *fill*         0x000000000002e7dd        0x3 
+ .text.ARSTREAM2_RTPH264_Receiver_DropFuAPackets
+                0x000000000002e7e0       0x90 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.ARSTREAM2_RTPH264_Sender_NaluDrop
+                0x000000000002e870      0x155 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x000000000002e870                ARSTREAM2_RTPH264_Sender_NaluDrop
+ *fill*         0x000000000002e9c5        0xb 
+ .text.ARSTREAM2_RTPH264_Sender_NaluFifoToPacketFifo
+                0x000000000002e9d0     0x1132 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x000000000002e9d0                ARSTREAM2_RTPH264_Sender_NaluFifoToPacketFifo
+ *fill*         0x000000000002fb02        0xe 
+ .text.ARSTREAM2_RTPH264_Sender_FifoFlush
+                0x000000000002fb10      0x133 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x000000000002fb10                ARSTREAM2_RTPH264_Sender_FifoFlush
+ *fill*         0x000000000002fc43        0xd 
+ .text.ARSTREAM2_RTPH264_Receiver_PacketFifoToAuFifo
+                0x000000000002fc50     0x1377 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x000000000002fc50                ARSTREAM2_RTPH264_Receiver_PacketFifoToAuFifo
+ *fill*         0x0000000000030fc7        0x9 
+ .text.ARSTREAM2_RTCP_GetPacketType
+                0x0000000000030fd0      0x147 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000030fd0                ARSTREAM2_RTCP_GetPacketType
+ *fill*         0x0000000000031117        0x9 
+ .text.ARSTREAM2_RTCP_Sender_ProcessReceiverReport
+                0x0000000000031120      0x2fe /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000031120                ARSTREAM2_RTCP_Sender_ProcessReceiverReport
+ *fill*         0x000000000003141e        0x2 
+ .text.ARSTREAM2_RTCP_Sender_GenerateSenderReport
+                0x0000000000031420      0x14d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000031420                ARSTREAM2_RTCP_Sender_GenerateSenderReport
+ *fill*         0x000000000003156d        0x3 
+ .text.ARSTREAM2_RTCP_Receiver_ProcessSenderReport
+                0x0000000000031570      0x36f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000031570                ARSTREAM2_RTCP_Receiver_ProcessSenderReport
+ *fill*         0x00000000000318df        0x1 
+ .text.ARSTREAM2_RTCP_Receiver_GenerateReceiverReport
+                0x00000000000318e0      0x225 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000318e0                ARSTREAM2_RTCP_Receiver_GenerateReceiverReport
+ *fill*         0x0000000000031b05        0xb 
+ .text.ARSTREAM2_RTCP_GenerateSourceDescription
+                0x0000000000031b10      0x372 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000031b10                ARSTREAM2_RTCP_GenerateSourceDescription
+ *fill*         0x0000000000031e82        0xe 
+ .text.ARSTREAM2_RTCP_ProcessSourceDescription
+                0x0000000000031e90      0x5e3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000031e90                ARSTREAM2_RTCP_ProcessSourceDescription
+ *fill*         0x0000000000032473        0xd 
+ .text.ARSTREAM2_RTCP_LossReportReset
+                0x0000000000032480       0x74 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000032480                ARSTREAM2_RTCP_LossReportReset
+ *fill*         0x00000000000324f4        0xc 
+ .text.ARSTREAM2_RTCP_LossReportSet
+                0x0000000000032500      0x1be /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000032500                ARSTREAM2_RTCP_LossReportSet
+ *fill*         0x00000000000326be        0x2 
+ .text.ARSTREAM2_RTCP_GenerateExtendedReport
+                0x00000000000326c0      0x5b6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000326c0                ARSTREAM2_RTCP_GenerateExtendedReport
+ *fill*         0x0000000000032c76        0xa 
+ .text.ARSTREAM2_RTCP_ProcessExtendedReport
+                0x0000000000032c80      0x708 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000032c80                ARSTREAM2_RTCP_ProcessExtendedReport
+ *fill*         0x0000000000033388        0x8 
+ .text.ARSTREAM2_RTCP_GetApplicationPacketSubtype
+                0x0000000000033390      0x16e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000033390                ARSTREAM2_RTCP_GetApplicationPacketSubtype
+ *fill*         0x00000000000334fe        0x2 
+ .text.ARSTREAM2_RTCP_GenerateApplicationClockDelta
+                0x0000000000033500       0xaa /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000033500                ARSTREAM2_RTCP_GenerateApplicationClockDelta
+ *fill*         0x00000000000335aa        0x6 
+ .text.ARSTREAM2_RTCP_ProcessApplicationClockDelta
+                0x00000000000335b0      0x526 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000335b0                ARSTREAM2_RTCP_ProcessApplicationClockDelta
+ *fill*         0x0000000000033ad6        0xa 
+ .text.ARSTREAM2_RTCP_GenerateApplicationVideoStats
+                0x0000000000033ae0      0x289 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000033ae0                ARSTREAM2_RTCP_GenerateApplicationVideoStats
+ *fill*         0x0000000000033d69        0x7 
+ .text.ARSTREAM2_RTCP_ProcessApplicationVideoStats
+                0x0000000000033d70      0x41c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000033d70                ARSTREAM2_RTCP_ProcessApplicationVideoStats
+ *fill*         0x000000000003418c        0x4 
+ .text.ARSTREAM2_RTCP_Sender_GenerateCompoundPacket
+                0x0000000000034190      0x29a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000034190                ARSTREAM2_RTCP_Sender_GenerateCompoundPacket
+ *fill*         0x000000000003442a        0x6 
+ .text.ARSTREAM2_RTCP_Receiver_GenerateCompoundPacket
+                0x0000000000034430      0x42a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000034430                ARSTREAM2_RTCP_Receiver_GenerateCompoundPacket
+ *fill*         0x000000000003485a        0x6 
+ .text.ARSTREAM2_RTCP_Sender_ProcessCompoundPacket
+                0x0000000000034860      0x335 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000034860                ARSTREAM2_RTCP_Sender_ProcessCompoundPacket
+ *fill*         0x0000000000034b95        0xb 
+ .text.ARSTREAM2_RTCP_Receiver_ProcessCompoundPacket
+                0x0000000000034ba0      0x216 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000034ba0                ARSTREAM2_RTCP_Receiver_ProcessCompoundPacket
+ *fill*         0x0000000000034db6        0xa 
+ .text.ARSTREAM2_StreamRecorder_Init
+                0x0000000000034dc0      0x4d3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x0000000000034dc0                ARSTREAM2_StreamRecorder_Init
+ *fill*         0x0000000000035293        0xd 
+ .text.ARSTREAM2_StreamRecorder_Free
+                0x00000000000352a0      0x118 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x00000000000352a0                ARSTREAM2_StreamRecorder_Free
+ *fill*         0x00000000000353b8        0x8 
+ .text.ARSTREAM2_StreamRecorder_Stop
+                0x00000000000353c0       0x8a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x00000000000353c0                ARSTREAM2_StreamRecorder_Stop
+ *fill*         0x000000000003544a        0x6 
+ .text.ARSTREAM2_StreamRecorder_SetUntimedMetadata
+                0x0000000000035450      0x321 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x0000000000035450                ARSTREAM2_StreamRecorder_SetUntimedMetadata
+ *fill*         0x0000000000035771        0xf 
+ .text.ARSTREAM2_StreamRecorder_RunThread
+                0x0000000000035780      0x963 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x0000000000035780                ARSTREAM2_StreamRecorder_RunThread
+ *fill*         0x00000000000360e3        0xd 
+ .text.ARSTREAM2_StreamStats_VideoStatsFileOpen
+                0x00000000000360f0      0x2c6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x00000000000360f0                ARSTREAM2_StreamStats_VideoStatsFileOpen
+ *fill*         0x00000000000363b6        0xa 
+ .text.ARSTREAM2_StreamStats_VideoStatsFileClose
+                0x00000000000363c0       0x20 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x00000000000363c0                ARSTREAM2_StreamStats_VideoStatsFileClose
+ .text.ARSTREAM2_StreamStats_VideoStatsFileWrite
+                0x00000000000363e0      0x176 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x00000000000363e0                ARSTREAM2_StreamStats_VideoStatsFileWrite
+ *fill*         0x0000000000036556        0xa 
+ .text.ARSTREAM2_StreamStats_RtpStatsFileOpen
+                0x0000000000036560      0x30e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036560                ARSTREAM2_StreamStats_RtpStatsFileOpen
+ *fill*         0x000000000003686e        0x2 
+ .text.ARSTREAM2_StreamStats_RtpStatsFileClose
+                0x0000000000036870       0x20 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036870                ARSTREAM2_StreamStats_RtpStatsFileClose
+ .text.ARSTREAM2_StreamStats_RtpStatsFileWrite
+                0x0000000000036890      0x385 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036890                ARSTREAM2_StreamStats_RtpStatsFileWrite
+ *fill*         0x0000000000036c15        0xb 
+ .text.ARSTREAM2_StreamStats_RtpLossFileOpen
+                0x0000000000036c20      0x22e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036c20                ARSTREAM2_StreamStats_RtpLossFileOpen
+ *fill*         0x0000000000036e4e        0x2 
+ .text.ARSTREAM2_StreamStats_RtpLossFileClose
+                0x0000000000036e50       0x1e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036e50                ARSTREAM2_StreamStats_RtpLossFileClose
+ *fill*         0x0000000000036e6e        0x2 
+ .text.ARSTREAM2_StreamStats_RtpLossFileWrite
+                0x0000000000036e70      0x13d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x0000000000036e70                ARSTREAM2_StreamStats_RtpLossFileWrite
+ *fill*         0x0000000000036fad        0x3 
+ .text.ARSTREAM2_StreamSender_VideoStatsCallback
+                0x0000000000036fb0      0x29f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000003724f        0x1 
+ .text.ARSTREAM2_StreamSender_RtpStatsCallback
+                0x0000000000037250      0x2af /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x00000000000374ff        0x1 
+ .text.ARSTREAM2_StreamSender_Init
+                0x0000000000037500      0x907 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000037500                ARSTREAM2_StreamSender_Init
+ *fill*         0x0000000000037e07        0x9 
+ .text.ARSTREAM2_StreamSender_Stop
+                0x0000000000037e10       0x9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000037e10                ARSTREAM2_StreamSender_Stop
+ *fill*         0x0000000000037ead        0x3 
+ .text.ARSTREAM2_StreamSender_Free
+                0x0000000000037eb0      0x1d8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000037eb0                ARSTREAM2_StreamSender_Free
+ *fill*         0x0000000000038088        0x8 
+ .text.ARSTREAM2_StreamSender_SendNNewNalu
+                0x0000000000038090      0x2ca /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038090                ARSTREAM2_StreamSender_SendNNewNalu
+ *fill*         0x000000000003835a        0x6 
+ .text.ARSTREAM2_StreamSender_SendNewNalu
+                0x0000000000038360        0xd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038360                ARSTREAM2_StreamSender_SendNewNalu
+ *fill*         0x000000000003836d        0x3 
+ .text.ARSTREAM2_StreamSender_FlushNaluQueue
+                0x0000000000038370       0x41 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038370                ARSTREAM2_StreamSender_FlushNaluQueue
+ *fill*         0x00000000000383b1        0xf 
+ .text.ARSTREAM2_StreamSender_RunThread
+                0x00000000000383c0      0x73c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x00000000000383c0                ARSTREAM2_StreamSender_RunThread
+ *fill*         0x0000000000038afc        0x4 
+ .text.ARSTREAM2_StreamSender_GetDynamicConfig
+                0x0000000000038b00      0x11d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038b00                ARSTREAM2_StreamSender_GetDynamicConfig
+ *fill*         0x0000000000038c1d        0x3 
+ .text.ARSTREAM2_StreamSender_SetDynamicConfig
+                0x0000000000038c20      0x245 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038c20                ARSTREAM2_StreamSender_SetDynamicConfig
+ *fill*         0x0000000000038e65        0xb 
+ .text.ARSTREAM2_StreamSender_GetUntimedMetadata
+                0x0000000000038e70      0x58a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000038e70                ARSTREAM2_StreamSender_GetUntimedMetadata
+ *fill*         0x00000000000393fa        0x6 
+ .text.ARSTREAM2_StreamSender_SetUntimedMetadata
+                0x0000000000039400      0xacf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000039400                ARSTREAM2_StreamSender_SetUntimedMetadata
+ *fill*         0x0000000000039ecf        0x1 
+ .text.ARSTREAM2_StreamSender_GetPeerUntimedMetadata
+                0x0000000000039ed0      0x3ad /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000039ed0                ARSTREAM2_StreamSender_GetPeerUntimedMetadata
+ *fill*         0x000000000003a27d        0x3 
+ .text.ARSTREAM2_StreamSender_GetMonitoring
+                0x000000000003a280       0x72 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003a280                ARSTREAM2_StreamSender_GetMonitoring
+ *fill*         0x000000000003a2f2        0xe 
+ .text.ARSTREAM2_StreamReceiver_AppOutputAuEnqueue
+                0x000000000003a300      0x1ab /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003a4ab        0x5 
+ .text.ARSTREAM2_StreamReceiver_RecorderAuEnqueue
+                0x000000000003a4b0      0x1ab /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003a65b        0x5 
+ .text.ARSTREAM2_StreamReceiver_RtpReceiverAuCallback
+                0x000000000003a660      0xa4a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003b0aa        0x6 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderFree
+                0x000000000003b0b0      0x1d3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003b283        0xd 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderInit
+                0x000000000003b290      0x2db /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003b56b        0x5 
+ .text.ARSTREAM2_StreamReceiver_H264FilterSpsPpsCallback
+                0x000000000003b570      0x26f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003b7df        0x1 
+ .text.ARSTREAM2_StreamReceiver_RtpReceiverStatsCallback
+                0x000000000003b7e0       0xbb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000003b89b        0x5 
+ .text.ARSTREAM2_StreamReceiver_Init
+                0x000000000003b8a0     0x1152 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003b8a0                ARSTREAM2_StreamReceiver_Init
+ *fill*         0x000000000003c9f2        0xe 
+ .text.ARSTREAM2_StreamReceiver_Free
+                0x000000000003ca00      0x3a7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003ca00                ARSTREAM2_StreamReceiver_Free
+ *fill*         0x000000000003cda7        0x9 
+ .text.ARSTREAM2_StreamReceiver_RunAppOutputThread
+                0x000000000003cdb0      0xafc /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003cdb0                ARSTREAM2_StreamReceiver_RunAppOutputThread
+ *fill*         0x000000000003d8ac        0x4 
+ .text.ARSTREAM2_StreamReceiver_RunNetworkThread
+                0x000000000003d8b0      0xada /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003d8b0                ARSTREAM2_StreamReceiver_RunNetworkThread
+ *fill*         0x000000000003e38a        0x6 
+ .text.ARSTREAM2_StreamReceiver_StartAppOutput
+                0x000000000003e390      0x2ec /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003e390                ARSTREAM2_StreamReceiver_StartAppOutput
+ *fill*         0x000000000003e67c        0x4 
+ .text.ARSTREAM2_StreamReceiver_StopAppOutput
+                0x000000000003e680      0x15d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003e680                ARSTREAM2_StreamReceiver_StopAppOutput
+ *fill*         0x000000000003e7dd        0x3 
+ .text.ARSTREAM2_StreamReceiver_GetSpsPps
+                0x000000000003e7e0      0x175 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003e7e0                ARSTREAM2_StreamReceiver_GetSpsPps
+ *fill*         0x000000000003e955        0xb 
+ .text.ARSTREAM2_StreamReceiver_GetUntimedMetadata
+                0x000000000003e960      0x5ca /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003e960                ARSTREAM2_StreamReceiver_GetUntimedMetadata
+ *fill*         0x000000000003ef2a        0x6 
+ .text.ARSTREAM2_StreamReceiver_SetUntimedMetadata
+                0x000000000003ef30      0xb13 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003ef30                ARSTREAM2_StreamReceiver_SetUntimedMetadata
+ *fill*         0x000000000003fa43        0xd 
+ .text.ARSTREAM2_StreamReceiver_GetPeerUntimedMetadata
+                0x000000000003fa50      0x3ed /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x000000000003fa50                ARSTREAM2_StreamReceiver_GetPeerUntimedMetadata
+ *fill*         0x000000000003fe3d        0x3 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderStop
+                0x000000000003fe40      0x2c9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000040109        0x7 
+ .text.ARSTREAM2_StreamReceiver_Stop
+                0x0000000000040110      0x12b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000040110                ARSTREAM2_StreamReceiver_Stop
+ *fill*         0x000000000004023b        0x5 
+ .text.ARSTREAM2_StreamReceiver_StartResender
+                0x0000000000040240      0x56c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000040240                ARSTREAM2_StreamReceiver_StartResender
+ *fill*         0x00000000000407ac        0x4 
+ .text.ARSTREAM2_StreamReceiver_StopResender
+                0x00000000000407b0      0x309 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x00000000000407b0                ARSTREAM2_StreamReceiver_StopResender
+ *fill*         0x0000000000040ab9        0x7 
+ .text.ARSTREAM2_StreamReceiver_StartRecorder
+                0x0000000000040ac0      0x153 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000040ac0                ARSTREAM2_StreamReceiver_StartRecorder
+ *fill*         0x0000000000040c13        0xd 
+ .text.ARSTREAM2_StreamReceiver_StopRecorder
+                0x0000000000040c20      0x12d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000040c20                ARSTREAM2_StreamReceiver_StopRecorder
+ *(.gnu.warning)
+
+.fini           0x0000000000040d50        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000040d50        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000040d50                _fini
+ .fini          0x0000000000040d54        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000040d60     0x95be
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000040d60       0xc1 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ *fill*         0x0000000000040e21        0x7 
+ .rodata.str1.8
+                0x0000000000040e28       0x2a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ *fill*         0x0000000000040e52        0x2 
+ .rodata        0x0000000000040e54       0x2c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .rodata.str1.1
+                0x0000000000040e80       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .rodata.str1.8
+                0x0000000000040f40      0x4e8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x0000000000041428        0x8 
+ .rodata        0x0000000000041430       0xaf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x00000000000414df        0x1 
+ .rodata.cst4   0x00000000000414e0        0x4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .rodata.str1.1
+                0x00000000000414e4       0xa6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                         0xc4 (size before relaxing)
+ *fill*         0x000000000004158a        0x6 
+ .rodata.str1.8
+                0x0000000000041590      0x24b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                        0x283 (size before relaxing)
+ *fill*         0x00000000000417db        0x5 
+ .rodata        0x00000000000417e0       0xaf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .rodata.str1.1
+                0x000000000004188f      0x919 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                        0x98d (size before relaxing)
+ .rodata.str1.8
+                0x00000000000421a8     0x1933 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000043adb        0x5 
+ .rodata        0x0000000000043ae0      0x660 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .rodata.cst8   0x0000000000044140        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .rodata.str1.1
+                0x0000000000044148       0x7d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x00000000000441c5        0x3 
+ .rodata.str1.8
+                0x00000000000441c8       0xb3 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000004427b        0x5 
+ .rodata        0x0000000000044280       0x2d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .rodata.cst8   0x00000000000442ad        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .rodata.str1.1
+                0x00000000000442ad       0xb7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                         0xf7 (size before relaxing)
+ *fill*         0x0000000000044364        0x4 
+ .rodata.str1.8
+                0x0000000000044368      0x2ce /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0x2f6 (size before relaxing)
+ *fill*         0x0000000000044636        0xa 
+ .rodata        0x0000000000044640      0x5ec /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ *fill*         0x0000000000044c2c        0x4 
+ .rodata.str1.8
+                0x0000000000044c30      0x78d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .rodata.str1.1
+                0x00000000000453bd      0x144 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                        0x157 (size before relaxing)
+ *fill*         0x0000000000045501       0x1f 
+ .rodata        0x0000000000045520      0x2cb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x00000000000457eb        0x5 
+ .rodata.cst8   0x00000000000457f0       0x10 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .rodata.str1.1
+                0x0000000000045800       0x8c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x112 (size before relaxing)
+ *fill*         0x000000000004588c        0x4 
+ .rodata.str1.8
+                0x0000000000045890      0x3e5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x6b5 (size before relaxing)
+ *fill*         0x0000000000045c75        0xb 
+ .rodata        0x0000000000045c80      0x148 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .rodata.cst8   0x0000000000045dc8       0x10 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                         0x20 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000045dd8       0xdf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x15e (size before relaxing)
+ *fill*         0x0000000000045eb7        0x1 
+ .rodata.str1.8
+                0x0000000000045eb8      0x30d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x3a5 (size before relaxing)
+ *fill*         0x00000000000461c5       0x1b 
+ .rodata        0x00000000000461e0      0x6ad /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ *fill*         0x000000000004688d        0x3 
+ .rodata.cst4   0x0000000000046890        0x4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .rodata.str1.1
+                0x0000000000046894       0x37 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                         0xb9 (size before relaxing)
+ *fill*         0x00000000000468cb        0x5 
+ .rodata.str1.8
+                0x00000000000468d0      0x5ba /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                        0x692 (size before relaxing)
+ *fill*         0x0000000000046e8a       0x16 
+ .rodata        0x0000000000046ea0      0x3ae /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ *fill*         0x000000000004724e        0x2 
+ .rodata.cst8   0x0000000000047250        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .rodata.str1.1
+                0x0000000000047258      0x17d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x1ad (size before relaxing)
+ *fill*         0x00000000000473d5        0x3 
+ .rodata.str1.8
+                0x00000000000473d8      0x785 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x7b5 (size before relaxing)
+ *fill*         0x0000000000047b5d        0x3 
+ .rodata        0x0000000000047b60      0x48d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ *fill*         0x0000000000047fed        0x3 
+ .rodata.cst8   0x0000000000047ff0        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .rodata.str1.1
+                0x0000000000047ff8       0xf5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x177 (size before relaxing)
+ *fill*         0x00000000000480ed        0x3 
+ .rodata.str1.8
+                0x00000000000480f0      0x2bb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x2eb (size before relaxing)
+ *fill*         0x00000000000483ab       0x15 
+ .rodata        0x00000000000483c0       0xce /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .rodata.str1.1
+                0x000000000004848e       0xf9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                                        0x132 (size before relaxing)
+ *fill*         0x0000000000048587        0x1 
+ .rodata.str1.8
+                0x0000000000048588      0x6ad /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ *fill*         0x0000000000048c35        0xb 
+ .rodata        0x0000000000048c40       0xa9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .rodata.str1.1
+                0x0000000000048ce9      0x108 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                                        0x1a7 (size before relaxing)
+ *fill*         0x0000000000048df1        0x7 
+ .rodata.str1.8
+                0x0000000000048df8      0x152 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x0000000000048f4a       0x16 
+ .rodata        0x0000000000048f60      0x2cc /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000004922c        0x4 
+ .rodata.cst8   0x0000000000049230        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .rodata.str1.8
+                0x0000000000049238      0x918 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0xa52 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000049b50      0x1f9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0x391 (size before relaxing)
+ *fill*         0x0000000000049d49       0x17 
+ .rodata        0x0000000000049d60      0x5be /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .rodata.cst8   0x000000000004a31e        0x8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000004a320      0x794
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000004a320      0x794 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                0x000000000004a320                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000004aab8     0x41fc
+ *(.eh_frame)
+ .eh_frame      0x000000000004aab8       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000004aaf8       0x18 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000004ab10      0x178 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                                        0x180 (size before relaxing)
+ .eh_frame      0x000000000004ac88      0x150 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                        0x168 (size before relaxing)
+ .eh_frame      0x000000000004add8      0x850 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                        0x820 (size before relaxing)
+ .eh_frame      0x000000000004b628       0x90 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .eh_frame      0x000000000004b6b8      0x268 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .eh_frame      0x000000000004b920      0x698 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0x670 (size before relaxing)
+ .eh_frame      0x000000000004bfb8      0x860 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                        0x838 (size before relaxing)
+ .eh_frame      0x000000000004c818      0x610 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x5f8 (size before relaxing)
+ .eh_frame      0x000000000004ce28      0x678 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x650 (size before relaxing)
+ .eh_frame      0x000000000004d4a0      0x2c0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x000000000004d760      0x628 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x620 (size before relaxing)
+ .eh_frame      0x000000000004dd88      0x180 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x190 (size before relaxing)
+ .eh_frame      0x000000000004df08      0x2f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .eh_frame      0x000000000004e1f8      0x3b0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .eh_frame      0x000000000004e5a8      0x708 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0x6f0 (size before relaxing)
+ .eh_frame      0x000000000004ecb0        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000024fb28                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000024fb28        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000024fb28        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x000000000024fb30        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000024fb30        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000024fb38        0x8
+ *(.jcr)
+ .jcr           0x000000000024fb38        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x000000000024fb38        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro    0x000000000024fb40      0x260
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000024fb40      0x260 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000024fda0      0x230
+ *(.dynamic)
+ .dynamic       0x000000000024fda0      0x230 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x000000000024fda0                _DYNAMIC
+
+.got            0x000000000024ffd0       0x30
+ *(.got)
+ .got           0x000000000024ffd0       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000250fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000250000      0x7a8
+ *(.got.plt)
+ .got.plt       0x0000000000250000      0x7a8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000250000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000002507a8        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x00000000002507a8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x00000000002507a8                __dso_handle
+
+.tm_clone_table
+                0x00000000002507b0        0x0
+ .tm_clone_table
+                0x00000000002507b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x00000000002507b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000002507b0                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000002507b0                . = .
+                0x00000000002507b0                __bss_start = .
+
+.bss            0x00000000002507b0        0x8
+ *(.dynbss)
+ .dynbss        0x00000000002507b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000002507b0        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x00000000002507b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000002507b1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000002507b8                . = ALIGN (0x8)
+                0x00000000002507b8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000006507b8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000006507b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000006507b8                . = ALIGN (0x8)
+                0x00000000006507b8                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x00000000006507b8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x1100
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_aranges
+                0x0000000000000030       0x90 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_aranges
+                0x00000000000000c0       0x50 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_aranges
+                0x0000000000000110      0x1d0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_aranges
+                0x00000000000002e0       0x80 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_aranges
+                0x0000000000000360       0xd0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_aranges
+                0x0000000000000430      0x250 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_aranges
+                0x0000000000000680      0x1c0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_aranges
+                0x0000000000000840      0x120 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_aranges
+                0x0000000000000960      0x1f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_aranges
+                0x0000000000000b50       0x90 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_aranges
+                0x0000000000000be0      0x160 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_aranges
+                0x0000000000000d40       0x70 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_aranges
+                0x0000000000000db0       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_aranges
+                0x0000000000000e60      0x110 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_aranges
+                0x0000000000000f70      0x190 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x49632
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0xce /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_info    0x00000000000000ce     0x2bd4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_info    0x0000000000002ca2     0x20ad /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_info    0x0000000000004d4f     0xce4a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_info    0x0000000000011b99      0xd51 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_info    0x00000000000128ea     0x5818 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_info    0x0000000000018102     0x354e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_info    0x000000000001b650     0x5cd0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_info    0x0000000000021320     0x53b0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_info    0x00000000000266d0     0x43e1 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_info    0x000000000002aab1     0x4dce /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_info    0x000000000002f87f     0x573e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_info    0x0000000000034fbd     0x2eeb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_info    0x0000000000037ea8     0x2135 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_info    0x0000000000039fdd     0x4f9d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_info    0x000000000003ef7a     0xa6b8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_abbrev   0x0000000000000000     0x3ab2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x93 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_abbrev  0x0000000000000093      0x426 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_abbrev  0x00000000000004b9      0x329 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_abbrev  0x00000000000007e2      0x3dd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_abbrev  0x0000000000000bbf      0x297 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_abbrev  0x0000000000000e56      0x36d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_abbrev  0x00000000000011c3      0x37b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_abbrev  0x000000000000153e      0x564 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_abbrev  0x0000000000001aa2      0x493 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_abbrev  0x0000000000001f35      0x433 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_abbrev  0x0000000000002368      0x429 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_abbrev  0x0000000000002791      0x434 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_abbrev  0x0000000000002bc5      0x36d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_abbrev  0x0000000000002f32      0x321 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_abbrev  0x0000000000003253      0x3bb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_abbrev  0x000000000000360e      0x4a4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_line     0x0000000000000000    0x1032c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0xbd /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_line    0x00000000000000bd      0x83d /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_line    0x00000000000008fa      0x68e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_line    0x0000000000000f88     0x40c8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_line    0x0000000000005050      0x2cb /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_line    0x000000000000531b     0x273e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_line    0x0000000000007a59      0xa4c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_line    0x00000000000084a5     0x1064 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_line    0x0000000000009509      0xf1f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_line    0x000000000000a428      0xd01 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_line    0x000000000000b129      0xa62 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_line    0x000000000000bb8b     0x127e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_line    0x000000000000ce09      0x6e4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_line    0x000000000000d4ed      0x646 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_line    0x000000000000db33      0xe32 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_line    0x000000000000e965     0x19c7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x986a
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x233 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                                        0x23e (size before relaxing)
+ .debug_str     0x0000000000000233     0x1d64 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                                       0x2037 (size before relaxing)
+ .debug_str     0x0000000000001f97      0x1ed /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                       0x175a (size before relaxing)
+ .debug_str     0x0000000000002184      0x86a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                       0x17c3 (size before relaxing)
+ .debug_str     0x00000000000029ee      0x17c /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                                        0x73a (size before relaxing)
+ .debug_str     0x0000000000002b6a      0x4fa /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                                       0x139e (size before relaxing)
+ .debug_str     0x0000000000003064      0x56f /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0xed5 (size before relaxing)
+ .debug_str     0x00000000000035d3     0x204b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                       0x2eb7 (size before relaxing)
+ .debug_str     0x000000000000561e      0xdd5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                       0x2984 (size before relaxing)
+ .debug_str     0x00000000000063f3      0x44b /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                       0x1b94 (size before relaxing)
+ .debug_str     0x000000000000683e      0x382 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                       0x20fe (size before relaxing)
+ .debug_str     0x0000000000006bc0      0x87e /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                       0x1741 (size before relaxing)
+ .debug_str     0x000000000000743e      0xdf4 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                       0x19dc (size before relaxing)
+ .debug_str     0x0000000000008232      0x2b2 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                                        0xccc (size before relaxing)
+ .debug_str     0x00000000000084e4      0x715 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                                       0x23c5 (size before relaxing)
+ .debug_str     0x0000000000008bf9      0xc71 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                       0x44a9 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x7857e
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x39 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_loc     0x0000000000000039     0x2e21 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_loc     0x0000000000002e5a     0x1d55 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_loc     0x0000000000004baf    0x1c60a /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_loc     0x00000000000211b9     0x11d9 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_loc     0x0000000000022392    0x20c60 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_loc     0x0000000000042ff2     0x31d7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_loc     0x00000000000461c9     0x65a6 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_loc     0x000000000004c76f     0x5e42 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_loc     0x00000000000525b1     0x4ebf /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_loc     0x0000000000057470     0x4bd8 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_loc     0x000000000005c048     0xc0f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_loc     0x0000000000068138     0x1de5 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_loc     0x0000000000069f1d     0x2081 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_loc     0x000000000006bf9e     0x33b7 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_loc     0x000000000006f355     0x9229 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0xf4f0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x20 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_ranges  0x0000000000000020      0x640 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_ranges  0x0000000000000660      0x4a0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_ranges  0x0000000000000b00     0x4150 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_ranges  0x0000000000004c50      0x3e0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_ranges  0x0000000000005030     0x3fc0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_ranges  0x0000000000008ff0      0x3f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_ranges  0x00000000000093e0      0x9f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_ranges  0x0000000000009dd0      0xb80 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_ranges  0x000000000000a950      0x640 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_ranges  0x000000000000af90      0xa50 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_ranges  0x000000000000b9e0     0x1810 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_ranges  0x000000000000d1f0      0x4e0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_ranges  0x000000000000d6d0      0x4f0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_ranges  0x000000000000dbc0      0x580 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_ranges  0x000000000000e140     0x13b0 /home/david/drone_nav/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARStream2/libarstream2.so elf64-x86-64)

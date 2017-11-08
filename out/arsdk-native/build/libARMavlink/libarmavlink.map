@@ -1,0 +1,791 @@
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o (ARSAL_Print_PrintRawEx)
+libc.so.6                     /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o (fopen@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_AddMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_ReplaceMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_ResetSequences
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_InsertMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_DeleteMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_CreateMavlinkFile
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text.unlikely.ARMAVLINK_FileGenerator_GetCurrentMissionItemList
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text.unlikely.ARMAVLINK_FileParser_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text.unlikely.ARMAVLINK_FileParser_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text.unlikely.ARMAVLINK_FileParser_ReadFirstLine
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text.unlikely.ARMAVLINK_FileParser_ReadMavlinkCommand
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text.unlikely.ARMAVLINK_FileParser_Parse
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListNew
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListAdd
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListGet
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListGetSize
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListDeleteMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListInsertMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListReplaceMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text.unlikely.ARMAVLINK_ListUtils_MissionItemListDelete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .text.unlikely.ARMAVLINK_Manager_Delete
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .text.unlikely.ARMAVLINK_Manager_New
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_MissionItemsAreEquals
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CopyMavlinkMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkMissionItemWithAllParams
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItemWithRadius
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkLandMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkTakeoffMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkChangeSpeedMissionItem
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStartCapture
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStopCapture
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkImageStartCapture
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkImageStopCapture
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkDelay
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkCreatePanorama
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkSetROI
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkSetViewMode
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkSetPictureMode
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text.unlikely.ARMAVLINK_MissionItemUtils_CreateMavlinkSetPhotoSensors
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .text          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .data          0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .text.unlikely.ARMAVLINK_Error_ToString
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+LOAD /home/david/drone_nav/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x178
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x178 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000368      0x648
+ *(.dynsym)
+ .dynsym        0x0000000000000368      0x648 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x00000000000009b0      0x912
+ *(.dynstr)
+ .dynstr        0x00000000000009b0      0x912 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000012c2       0x86
+ *(.gnu.version)
+ .gnu.version   0x00000000000012c2       0x86 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001348        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001348        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001348       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001348       0x60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x00000000000013a8       0xc0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000013a8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x00000000000013a8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000013c0       0x78 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001438        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001438       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001450       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001468      0x2a0
+ *(.rela.plt)
+ .rela.plt      0x0000000000001468      0x2a0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000001708       0x1a
+ *(SORT(.init))
+ .init          0x0000000000001708       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000001708                _init
+ .init          0x000000000000171d        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000001730      0x1d0
+ *(.plt)
+ .plt           0x0000000000001730      0x1d0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000001900       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000001900       0x10 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000001910     0x12a8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001910      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .text.ARMAVLINK_FileGenerator_Delete
+                0x0000000000001a10       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001a10                ARMAVLINK_FileGenerator_Delete
+ *fill*         0x0000000000001a45        0xb 
+ .text.ARMAVLINK_FileGenerator_New
+                0x0000000000001a50       0xb3 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001a50                ARMAVLINK_FileGenerator_New
+ *fill*         0x0000000000001b03        0xd 
+ .text.ARMAVLINK_FileGenerator_AddMissionItem
+                0x0000000000001b10       0x7c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001b10                ARMAVLINK_FileGenerator_AddMissionItem
+ *fill*         0x0000000000001b8c        0x4 
+ .text.ARMAVLINK_FileGenerator_ReplaceMissionItem
+                0x0000000000001b90       0x7c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001b90                ARMAVLINK_FileGenerator_ReplaceMissionItem
+ *fill*         0x0000000000001c0c        0x4 
+ .text.ARMAVLINK_FileGenerator_ResetSequences
+                0x0000000000001c10       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001c10                ARMAVLINK_FileGenerator_ResetSequences
+ *fill*         0x0000000000001c45        0xb 
+ .text.ARMAVLINK_FileGenerator_InsertMissionItem
+                0x0000000000001c50       0x8d /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001c50                ARMAVLINK_FileGenerator_InsertMissionItem
+ *fill*         0x0000000000001cdd        0x3 
+ .text.ARMAVLINK_FileGenerator_DeleteMissionItem
+                0x0000000000001ce0       0x29 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001ce0                ARMAVLINK_FileGenerator_DeleteMissionItem
+ *fill*         0x0000000000001d09        0x7 
+ .text.ARMAVLINK_FileGenerator_CreateMavlinkFile
+                0x0000000000001d10       0xf3 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001d10                ARMAVLINK_FileGenerator_CreateMavlinkFile
+ *fill*         0x0000000000001e03        0xd 
+ .text.ARMAVLINK_FileGenerator_GetCurrentMissionItemList
+                0x0000000000001e10       0x13 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000001e10                ARMAVLINK_FileGenerator_GetCurrentMissionItemList
+ *fill*         0x0000000000001e23        0xd 
+ .text.ARMAVLINK_FileParser_New
+                0x0000000000001e30       0x83 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                0x0000000000001e30                ARMAVLINK_FileParser_New
+ *fill*         0x0000000000001eb3        0xd 
+ .text.ARMAVLINK_FileParser_Delete
+                0x0000000000001ec0       0x3b /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                0x0000000000001ec0                ARMAVLINK_FileParser_Delete
+ *fill*         0x0000000000001efb        0x5 
+ .text.ARMAVLINK_FileParser_ReadFirstLine
+                0x0000000000001f00       0xe5 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                0x0000000000001f00                ARMAVLINK_FileParser_ReadFirstLine
+ *fill*         0x0000000000001fe5        0xb 
+ .text.ARMAVLINK_FileParser_ReadMavlinkCommand
+                0x0000000000001ff0      0x102 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                0x0000000000001ff0                ARMAVLINK_FileParser_ReadMavlinkCommand
+ *fill*         0x00000000000020f2        0xe 
+ .text.ARMAVLINK_FileParser_Parse
+                0x0000000000002100       0xfb /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                0x0000000000002100                ARMAVLINK_FileParser_Parse
+ *fill*         0x00000000000021fb        0x5 
+ .text.ARMAVLINK_ListUtils_MissionItemListNew
+                0x0000000000002200       0x44 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002200                ARMAVLINK_ListUtils_MissionItemListNew
+ *fill*         0x0000000000002244        0xc 
+ .text.ARMAVLINK_ListUtils_MissionItemListAdd
+                0x0000000000002250       0x9d /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002250                ARMAVLINK_ListUtils_MissionItemListAdd
+ *fill*         0x00000000000022ed        0x3 
+ .text.ARMAVLINK_ListUtils_MissionItemListGet
+                0x00000000000022f0       0x23 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x00000000000022f0                ARMAVLINK_ListUtils_MissionItemListGet
+ *fill*         0x0000000000002313        0xd 
+ .text.ARMAVLINK_ListUtils_MissionItemListGetSize
+                0x0000000000002320        0x3 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002320                ARMAVLINK_ListUtils_MissionItemListGetSize
+ *fill*         0x0000000000002323        0xd 
+ .text.ARMAVLINK_ListUtils_MissionItemListDeleteMissionItem
+                0x0000000000002330       0x5e /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002330                ARMAVLINK_ListUtils_MissionItemListDeleteMissionItem
+ *fill*         0x000000000000238e        0x2 
+ .text.ARMAVLINK_ListUtils_MissionItemListInsertMissionItem
+                0x0000000000002390      0x105 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002390                ARMAVLINK_ListUtils_MissionItemListInsertMissionItem
+ *fill*         0x0000000000002495        0xb 
+ .text.ARMAVLINK_ListUtils_MissionItemListReplaceMissionItem
+                0x00000000000024a0       0x56 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x00000000000024a0                ARMAVLINK_ListUtils_MissionItemListReplaceMissionItem
+ *fill*         0x00000000000024f6        0xa 
+ .text.ARMAVLINK_ListUtils_MissionItemListDelete
+                0x0000000000002500       0x3b /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                0x0000000000002500                ARMAVLINK_ListUtils_MissionItemListDelete
+ *fill*         0x000000000000253b        0x5 
+ .text.ARMAVLINK_Manager_Delete
+                0x0000000000002540       0x20 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+                0x0000000000002540                ARMAVLINK_Manager_Delete
+ .text.ARMAVLINK_Manager_New
+                0x0000000000002560       0x9b /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+                0x0000000000002560                ARMAVLINK_Manager_New
+ *fill*         0x00000000000025fb        0x5 
+ .text.ARMAVLINK_MissionItemUtils_MissionItemsAreEquals
+                0x0000000000002600       0xc2 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002600                ARMAVLINK_MissionItemUtils_MissionItemsAreEquals
+ *fill*         0x00000000000026c2        0xe 
+ .text.ARMAVLINK_MissionItemUtils_CopyMavlinkMissionItem
+                0x00000000000026d0       0x46 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000026d0                ARMAVLINK_MissionItemUtils_CopyMavlinkMissionItem
+ *fill*         0x0000000000002716        0xa 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkMissionItemWithAllParams
+                0x0000000000002720       0x4b /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002720                ARMAVLINK_MissionItemUtils_CreateMavlinkMissionItemWithAllParams
+ *fill*         0x000000000000276b        0x5 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItem
+                0x0000000000002770       0x32 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002770                ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItem
+ *fill*         0x00000000000027a2        0xe 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItemWithRadius
+                0x00000000000027b0       0x38 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000027b0                ARMAVLINK_MissionItemUtils_CreateMavlinkNavWaypointMissionItemWithRadius
+ *fill*         0x00000000000027e8        0x8 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkLandMissionItem
+                0x00000000000027f0       0x2d /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000027f0                ARMAVLINK_MissionItemUtils_CreateMavlinkLandMissionItem
+ *fill*         0x000000000000281d        0x3 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkTakeoffMissionItem
+                0x0000000000002820       0x30 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002820                ARMAVLINK_MissionItemUtils_CreateMavlinkTakeoffMissionItem
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkChangeSpeedMissionItem
+                0x0000000000002850       0x48 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002850                ARMAVLINK_MissionItemUtils_CreateMavlinkChangeSpeedMissionItem
+ *fill*         0x0000000000002898        0x8 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStartCapture
+                0x00000000000028a0       0x38 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000028a0                ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStartCapture
+ *fill*         0x00000000000028d8        0x8 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStopCapture
+                0x00000000000028e0       0x30 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000028e0                ARMAVLINK_MissionItemUtils_CreateMavlinkVideoStopCapture
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkImageStartCapture
+                0x0000000000002910       0x27 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002910                ARMAVLINK_MissionItemUtils_CreateMavlinkImageStartCapture
+ *fill*         0x0000000000002937        0x9 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkImageStopCapture
+                0x0000000000002940       0x30 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002940                ARMAVLINK_MissionItemUtils_CreateMavlinkImageStopCapture
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkDelay
+                0x0000000000002970       0x2d /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002970                ARMAVLINK_MissionItemUtils_CreateMavlinkDelay
+ *fill*         0x000000000000299d        0x3 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkCreatePanorama
+                0x00000000000029a0       0x24 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000029a0                ARMAVLINK_MissionItemUtils_CreateMavlinkCreatePanorama
+ *fill*         0x00000000000029c4        0xc 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkSetROI
+                0x00000000000029d0       0x48 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x00000000000029d0                ARMAVLINK_MissionItemUtils_CreateMavlinkSetROI
+ *fill*         0x0000000000002a18        0x8 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkSetViewMode
+                0x0000000000002a20       0x3f /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002a20                ARMAVLINK_MissionItemUtils_CreateMavlinkSetViewMode
+ *fill*         0x0000000000002a5f        0x1 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkSetPictureMode
+                0x0000000000002a60       0x38 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002a60                ARMAVLINK_MissionItemUtils_CreateMavlinkSetPictureMode
+ *fill*         0x0000000000002a98        0x8 
+ .text.ARMAVLINK_MissionItemUtils_CreateMavlinkSetPhotoSensors
+                0x0000000000002aa0       0x38 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                0x0000000000002aa0                ARMAVLINK_MissionItemUtils_CreateMavlinkSetPhotoSensors
+ *fill*         0x0000000000002ad8        0x8 
+ .text.ARMAVLINK_Error_ToString
+                0x0000000000002ae0       0xd8 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+                0x0000000000002ae0                ARMAVLINK_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x0000000000002bb8        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000002bb8        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002bb8                _fini
+ .fini          0x0000000000002bbc        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000002bd0      0x278
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000002bd0       0x34 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ *fill*         0x0000000000002c04        0x4 
+ .rodata.str1.8
+                0x0000000000002c08       0x25 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ *fill*         0x0000000000002c2d        0x3 
+ .rodata        0x0000000000002c30       0x1c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .rodata.str1.1
+                0x0000000000002c4c       0x21 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                                         0x2b (size before relaxing)
+ .rodata.str1.8
+                0x0000000000002c6d       0x25 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ *fill*         0x0000000000002c6d        0x3 
+ .rodata        0x0000000000002c70       0x19 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .rodata.str1.1
+                0x0000000000002c89       0x12 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+                                         0x1c (size before relaxing)
+ *fill*         0x0000000000002c9b        0x5 
+ .rodata        0x0000000000002ca0       0x16 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ *fill*         0x0000000000002cb6        0x2 
+ .rodata.cst4   0x0000000000002cb8        0x4 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .rodata.str1.1
+                0x0000000000002cbc       0x6c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .rodata.str1.8
+                0x0000000000002d28      0x120 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+                                        0x11f (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000002e48      0x16c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000002e48      0x16c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                0x0000000000002e48                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000002fb8      0x6a4
+ *(.eh_frame)
+ .eh_frame      0x0000000000002fb8       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000002ff8      0x1d8 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                                        0x1d0 (size before relaxing)
+ .eh_frame      0x00000000000031d0      0x138 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x0000000000003308      0x140 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .eh_frame      0x0000000000003448       0x48 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000003490      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                                        0x180 (size before relaxing)
+ .eh_frame      0x0000000000003640       0x18 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000003658        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000203de0                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000203de0        0x8
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000203de0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000203de8        0x8
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000203de8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000203df0        0x8
+ *(.jcr)
+ .jcr           0x0000000000203df0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000203df0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000203df8      0x1e0
+ *(.dynamic)
+ .dynamic       0x0000000000203df8      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000203df8                _DYNAMIC
+
+.got            0x0000000000203fd8       0x28
+ *(.got)
+ .got           0x0000000000203fd8       0x28 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000204fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000204000       0xf8
+ *(.got.plt)
+ .got.plt       0x0000000000204000       0xf8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000204000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000002040f8        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x00000000002040f8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                0x00000000002040f8                __dso_handle
+
+.tm_clone_table
+                0x0000000000204100        0x0
+ .tm_clone_table
+                0x0000000000204100        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x0000000000204100        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000204100                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000204100                . = .
+                0x0000000000204100                __bss_start = .
+
+.bss            0x0000000000204100        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000204100        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000204100        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+ *(COMMON)
+                0x0000000000204108                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000204101        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000204108                . = ALIGN (0x8)
+                0x0000000000204108                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000604108        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000604108                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000604108                . = ALIGN (0x8)
+                0x0000000000604108                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000604108                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .comment       0x0000000000000034       0x35 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x370
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xb0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_aranges
+                0x00000000000000b0       0x70 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_aranges
+                0x0000000000000120       0xa0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_aranges
+                0x00000000000001c0       0x40 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_aranges
+                0x0000000000000200      0x140 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .debug_aranges
+                0x0000000000000340       0x30 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x3b62
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xcad /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_info    0x0000000000000cad      0xbad /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_info    0x000000000000185a      0x727 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_info    0x0000000000001f81      0x52f /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_info    0x00000000000024b0     0x15d5 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .debug_info    0x0000000000003a85       0xdd /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+
+.debug_abbrev   0x0000000000000000      0xb06
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x278 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_abbrev  0x0000000000000278      0x255 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_abbrev  0x00000000000004cd      0x1e2 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_abbrev  0x00000000000006af      0x1b0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_abbrev  0x000000000000085f      0x214 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .debug_abbrev  0x0000000000000a73       0x93 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+
+.debug_line     0x0000000000000000     0x1248
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x416 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_line    0x0000000000000416      0x3af /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_line    0x00000000000007c5      0x32c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_line    0x0000000000000af1      0x209 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_line    0x0000000000000cfa      0x44f /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .debug_line    0x0000000000001149       0xff /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x1e0c
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x9bc /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+                                        0xa2e (size before relaxing)
+ .debug_str     0x00000000000009bc      0x1d7 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+                                        0x84f (size before relaxing)
+ .debug_str     0x0000000000000b93       0xa2 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+                                        0x5db (size before relaxing)
+ .debug_str     0x0000000000000c35       0x88 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+                                        0x5cd (size before relaxing)
+ .debug_str     0x0000000000000cbd     0x111b /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+                                       0x1701 (size before relaxing)
+ .debug_str     0x0000000000001dd8       0x34 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+                                        0x284 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x2cbb
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xa8c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_loc     0x0000000000000a8c      0x778 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_loc     0x0000000000001204      0x9f4 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_loc     0x0000000000001bf8      0x11c /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_loc     0x0000000000001d14      0xfa7 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x4a0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x100 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileGenerator.c.o
+ .debug_ranges  0x0000000000000100       0xc0 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_FileParser.c.o
+ .debug_ranges  0x00000000000001c0      0x160 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_ListUtils.c.o
+ .debug_ranges  0x0000000000000320       0x30 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_Manager.c.o
+ .debug_ranges  0x0000000000000350      0x130 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/Sources/ARMAVLINK_MissionItemUtils.c.o
+ .debug_ranges  0x0000000000000480       0x20 /home/david/drone_nav/out/arsdk-native/build/libARMavlink/obj/gen/Sources/ARMAVLINK_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARMavlink/libarmavlink.so elf64-x86-64)
