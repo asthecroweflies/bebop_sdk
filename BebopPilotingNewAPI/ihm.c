@@ -226,6 +226,13 @@ void *IHM_InputProcessing(void *data)
                     ihm->onInputEventCallback (IHM_INPUT_EVENT_RIGHT, ihm->customData);
                 }
             }
+            else if(key == 'c')
+            {
+                if(ihm->onInputEventCallback != NULL)
+                {
+                    ihm->onInputEventCallback (IHM_INPUT_EVENT_CUBE, ihm->customData);
+                }
+            }
             else if(key == 'k')
             {
                 if(ihm->onInputEventCallback != NULL)
