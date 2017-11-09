@@ -693,6 +693,49 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
             error = deviceController->aRDrone3->sendPilotingEmergency(deviceController->aRDrone3);
         }
         break;
+    case IHM_INPUT_EVENT_CUBE:
+       if(deviceController != NULL)
+       {
+          // forward, left, up, back, right, down
+	       /*
+          error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, 50);
+          error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->setPilotingPCMDYaw(deviceController->aRDrone3, -50);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, 50);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, -50);
+          error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->setPilotingPCMDYaw(deviceController->aRDrone3, 50);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, -50);
+          sleep(1000);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
+          error = deviceController->aRDrone3->sendPilotingLanding(deviceController->aRDrone3);//land
+	  */
+	       
+	  IHM_PrintLog(ihm, "Cubing forward", offset); offset++; sleep(1000);
+	  IHM_PrintLog(ihm, "Cubing left", offset); offset++; sleep(1000);
+	  IHM_PrintLog(ihm, "Cubing up", offset); offset++; sleep(1000);
+	  IHM_PrintLog(ihm, "Cubing back", offset); offset++; sleep(1000);
+	  IHM_PrintLog(ihm, "Cubing right", offset); offset++; sleep(1000);
+	  IHM_PrintLog(ihm, "Cubing down", offset); offset++; sleep(1000);
+
+       }
+       break;
     case IHM_INPUT_EVENT_LAND:
         if(deviceController != NULL)
         {
