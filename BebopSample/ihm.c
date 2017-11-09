@@ -247,6 +247,13 @@ void *IHM_InputProcessing(void *data)
                     //ihm->onInputEventCallback (IHM_INPUT_EVENT_MOVERELATIVE, ihm->customData);
                 }
             }
+            else if(key == 'f')
+            {
+                if(ihm->onInputEventCallback != NULL)
+                {
+                    ihm->onInputEventCallback (IHM_INPUT_EVENT_FLIP, ihm->customData);
+                }
+            }
             else if(key == 'p')
             {
                 if(ihm->onInputEventCallback != NULL)
