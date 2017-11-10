@@ -712,17 +712,28 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
           int n_moveFactor = -1 * moveFactor;
           int moveOffset = 15;
            
-          // forward, left, up, back, right, down.. flip?
+          // forward, up, left, down, backward.. flip?
+          // drone_1 (red)
 	  IHM_PrintLog(ihm, "Cubing forward", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, moveFactor);
           error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
           sleep(sleepAmt);
-          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
+          
+	  IHM_PrintLog(ihm, "Cubing up", offset); offset++;
+          error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, moveFactor);
+          sleep(sleepAmt);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
           
 	  IHM_PrintLog(ihm, "Cubing left", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDYaw(deviceController->aRDrone3, n_moveFactor);
           sleep(sleepAmt);
-          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
+          
+	  IHM_PrintLog(ihm, "Cubing down", offset); offset++;
+          error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, n_moveFactor);
+          sleep(sleepAmt);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000); 
 
 	  IHM_PrintLog(ihm, "Cubing backward", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, n_moveFactor + moveOffset);
@@ -730,20 +741,39 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
           sleep(sleepAmt);
           error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
           
+    ///*********************************************///
+    
+    
+          // up, right, forward, down, back.. flip?
+          // drone_2 (white)
+    
 	  IHM_PrintLog(ihm, "Cubing up", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, moveFactor);
           sleep(sleepAmt);
-          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
           
 	  IHM_PrintLog(ihm, "Cubing right", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDYaw(deviceController->aRDrone3, moveFactor);
           sleep(sleepAmt);
-          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
+          
+	  IHM_PrintLog(ihm, "Cubing forward", offset); offset++;
+          error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, moveFactor);
+          error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
+          sleep(sleepAmt);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
           
 	  IHM_PrintLog(ihm, "Cubing down", offset); offset++;
           error = deviceController->aRDrone3->setPilotingPCMDGaz(deviceController->aRDrone3, n_moveFactor);
           sleep(sleepAmt);
+          error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0); usleep(500000);
+          
+	  IHM_PrintLog(ihm, "Cubing backward", offset); offset++;
+          error = deviceController->aRDrone3->setPilotingPCMDPitch(deviceController->aRDrone3, n_moveFactor + moveOffset);
+          error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
+          sleep(sleepAmt);
           error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
+
        }
        break;
     case IHM_INPUT_EVENT_LAND:
