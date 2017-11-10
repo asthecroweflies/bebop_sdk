@@ -772,7 +772,8 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
           error = deviceController->aRDrone3->setPilotingPCMDFlag(deviceController->aRDrone3, 1);
           sleep(sleepAmt);
           error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
-
+       }
+		    
        break;
     case IHM_INPUT_EVENT_LAND:
         if(deviceController != NULL)
