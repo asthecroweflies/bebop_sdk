@@ -107,7 +107,6 @@ float speedY = 0;
 float speedZ = 0;
 
 int offset = 0;
-enum direction = {front, back, left, right};
 
 static void signal_handler(int signal)
 {
@@ -697,8 +696,8 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
     case IHM_INPUT_EVENT_FLIP:
         if(deviceController != NULL)
         {
-          enum direction which_direction;
-          which_direction = front;
+	  enum direction {front, back, left, right};
+	  enum direction which_direction = front;
           IHM_PrintLog(ihm, "FRONT FLIP BABY", offset); offset++;
           error = deviceController->aRDrone3->sendAnimationsFlip(deviceController->aRDrone3, (eARCOMMANDS_ARDRONE3_ANIMATIONS_FLIP_DIRECTION)which_direction);
         }
@@ -774,7 +773,6 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData)
           sleep(sleepAmt);
           error = deviceController->aRDrone3->setPilotingPCMD(deviceController->aRDrone3, 0, 0, 0, 0, 0, 0);
 
-       }
        break;
     case IHM_INPUT_EVENT_LAND:
         if(deviceController != NULL)
